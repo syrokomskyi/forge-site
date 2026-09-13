@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "systemId": "forge-warpgogol",
+  "cosmicStar": "Sirius",
+  "pinnedAt": "2026-09-13T15:04:42.492Z",
+  "platform": {
+    "version": "6.289.6",
+    "commit": "ec9c1ce9550d5db575c76a34aa24dbc210a7889e",
+    "rfcHead": "RFC-1082",
+    "platformSemanticHash": "sha256:dc73361c938f5bc9b2303fea5056ddb568a43fea7c8ca624e7543ae1fd8869ef"
+  },
+  "migratorCursor": [
+    "rfc-0479",
+    "rfc-0481",
+    "rfc-0483",
+    "rfc-0488",
+    "rfc-0492",
+    "rfc-0495",
+    "rfc-0496",
+    "rfc-0497",
+    "rfc-0498",
+    "rfc-0500",
+    "rfc-0501",
+    "rfc-0502",
+    "rfc-0504",
+    "rfc-0505",
+    "rfc-0506",
+    "rfc-0508",
+    "rfc-0512",
+    "rfc-0514",
+    "rfc-0529",
+    "rfc-0548",
+    "rfc-0572",
+    "rfc-0757",
+    "rfc-0885"
+  ],
+  "capabilities": []
+}
