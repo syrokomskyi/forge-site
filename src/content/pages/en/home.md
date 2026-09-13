@@ -71,34 +71,26 @@ blocks:
           - left: "Framework-agnostic: works with any AI tool"
             right: "A runtime dependency in your production app"
   - id: quick-start
-    type: final-cta
+    type: markdown
     props:
       hideSectionNumber: true
-      header:
-        eyebrow: "Quick start"
-        heading: "Start in one command"
-        subheading: "Scaffold a new Forge project with engineering rules built in"
-        level: 2
-      ctaGroup:
-        items:
-          - label: "pnpm create @warpgogol/forge"
-            ariaLabel: "Copy the Forge start command"
-            variant: primary
-            target:
-              kind: anchor
-              anchor: "copy-command"
-          - label: "npm package"
-            ariaLabel: "View Forge on npm"
-            variant: secondary
-            target:
-              kind: external
-              href: "https://www.npmjs.com/package/@warpgogol/forge"
-          - label: "GitHub"
-            ariaLabel: "View Forge on GitHub"
-            variant: secondary
-            target:
-              kind: external
-              href: "https://github.com/syrokomskyi/forge"
+      eyebrow: "Quick start"
+      heading: "Start in one command"
+      lead: "Scaffold a new Forge project with engineering rules built in"
+      body: |
+        ```bash
+        pnpm create @warpgogol/forge my-project
+        cd my-project
+        pnpm install
+        pnpm exec forge doctor
+        ```
+
+        ✓ Project contracts validated
+        ✓ DNA invariants checked
+        ✓ Agent workflows ready
+        ✓ Verification gates configured
+
+        [npm package](https://www.npmjs.com/package/@warpgogol/forge) · [GitHub](https://github.com/syrokomskyi/forge)
   - id: architecture
     type: markdown
     props:
@@ -108,22 +100,6 @@ blocks:
         ![Forge architecture diagram](/assets/forge/diagrams/forge-architecture-1440w.webp)
 
         Forge sits between your AI tools and your codebase. It ensures that every agent session follows the same engineering rules — contracts, decisions, workflows, and verification gates.
-  - id: cli-demo
-    type: markdown
-    props:
-      hideSectionNumber: true
-      heading: "See it in action"
-      body: |
-        ```bash
-        $ pnpm create @warpgogol/forge my-project
-        $ cd my-project
-        $ pnpm install
-        $ pnpm exec forge doctor
-        ✓ Project contracts validated
-        ✓ DNA invariants checked
-        ✓ Agent workflows ready
-        ✓ Verification gates configured
-        ```
   - id: footer
     type: markdown
     props:
