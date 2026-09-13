@@ -1,0 +1,6 @@
+# Image delivery configuration for forge-warpgogol
+# RFC-1082: minimal config for landing page
+formats:
+  - webp
+  - avif
+quality: high
