@@ -2,7 +2,7 @@
 kind: page
 pageId: home
 cosmicStar: Sirius
-title: "Forge — AI can write the code. Forge keeps the project engineered."
+title: "Forge — AI can write the code. Forge keeps the project engineered"
 description: "Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project."
 lang: en
 dateModified: "2026-09-13"
@@ -14,7 +14,7 @@ blocks:
       hideSectionNumber: true
       header:
         eyebrow: "Forge"
-        heading: "AI can write the code. Forge keeps the project engineered."
+        heading: "AI can write the code. Forge keeps the project engineered"
         subheading: "Engineering rules stay with the project — regardless of which agent, model, or IDE you use."
         level: 1
       ctaPrimaryLabel: "Get started"
@@ -31,7 +31,7 @@ blocks:
       header:
         eyebrow: "What Forge controls"
         heading: "Five planes of engineering control"
-        subheading: "Forge keeps engineering decisions in the project, not in the agent's memory."
+        subheading: "Forge keeps engineering decisions in the project, not in the agent's memory"
         level: 2
       stats:
         - value: "Contracts"
@@ -75,7 +75,7 @@ blocks:
       header:
         eyebrow: "Quick start"
         heading: "Start in one command"
-        subheading: "Scaffold a new Forge project with engineering rules built in."
+        subheading: "Scaffold a new Forge project with engineering rules built in"
         level: 2
       ctaGroup:
         items:
