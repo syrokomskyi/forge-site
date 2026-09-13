@@ -8,5 +8,6 @@ header:
   navIds: []
 footer:
   taglineLines:
-    - "Engineering control layer for AI-assisted development."
+    - "Engineering control layer for AI-assisted development"
     - "Open source · Apache-2.0"
+---

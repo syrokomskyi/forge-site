@@ -27,7 +27,7 @@
   "contentHash": "6528260c16d7b33826c7b80dbd0cecdebc4ec1382fd498c85fa0e395b695f366",
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-13T15:52:39.712Z",
+    "created": "2026-09-13T15:54:38.643Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
     "proofValue": "z5QHP7jDWhQZNjdapiDT7xqQ4bMf6vLeqn8URaXrVFrXTd2RR1f6g7gc2SHsES9L7z7L43CDy2EAjVzSjzqSGvr4S"
