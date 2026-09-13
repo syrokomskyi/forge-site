@@ -1,9 +1,9 @@
 {
   "schema": "1",
-  "site": "forge-warpgogol",
+  "site": "forge-site",
   "model": "@cf/baai/bge-m3",
   "dimensions": 1024,
-  "generatedAt": "2026-09-13T19:59:20.344Z",
+  "generatedAt": "2026-09-13T20:11:22.772Z",
   "chunks": [
     {
       "id": "en:/:architecture",
@@ -105,12 +105,12 @@
       "text": "{\"en\":{\"locality\":\"Backnang\",\"region\":\"Baden-Württemberg\",\"country\":\"DE\"}}"
     }
   ],
-  "contentHash": "cd81b360905ed73f6922a61d052da9c0070d90090b25b39d8aaf9f2dbb84a086",
+  "contentHash": "c3b3728625aac904216fe2dbf11785026e39b1cef2bc3cd320c9d016a5b2b54f",
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-13T19:59:20.452Z",
+    "created": "2026-09-13T20:11:23.215Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
-    "proofValue": "zow4q2F1ZpCyDKwWdgCHqBbjZx5jirLJyWnEe1gm4CwPtsZzLBAVzCD6DD8xvC3ovQmHejBwyEzHTAAnd5Wt7BBQ"
+    "proofValue": "z2ZCxUmQjtGTMu9b6hLnEeGA4H3mhULPfYj6VWDSLNKtQTyTMHKMBnuCGpjuaabrHks43ANqCdW1xuqscRZMJFhp3"
   }
 }

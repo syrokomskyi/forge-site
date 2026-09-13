@@ -3,8 +3,8 @@
   "short_name": "forge.warpgogol.com",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#312da9",
-  "theme_color": "#f2cfea",
+  "background_color": "#2d82a9",
+  "theme_color": "#e0f2cf",
   "icons": [
     {
       "src": "/icon-192.png",

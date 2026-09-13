@@ -1,35 +1,23 @@
-site: forge-warpgogol
+site: forge-site
 generatedAt: null
-ledgerHash: sha256:f7e42c99ed91a3985d4a77a5adb5c4c8128650e8942e9f96d84315a243bc471e
-eventCount: 2
+ledgerHash: sha256:c4de1265643fb93026a02e0a3be96b2c723b3348797e806be79a8fec84639224
+eventCount: 4
 latestEvent:
   schemaVersion: 1.0.0
-  id: event-000002
+  id: event-000004
   systemId: forge-warpgogol
-  occurredAt: 2026-09-13T16:22:59.217Z
-  kind: sichtpass
+  occurredAt: 2026-09-13T19:58:19.979Z
+  kind: mission-open
   status: done
-  missionId: null
+  missionId: forge-warpgogol-m000002
   releaseId: null
-  actor: agent
-  summary: Sichtpass site visibility snapshot for 'forge-warpgogol'
+  actor: unknown
+  summary: Rename Sternsystem ID from forge-warpgogol to forge-site
   metadata:
-    slug: __site__
-    manifestVersion: 1.0.0
-    recordHash: sha256:f36b902c82e134552dc372df9db984b3b5e21cd4027495ac617f387c7de76609
-    signaturePresent: false
-    timestampPresent: false
-    verificationLevel: N0
-    contentHash: sha256:0b62bd178ffbd7d3d4f38b093ee03978495567678ddc90aea92016e01438ddcc
-    routeCount: 1
-    nachweisCount: 0
-    releaseId: null
-    channelHealth:
-      dev: false
-      alt: false
-      main: false
-  previousHash: sha256:b287c46a3f34a10232562c23e60b043b5f561008f07c09c5a6319e23c6b72308
-  hash: sha256:f7e42c99ed91a3985d4a77a5adb5c4c8128650e8942e9f96d84315a243bc471e
+    brief: Rename Sternsystem ID from forge-warpgogol to forge-site
+    pinAtOpen: 6.289.6
+  previousHash: sha256:3447d576a9a1621f07388484711a06b4a42e85d877c24c66a29078de872ea790
+  hash: sha256:c4de1265643fb93026a02e0a3be96b2c723b3348797e806be79a8fec84639224
 pseo:
   modules: []
   generationQueues: {}

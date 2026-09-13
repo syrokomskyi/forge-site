@@ -1,6 +1,6 @@
 {
   "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
-  "site": "forge-warpgogol",
+  "site": "forge-site",
   "skills": [
     {
       "name": "company",

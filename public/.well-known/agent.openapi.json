@@ -1,9 +1,9 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "forge-warpgogol agent surface",
+    "title": "forge-site agent surface",
     "version": "1.1.0",
-    "x-gogol-content-hash": "d35eec39c505aff36f93ee1646d9bacc02aa5bae5bd006270b8496b85209f6c0"
+    "x-gogol-content-hash": "cbaeeaad2d5961327841c13f23f8743963b3f6a3cc71d44559f61de972de1277"
   },
   "servers": [
     {
