@@ -13,5 +13,5 @@ blocks:
       hideSectionNumber: true
       heading: "Datenschutz"
       body: |
-        forge.warpgogol.com is a static landing page. No personal data is collected, stored, or processed. No cookies are set. No analytics scripts are loaded. No third-party services are embedded.
+        forge.warpgogol.com is a static landing page. Zero personal data is collected, stored, or processed. Zero cookies are set. Zero analytics scripts are loaded. Zero third-party services are embedded.
 ---
