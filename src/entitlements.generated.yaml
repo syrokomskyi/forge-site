@@ -1,3 +1,4 @@
 customerId: null
-features: []
-source: none
+features:
+  - external-link-qr
+source: override

@@ -15,7 +15,7 @@ targets:
       href: "https://github.com/warpgogol/werkstatt"
     group: navigation
   - id: npm
-    label: "npm"
+    label: "NPM"
     semanticTarget:
       kind: external
       href: "https://www.npmjs.com/package/@warpgogol/forge"
