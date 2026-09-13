@@ -11,6 +11,10 @@ i18n:
     en:
       name: en
 legalJurisdiction: DE
+verification:
+  google:
+    method: none
+    token: ""
 pages:
   - pageId: home
     semanticType: home
