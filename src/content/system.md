@@ -13,7 +13,7 @@ i18n:
 legalJurisdiction: DE
 verification:
   google:
-    method: none
+    method: meta-tag
     token: ""
 pages:
   - pageId: home
