@@ -90,6 +90,21 @@ blocks:
           - number: "03"
             title: "Extension points"
             description: "Plugins can declare custom Compass contract blocks — source-file markers that compass.validate enforces, so your team's conventions become first-class checks."
+  - id: available-plugins
+    type: markdown
+    props:
+      hideSectionNumber: true
+      heading: "Available plugins"
+      body: |
+        | Plugin | Stack | npm |
+        | --- | --- | --- |
+        | `@warpgogol/werkstatt-typescript` | TypeScript TurboRepo — tsconfig, import boundaries, barrel exports | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-typescript) |
+        | `@warpgogol/werkstatt-phaser-game` | Phaser + Vite + Turborepo — browser games | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-phaser-game) |
+        | `@warpgogol/werkstatt-godot-game` | Godot 4.x + C# — desktop and mobile games | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-godot-game) |
+        | `@warpgogol/werkstatt-knowledge` | Evidence-backed knowledge bases | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-knowledge) |
+        | `@warpgogol/werkstatt-video` | Video production — Editframe stack | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-video) |
+
+        Each plugin registers stack-specific validators, skills, and commands. Install the one that matches your stack — or build your own by declaring a `forge.plugin.yaml` manifest in your package.
   - id: is-not
     type: comparison-cards
     props:
