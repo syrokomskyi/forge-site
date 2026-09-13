@@ -50,7 +50,7 @@
   },
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-13T16:06:16.307Z",
+    "created": "2026-09-13T16:12:06.802Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
     "proofValue": "z35EBjSbvYfo6NC3xJrkv8javbYzpi4uXVEJZZ4VDSSog8GGL3BVVeb3yZs2WDgjBtCe1EtZQkJ23KDExJo7tnjF4"

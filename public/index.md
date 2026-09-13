@@ -2,7 +2,7 @@
 canonical: "https://forge.warpgogol.com/"
 language: "en"
 lastModified: "2026-09-13"
-contentHash: "sha256:71d30636fdeb93ad8d89397cffb8a7d2eed5d86dbb19094207b0a01f381109fe"
+contentHash: "sha256:a1c3abce8b4a14afd30ae1d3f29374f48d909dacd894563a34e3e80beb24c89d"
 license: "https://forge.warpgogol.com/ai.txt"
 generator: "page.markdown.generate"
 sourceKind: "page"
@@ -28,7 +28,6 @@ Engineering rules stay with the project — regardless of which agent, model, or
 
 ## Business context
 
-### Five planes of engineering control
 ### What Forge is — and what it isn't
 ### Architecture
 ### See it in action
@@ -42,6 +41,18 @@ Engineering rules stay with the project — regardless of which agent, model, or
 #### CTA: Get started
 
 #### CTA: View on GitHub
+
+### Five planes of engineering control
+
+#### Contracts Project rules that agents must follow
+
+#### Decisions RFCs and ADRs that record why
+
+#### Workflows Skills that encode team process
+
+#### Verification Checks that enforce the rules
+
+#### Evolution DNA invariants that govern change
 
 ## User flows
 
