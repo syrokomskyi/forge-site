@@ -7,8 +7,8 @@ meta:
   schemaVersion: 1
   deterministic: true
   generatedAt: null
-  contentHash: 85b098176ec19873f887ec9805ed2ded1e1f7993a968419c9dcc3aa19ef803ee
-site: forge-warpgogol
+  contentHash: 20a47db69aef25b1298d5292c1eff8c39a4feddbc37c4586c29cc3ce6f48faca
+site: forge-site
 routes:
   - route: /
     lang: default
@@ -57,7 +57,7 @@ routes:
     hasMarkdownTwin: true
   - route: /.well-known/bordbuch/
     lang: default
-    title: Bordbuch · forge-warpgogol
+    title: Bordbuch · forge-site
     metaDescription: null
     canonical: null
     hreflang: {}
@@ -89,7 +89,7 @@ headers:
   - "# Edit instead: the public.infrastructure.generate generator source (not
     this file)."
   - "# Regenerate:   pnpm exec werkstatt run public.infrastructure.generate
-    --site forge-warpgogol"
+    --site forge-site"
   - /*
   - "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload"
   - "X-Content-Type-Options: nosniff"
@@ -216,7 +216,7 @@ redirects:
   - "# Edit instead: the public.infrastructure.generate generator source (not
     this file)."
   - "# Regenerate:   pnpm exec werkstatt run public.infrastructure.generate
-    --site forge-warpgogol"
+    --site forge-site"
   - "# [RFC-0160] Default-language prefix redirect — unprefixed canonical URLs."
   - "# Redirects /<defaultLang>/* to /* so bookmarks / search results pointing
     at the"
