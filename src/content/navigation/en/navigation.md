@@ -12,7 +12,7 @@ targets:
     label: "GitHub"
     semanticTarget:
       kind: external
-      href: "https://github.com/warpgogol/werkstatt"
+      href: "https://github.com/syrokomskyi/forge"
     group: navigation
   - id: npm
     label: "NPM"

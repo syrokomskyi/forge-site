@@ -24,7 +24,7 @@ blocks:
       ctaPrimaryUrl: "#quick-start"
       ctaSecondaryLabel: "View on GitHub"
       ctaSecondaryAriaLabel: "View Forge on GitHub"
-      ctaSecondaryUrl: "https://github.com/warpgogol/werkstatt"
+      ctaSecondaryUrl: "https://github.com/syrokomskyi/forge"
       tagline: "Open source · Apache-2.0"
   - id: what-controls
     type: impact
@@ -98,7 +98,7 @@ blocks:
             variant: secondary
             target:
               kind: external
-              href: "https://github.com/warpgogol/werkstatt"
+              href: "https://github.com/syrokomskyi/forge"
   - id: architecture
     type: markdown
     props:
@@ -130,5 +130,5 @@ blocks:
       hideSectionNumber: true
       heading: ""
       body: |
-        **Forge** · Apache-2.0 · [GitHub](https://github.com/warpgogol/werkstatt) · [npm](https://www.npmjs.com/package/@warpgogol/forge) · Made by [Warpgogol](https://warpgogol.com)
+        **Forge** · Apache-2.0 · [GitHub](https://github.com/syrokomskyi/forge) · [npm](https://www.npmjs.com/package/@warpgogol/forge) · Made by [Warpgogol](https://warpgogol.com)
 ---
