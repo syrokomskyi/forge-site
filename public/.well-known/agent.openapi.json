@@ -1,0 +1,134 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "forge-warpgogol agent surface",
+    "version": "1.1.0",
+    "x-gogol-content-hash": "c017f0bc0f3380cfe264c2caccd1475c57cb371a8c300fff566b8e10ec495e97"
+  },
+  "servers": [
+    {
+      "url": "https://forge.warpgogol.com"
+    }
+  ],
+  "paths": {
+    "/api/agent/search": {
+      "get": {
+        "operationId": "search.query",
+        "summary": "Semantic search over site content",
+        "tags": [
+          "search"
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/search-response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid query"
+          },
+          "503": {
+            "description": "Search index not available"
+          }
+        },
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "maxLength": 1000
+            },
+            "description": "Natural language search query"
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en"
+              ]
+            },
+            "description": "Filter by language"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "page",
+                "knowledge",
+                "faq",
+                "prose"
+              ]
+            },
+            "description": "Filter by content type"
+          },
+          {
+            "name": "topK",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "default": 5,
+              "maximum": 20
+            },
+            "description": "Number of results to return"
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "search-response": {
+        "type": "object",
+        "required": [
+          "query",
+          "results",
+          "tookMs"
+        ],
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "chunk": {
+                  "type": "object"
+                },
+                "score": {
+                  "type": "number"
+                }
+              }
+            }
+          },
+          "tookMs": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "url": "https://forge.warpgogol.com/llms.txt",
+    "description": "LLM-oriented text surface"
+  },
+  "x-gogol-mcp": {
+    "url": "/api/agent/mcp",
+    "protocolVersion": "2025-06-18"
+  }
+}

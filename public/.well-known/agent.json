@@ -1,0 +1,32 @@
+{
+  "surfaceVersion": "1.1.0",
+  "site": "forge-warpgogol",
+  "baseUrl": "https://forge.warpgogol.com",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "knowledge": [],
+  "actions": [],
+  "claims": [],
+  "interfaces": {
+    "llms": "/llms.txt",
+    "twins": {
+      "pattern": "/**.md"
+    },
+    "openapi": "/.well-known/agent.openapi.json",
+    "mcp": {
+      "url": "/api/agent/mcp",
+      "protocolVersion": "2025-06-18"
+    },
+    "search": {
+      "url": "/api/agent/search",
+      "model": "@cf/baai/bge-m3",
+      "dimensions": 1024
+    }
+  },
+  "proof": null,
+  "contentHash": "c017f0bc0f3380cfe264c2caccd1475c57cb371a8c300fff566b8e10ec495e97"
+}

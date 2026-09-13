@@ -1,0 +1,9 @@
+{
+  "schema": "1",
+  "site": "forge-warpgogol",
+  "model": "@cf/baai/bge-m3",
+  "dimensions": 1024,
+  "generatedAt": "2026-09-13T15:06:14.446Z",
+  "chunks": [],
+  "contentHash": "610438710706da585985a70244f183fe4aff994d6a4921569959f697b966184c"
+}
