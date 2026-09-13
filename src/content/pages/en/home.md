@@ -33,17 +33,18 @@ blocks:
         heading: "Five planes of engineering control"
         subheading: "Forge keeps engineering decisions in the project, not in the agent's memory"
         level: 2
-      stats:
-        - value: "Contracts"
-          label: "Project rules that agents must follow"
-        - value: "Decisions"
-          label: "RFCs and ADRs that record why"
-        - value: "Workflows"
-          label: "Skills that encode team process"
-        - value: "Verification"
-          label: "Checks that enforce the rules"
-        - value: "Evolution"
-          label: "DNA invariants that govern change"
+      body:
+        stats:
+          - value: "Contracts"
+            label: "Project rules that agents must follow"
+          - value: "Decisions"
+            label: "RFCs and ADRs that record why"
+          - value: "Workflows"
+            label: "Skills that encode team process"
+          - value: "Verification"
+            label: "Checks that enforce the rules"
+          - value: "Evolution"
+            label: "DNA invariants that govern change"
   - id: is-not
     type: comparison-cards
     props:
@@ -53,21 +54,19 @@ blocks:
         heading: "What Forge is — and what it isn't"
         level: 2
       body:
-        comparison:
-          - label: "Forge IS"
-            tone: success
-            items:
-              - "Engineering control layer for AI-assisted development"
-              - "Project contracts, decisions, and workflows that stay in the repo"
-              - "Verification gates that enforce rules automatically"
-              - "Framework-agnostic: works with any AI tool"
-          - label: "Forge IS NOT"
-            tone: warning
-            items:
-              - "A code generator or AI coding assistant"
-              - "A replacement for your IDE or agent"
-              - "A lock-in to a specific model or vendor"
-              - "A runtime dependency in your production app"
+        kind: comparison
+        labels:
+          left: "Forge IS"
+          right: "Forge IS NOT"
+        rows:
+          - left: "Engineering control layer for AI-assisted development"
+            right: "A code generator or AI coding assistant"
+          - left: "Project contracts, decisions, and workflows that stay in the repo"
+            right: "A replacement for your IDE or agent"
+          - left: "Verification gates that enforce rules automatically"
+            right: "A lock-in to a specific model or vendor"
+          - left: "Framework-agnostic: works with any AI tool"
+            right: "A runtime dependency in your production app"
   - id: quick-start
     type: final-cta
     props:
