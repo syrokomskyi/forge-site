@@ -3,7 +3,7 @@
   "site": "forge-warpgogol",
   "model": "@cf/baai/bge-m3",
   "dimensions": 1024,
-  "generatedAt": "2026-09-13T19:38:10.196Z",
+  "generatedAt": "2026-09-13T19:59:20.344Z",
   "chunks": [
     {
       "id": "en:/:architecture",
@@ -108,7 +108,7 @@
   "contentHash": "cd81b360905ed73f6922a61d052da9c0070d90090b25b39d8aaf9f2dbb84a086",
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-13T19:38:10.652Z",
+    "created": "2026-09-13T19:59:20.452Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
     "proofValue": "zow4q2F1ZpCyDKwWdgCHqBbjZx5jirLJyWnEe1gm4CwPtsZzLBAVzCD6DD8xvC3ovQmHejBwyEzHTAAnd5Wt7BBQ"
