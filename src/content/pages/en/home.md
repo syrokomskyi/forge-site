@@ -96,8 +96,18 @@ blocks:
       hideSectionNumber: true
       eyebrow: "Quick start"
       heading: "Start in one command"
-      lead: "Scaffold a new Forge project with engineering rules built in."
+      lead: "No terminal needed — just tell your AI agent what to build."
       body: |
+        Open a new folder in your AI IDE (Windsurf, Cursor, Claude Code, Codex CLI, or any IDE that supports AI agents) and paste this:
+
+        ```
+        Install https://npmjs.com/package/@warpgogol/forge in this folder and set up my project. I want to build: [describe your project]
+        ```
+
+        Replace `[describe your project]` with your idea — a game, a library, a knowledge base, anything. The agent installs Forge, scaffolds the project, and sets up a live preview. From there on, you just talk: describe what you want, and the agent builds it.
+
+        **Prefer the terminal?**
+
         ```bash
         pnpm create @warpgogol/forge my-project
         cd my-project
@@ -105,10 +115,10 @@ blocks:
         pnpm exec forge doctor
         ```
 
-        ✓ Project contracts validated
-        ✓ DNA invariants checked
-        ✓ Agent workflows ready
-        ✓ Verification gates configured
+        ✓ Project contracts validated  
+        ✓ DNA invariants checked  
+        ✓ Agent workflows ready  
+        ✓ Verification gates configured  
 
         [npm package](https://www.npmjs.com/package/@warpgogol/forge) · [GitHub](https://github.com/syrokomskyi/forge)
   - id: faq
