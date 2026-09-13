@@ -1,8 +1,8 @@
 ---
 kind: prose
 pageId: datenschutz
-title: "Privacy Policy"
-description: "Privacy policy for forge.warpgogol.com — GDPR/DSGVO compliant"
+title: "Datenschutzerklärung"
+description: "Datenschutzerklärung — DSGVO-konforme Informationen zur Datenverarbeitung"
 lang: en
 dateModified: "2026-09-13"
 datePublished: "2026-09-13"
@@ -11,85 +11,58 @@ blocks:
     type: markdown
     props:
       hideSectionNumber: true
-      heading: "Privacy Policy"
+      heading: "Datenschutzerklärung"
       body: |
-        **Warpgogol**
-        Valid from: 2026-09-13
-        Version: 1.0
+        ## 1. Verantwortlicher
 
-        ---
+        Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
 
-        ## Overview
-
-        forge.warpgogol.com is a static landing page. We collect, store, or process **zero personal data**. We set **zero cookies**. We load **zero analytics scripts**. We embed **zero third-party services** that track users.
-
-        This privacy policy describes the technical reality and your rights under the General Data Protection Regulation (GDPR / DSGVO).
-
-        ---
-
-        ## 1. Controller
-
-        **Operator and data controller:**
-
-        Warpgogol
         Andrii Syrokomskyi
         Elly-Heuss-Knapp-Weg 29
-        71522 Backnang
-        Baden-Württemberg
-        Germany
+        71522 Backnang, Deutschland
 
-        **Contact:** [hi@warpgogol.com](mailto:hi@warpgogol.com)
+        E-Mail: [hi@warpgogol.com](mailto:hi@warpgogol.com)
 
-        ---
+        ## 2. Allgemeines zur Datenverarbeitung
 
-        ## 2. Data processing on this website
+        Diese Website dient ausschließlich der Veröffentlichung einer Produkt-Landingpage für das Open-Source-Projekt Forge. Es werden keine Nutzerkonten, Formulare, Kommentarfunktionen oder sonstige interaktive Eingabemöglichkeiten angeboten. Cookies werden durch die Website selbst nicht gesetzt.
 
-        ### Server access logs
+        Die Verarbeitung personenbezogener Daten erfolgt nur, soweit dies technisch für den Betrieb der Website erforderlich ist.
 
-        This website is hosted by Cloudflare (Cloudflare Germany GmbH, Rosental 7, 80331 München, Germany). Cloudflare processes technical connection data (IP address, request time, requested URL, browser type) as part of its standard CDN and security operations. This processing is based on Cloudflare's legitimate interest in protecting and operating its infrastructure (Art. 6 (1)(f) GDPR).
+        ## 3. Hosting und Content Delivery Network (Cloudflare)
 
-        We do not have access to Cloudflare's server logs. We do not collect, store, or process this data ourselves.
+        Diese Website wird über das Content Delivery Network (CDN) von Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA (europäische Niederlassung: Cloudflare Germany GmbH, Rosental 7, c/o Mindspace, 80331 München) ausgeliefert.
 
-        ### What we do NOT do
+        Wenn Sie unsere Website aufrufen, wird Ihre Anfrage über Server von Cloudflare geleitet. Dabei können folgende Daten technisch verarbeitet werden:
 
-        - We do not use analytics tools (no Google Analytics, no Matomo, no Fathom, none).
-        - We do not set cookies — not essential, not functional, not tracking.
-        - We do not embed third-party content that loads from external domains (no YouTube, no Google Fonts, no social plugins).
-        - We do not collect form submissions — this page has no contact form.
-        - We do not use chatbots or AI assistants on this page.
-        - We do not run A/B tests or heatmaps.
+        - IP-Adresse des anfragenden Geräts (durch Cloudflare für Sicherheits- und Lastverteilungszwecke)
+        - Zeitpunkt der Anfrage
+        - Aufgerufene Seite / Ressource
+        - Browsertyp und Betriebssystem
+        - Referrer-URL
 
-        ---
+        **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren, schnellen und zuverlässigen Auslieferung der Website).
 
-        ## 3. Your rights
+        **Drittlandübermittlung:** Cloudflare ist ein US-amerikanisches Unternehmen und im EU-US Data Privacy Framework (DPF) zertifiziert. Zusätzlich hat Cloudflare EU-Standardvertragsklauseln (SCCs) abgeschlossen. Weitere Informationen zum Datenschutz bei Cloudflare: [https://www.cloudflare.com/de-de/privacypolicy/](https://www.cloudflare.com/de-de/privacypolicy/)
 
-        Under the GDPR, you have the following rights:
+        **Auftragsverarbeitung:** Mit Cloudflare wurde ein Vertrag zur Auftragsverarbeitung gemäß Art. 28 DSGVO abgeschlossen.
 
-        - **Right of access** (Art. 15 GDPR): You may request information about what personal data we process about you.
-        - **Right to rectification** (Art. 16 GDPR): You may request correction of inaccurate personal data.
-        - **Right to erasure** (Art. 17 GDPR): You may request deletion of your personal data.
-        - **Right to restriction of processing** (Art. 18 GDPR): You may request that we restrict processing of your data.
-        - **Right to data portability** (Art. 20 GDPR): You may receive your personal data in a structured, machine-readable format.
-        - **Right to object** (Art. 21 GDPR): You may object to the processing of your personal data.
-        - **Right to lodge a complaint** (Art. 77 GDPR): You may lodge a complaint with a supervisory authority.
+        **Hinweis zu Cloudflare-Cookies:** Cloudflare kann in bestimmten Betriebssituationen (z. B. Bot-Schutz, Lastverteilung) technisch notwendige Cookies setzen (z. B. `__cf_bm`, `__cflb`). Diese Cookies werden ausschließlich für den sicheren Betrieb des CDN benötigt, dienen keiner Nutzerverfolgung und erfordern keine Einwilligung, da sie technisch notwendig sind.
 
-        Since we do not process any personal data beyond Cloudflare's technical infrastructure logs (which we do not control), most of these rights are not applicable to this website. If you believe otherwise, contact us at [hi@warpgogol.com](mailto:hi@warpgogol.com).
+        ## 4. Ihre Rechte als betroffene Person
 
-        ---
+        Soweit personenbezogene Daten verarbeitet werden, stehen Ihnen folgende Rechte zu:
 
-        ## 4. Supervisory authority
+        - **Auskunft** (Art. 15 DSGVO): Sie haben das Recht zu erfahren, ob und welche Daten über Sie gespeichert sind.
+        - **Berichtigung** (Art. 16 DSGVO): Unrichtige Daten können Sie berichtigen lassen.
+        - **Löschung** (Art. 17 DSGVO): Sie können die Löschung Ihrer Daten verlangen, sofern keine Aufbewahrungspflichten entgegenstehen.
+        - **Einschränkung** (Art. 18 DSGVO): Sie können die Verarbeitung Ihrer Daten einschränken lassen.
+        - **Widerspruch** (Art. 21 DSGVO): Sie können der Verarbeitung Ihrer Daten aufgrund berechtigten Interesses widersprechen.
+        - **Beschwerde:** Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Die zuständige Aufsichtsbehörde für Baden-Württemberg ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI BW), Lautenschlagerstraße 20, 70173 Stuttgart, [https://www.baden-wuerttemberg.datenschutz.de](https://www.baden-wuerttemberg.datenschutz.de).
 
-        If you believe that we have violated data protection law, you may complain to the competent supervisory authority:
+        Anfragen richten Sie bitte per E-Mail an: [hi@warpgogol.com](mailto:hi@warpgogol.com)
 
-        **Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg**
-        Lautenschlagerstraße 20
-        70173 Stuttgart
-        Germany
-        [https://www.baden-wuerttemberg.datenschutz.de](https://www.baden-wuerttemberg.datenschutz.de)
+        ## 5. Aktualität dieser Datenschutzerklärung
 
-        ---
-
-        ## 5. Changes to this policy
-
-        We may update this privacy policy if the technical reality of this website changes. The current version is always available at [forge.warpgogol.com/datenschutz](https://forge.warpgogol.com/datenschutz).
+        Diese Datenschutzerklärung ist aktuell gültig und datiert vom September 2026. Sie wird bei Änderungen am Dienst oder bei Änderungen der rechtlichen Rahmenbedingungen aktualisiert.
 ---

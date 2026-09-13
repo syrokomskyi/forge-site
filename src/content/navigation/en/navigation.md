@@ -20,9 +20,14 @@ groups:
           pageId: impressum
         routeSlug: impressum
       - id: datenschutz
-        label: "Privacy Policy"
+        label: "Datenschutz"
         semanticTarget:
           kind: internal
           pageId: datenschutz
         routeSlug: datenschutz
+      - id: license
+        label: "License (Apache 2.0)"
+        semanticTarget:
+          kind: external
+          href: "https://github.com/syrokomskyi/forge/blob/main/LICENSE"
 ---

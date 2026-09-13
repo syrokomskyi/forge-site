@@ -13,6 +13,7 @@ footer:
   legalIds:
     - impressum
     - datenschutz
+    - license
   navGroups:
     legalTitle: "LEGAL"
 copyright:
