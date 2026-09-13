@@ -9,4 +9,7 @@ unmappedEntities: []
 verifiedEntities: 0
 coveragePercentage: 100
 
-legacySourceMappings: []
+legacySourceMappings:
+  - legacyFile: none
+    targetEntities: []
+    category: exact-equivalent

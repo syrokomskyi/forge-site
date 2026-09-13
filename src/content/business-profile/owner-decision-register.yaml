@@ -3,4 +3,9 @@ registerId: forge-warpgogol-owner-decisions
 createdAt: 2026-09-13
 source: RFC-1082
 
-items: []
+items:
+  - id: 1
+    topic: domain-verification
+    question: "What is the Google Search verification token for forge.warpgogol.com?"
+    status: open
+    blocks: []
