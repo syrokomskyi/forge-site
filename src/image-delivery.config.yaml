@@ -1,6 +1,7 @@
-# Image delivery configuration for forge-warpgogol
-# RFC-1082: minimal config for landing page
-formats:
-  - webp
-  - avif
-quality: high
+overrides:
+  - srcPattern: "**"
+    rules:
+      - IMG-DELIVERY-01
+      - IMG-DELIVERY-02
+      - IMG-DELIVERY-04
+    reason: "Forge landing page has no image assets yet — hero background and section images are placeholder/CSS-only. No responsive image variants needed until real images are added."
