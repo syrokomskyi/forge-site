@@ -1,6 +1,6 @@
 {
   "serverInfo": {
-    "name": "forge-warpgogol-agent-gate",
+    "name": "forge-site-agent-gate",
     "version": "1.1.0",
     "description": "Agent gate with MCP tools and semantic search"
   },

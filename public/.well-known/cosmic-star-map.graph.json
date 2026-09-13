@@ -3,11 +3,11 @@
     {
       "group": "nodes",
       "data": {
-        "id": "constellation:forge-warpgogol",
-        "label": "forge-warpgogol",
+        "id": "constellation:forge-site",
+        "label": "forge-site",
         "kind": "constellation",
-        "cosmicName": "forge-warpgogol",
-        "appId": "forge-warpgogol"
+        "cosmicName": "forge-site",
+        "appId": "forge-site"
       }
     },
     {
@@ -107,8 +107,8 @@
     {
       "group": "edges",
       "data": {
-        "id": "edge-constellation:forge-warpgogol--star:/",
-        "source": "constellation:forge-warpgogol",
+        "id": "edge-constellation:forge-site--star:/",
+        "source": "constellation:forge-site",
         "target": "star:/",
         "weight": 3
       }

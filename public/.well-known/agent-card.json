@@ -1,7 +1,7 @@
 {
-  "name": "forge-warpgogol",
+  "name": "forge-site",
   "version": "1.0.0",
-  "description": "Agent discovery surface for forge-warpgogol. Provides structured knowledge endpoints, MCP tools, and OAuth-protected API access for AI agents.",
+  "description": "Agent discovery surface for forge-site. Provides structured knowledge endpoints, MCP tools, and OAuth-protected API access for AI agents.",
   "supportedInterfaces": [
     {
       "url": "https://forge.warpgogol.com/.well-known/agent.json",
