@@ -32,7 +32,8 @@ void (async () => {
     "a[href], lord-icon, .js-inline-number, [data-motion-reveal], [data-parallax-speed], [data-motion-stagger], [data-live-photo], video[data-video-player], section[id]";
   if (!document.querySelector(ORCHESTRATED_SELECTOR)) return;
 
-  const { runStandardLayoutOrchestration } = await import("@warpgogol/werkstatt-shared/share/scripts");
+  const { runStandardLayoutOrchestration } =
+    await import("@warpgogol/werkstatt-shared/share/scripts");
 
   // Read orchestrator config from site context (injected by server)
   const siteConfig = (window as any).__SITE_CONFIG ?? {};
@@ -40,8 +41,7 @@ void (async () => {
   const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
   const deviceMemory = (navigator as Navigator & { deviceMemory?: number }).deviceMemory ?? 4;
   const hardwareConcurrency = navigator.hardwareConcurrency ?? 4;
-  const canRunSmoothScroll =
-    !connection?.saveData && deviceMemory >= 4 && hardwareConcurrency >= 4;
+  const canRunSmoothScroll = !connection?.saveData && deviceMemory >= 4 && hardwareConcurrency >= 4;
 
   await runStandardLayoutOrchestration({
     counters: orchestrator.counters ?? false,
@@ -55,9 +55,10 @@ void (async () => {
     // RFC-0210: feature-video player runtime is self-gating on video[data-video-player]
     // inside runStandardLayoutOrchestration — zero cost when the page has no feature video.
     videoPlayers: orchestrator.videoPlayers ?? true,
-    // RFC-0205: Lenis smooth scroll is opt-in to avoid loading the 17 KB bundle on every page.
+    // RFC-0205: Lenis smooth scroll is enabled by default. Sites can opt out
+    // by setting orchestrator.smoothScroll: false in site/{lang}/labels.md.
     // LH-08: additionally gate Lenis on saveData/deviceMemory/hardwareConcurrency.
-    smoothScroll: (orchestrator.smoothScroll ?? false) && canRunSmoothScroll,
+    smoothScroll: (orchestrator.smoothScroll ?? true) && canRunSmoothScroll,
     // RFC-0932: external-link QR code modal — gated by entitlement, only activates when modal is present.
     externalLinkQrEntitled: orchestrator.externalLinkQrEntitled ?? false,
   });

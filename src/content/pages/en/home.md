@@ -5,7 +5,7 @@ cosmicStar: Sirius
 title: "Forge — AI can write the code. Forge keeps the project engineered"
 description: "Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project."
 lang: en
-dateModified: "2026-09-13"
+dateModified: "2026-09-14"
 datePublished: "2026-09-13"
 blocks:
   - id: hero
@@ -68,6 +68,28 @@ blocks:
         - **Missions** — scoped work units that track what changed, why, and how it was verified.
 
         Every artifact lives in the repo. Every agent session starts from the same rules. No context is lost between sessions, models, or IDEs.
+  - id: plugins
+    type: entity-grid
+    props:
+      hideSectionNumber: true
+      header:
+        eyebrow: "Plugins"
+        heading: "Extend Forge with stack-specific rules and skills"
+        subheading: "Plugins add validators, skills, and commands tailored to your stack — without modifying Forge itself."
+        level: 2
+      body:
+        kind: grid
+        columns: 3
+        items:
+          - number: "01"
+            title: "Stack validators"
+            description: "Plugins register check commands that enforce stack-specific invariants — tsconfig strictness, import boundaries, barrel exports, phantom dependencies — on every commit."
+          - number: "02"
+            title: "Skill packs"
+            description: "Declare project-local skill packs with a custom prefix. Skills are markdown workflows that agents execute step by step — deploy, review, testing, onboarding."
+          - number: "03"
+            title: "Extension points"
+            description: "Plugins can declare custom Compass contract blocks — source-file markers that compass.validate enforces, so your team's conventions become first-class checks."
   - id: is-not
     type: comparison-cards
     props:
