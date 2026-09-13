@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "appId": "forge-warpgogol",
-  "issuedAt": "2026-09-13T15:37:43.353Z",
+  "issuedAt": "2026-09-13T15:39:25.078Z",
   "composition": {
     "systemHash": "sha256:075470444f72cf542a3305bfd586d5125b41e6a737310055784ae4803e4bec54",
     "constellation": "forge-warpgogol",
@@ -37,8 +37,8 @@
   },
   "provenance": {
     "commitSha": "unknown",
-    "commitAt": "2026-09-13T15:37:43.353Z",
-    "builtAt": "2026-09-13T15:37:43.353Z",
+    "commitAt": "2026-09-13T15:39:25.078Z",
+    "builtAt": "2026-09-13T15:39:25.078Z",
     "buildDurationMs": 1,
     "builder": "local",
     "keyVersion": "v1",
@@ -51,7 +51,7 @@
         "CosmicPassportCredential"
       ],
       "issuer": "did:web:forge-warpgogol.example.org",
-      "issuanceDate": "2026-09-13T15:37:43.353Z",
+      "issuanceDate": "2026-09-13T15:39:25.078Z",
       "credentialSubject": {
         "id": "urn:warpgogol:app:forge-warpgogol",
         "systemHash": "sha256:075470444f72cf542a3305bfd586d5125b41e6a737310055784ae4803e4bec54",
@@ -59,10 +59,10 @@
       },
       "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2026-09-13T15:37:43.353Z",
+        "created": "2026-09-13T15:39:25.078Z",
         "verificationMethod": "did:web:forge-warpgogol.example.org#key-v1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "zSuWDBk8FpPYQ8TEPcCdAB1dNaLrsY9wABknthXWXLnJYDxw9ZzHwaUtXGrjx964E3nxVQo9x57eHVAe4NZ9KYWE"
+        "proofValue": "z2voxhfkqBYrzZ3j4b3mVwcTftictXmLAWuEqSSWesUGUHzyyDrbh6kGfrV8DDTJfdXUCMSB2fD89izBh4w4wR1EL"
       }
     }
   },
