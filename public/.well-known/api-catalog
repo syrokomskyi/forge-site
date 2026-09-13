@@ -7,6 +7,21 @@
           "href": "/api/agent/v1/company.json",
           "type": "application/json",
           "title": "company"
+        },
+        {
+          "href": "/api/agent/v1/contact.json",
+          "type": "application/json",
+          "title": "contact"
+        },
+        {
+          "href": "/api/agent/v1/legal.json",
+          "type": "application/json",
+          "title": "legal"
+        },
+        {
+          "href": "/api/agent/v1/location.json",
+          "type": "application/json",
+          "title": "location"
         }
       ],
       "service-meta": [

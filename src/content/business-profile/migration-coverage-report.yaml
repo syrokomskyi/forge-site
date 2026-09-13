@@ -1,0 +1,12 @@
+schemaVersion: 1.0.0
+reportId: forge-warpgogol-pbp-migration-coverage
+createdAt: 2026-09-13
+sourceRfc: RFC-1082
+
+totalLegacyEntities: 0
+mappedEntities: 0
+unmappedEntities: []
+verifiedEntities: 0
+coveragePercentage: 100
+
+legacySourceMappings: []

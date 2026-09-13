@@ -1,0 +1,31 @@
+{
+  "schema": "gogol.agent.knowledge/location@1",
+  "site": "forge-warpgogol",
+  "baseUrl": "https://forge.warpgogol.com",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "freshness": {
+    "lastVerified": null,
+    "source": "derived-source",
+    "coverage": "domain"
+  },
+  "data": {
+    "en": {
+      "locality": "Backnang",
+      "region": "Baden-Württemberg",
+      "country": "DE"
+    }
+  },
+  "contentHash": "478305acb230477ff0157bdb221e40b84d071c2afd2f44166dce510325b0b9f9",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-09-13T15:35:47.174Z",
+    "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zLMvQdJDY7tCBtB56tkzfwhPzbnfgpuKrk5xZhmvU9VZoGfCZmUkYgS7Wh9RhHRKQWuaJ6XrEaZ2WfwLRiiigK5E"
+  }
+}

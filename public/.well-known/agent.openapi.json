@@ -3,7 +3,7 @@
   "info": {
     "title": "forge-warpgogol agent surface",
     "version": "1.1.0",
-    "x-gogol-content-hash": "fc7de8a9300b0f0b7e594fffb330d00481715908a979af981ae3e0c02619e7b9"
+    "x-gogol-content-hash": "d35eec39c505aff36f93ee1646d9bacc02aa5bae5bd006270b8496b85209f6c0"
   },
   "servers": [
     {
@@ -24,6 +24,66 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/knowledge-company"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/agent/v1/contact.json": {
+      "get": {
+        "operationId": "knowledge.contact.get",
+        "tags": [
+          "knowledge"
+        ],
+        "responses": {
+          "200": {
+            "description": "contact knowledge envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/knowledge-contact"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/agent/v1/legal.json": {
+      "get": {
+        "operationId": "knowledge.legal.get",
+        "tags": [
+          "knowledge"
+        ],
+        "responses": {
+          "200": {
+            "description": "legal knowledge envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/knowledge-legal"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/agent/v1/location.json": {
+      "get": {
+        "operationId": "knowledge.location.get",
+        "tags": [
+          "knowledge"
+        ],
+        "responses": {
+          "200": {
+            "description": "location knowledge envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/knowledge-location"
                 }
               }
             }
@@ -112,6 +172,111 @@
   "components": {
     "schemas": {
       "knowledge-company": {
+        "type": "object",
+        "required": [
+          "schema",
+          "site",
+          "baseUrl",
+          "languages",
+          "contentHash",
+          "data"
+        ],
+        "properties": {
+          "schema": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string"
+          },
+          "baseUrl": {
+            "type": "string"
+          },
+          "languages": {
+            "type": "object"
+          },
+          "contentHash": {
+            "type": "string"
+          },
+          "freshness": {
+            "type": "object"
+          },
+          "data": {
+            "type": "object",
+            "description": "Per-language payload; shape varies by domain."
+          }
+        }
+      },
+      "knowledge-contact": {
+        "type": "object",
+        "required": [
+          "schema",
+          "site",
+          "baseUrl",
+          "languages",
+          "contentHash",
+          "data"
+        ],
+        "properties": {
+          "schema": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string"
+          },
+          "baseUrl": {
+            "type": "string"
+          },
+          "languages": {
+            "type": "object"
+          },
+          "contentHash": {
+            "type": "string"
+          },
+          "freshness": {
+            "type": "object"
+          },
+          "data": {
+            "type": "object",
+            "description": "Per-language payload; shape varies by domain."
+          }
+        }
+      },
+      "knowledge-legal": {
+        "type": "object",
+        "required": [
+          "schema",
+          "site",
+          "baseUrl",
+          "languages",
+          "contentHash",
+          "data"
+        ],
+        "properties": {
+          "schema": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string"
+          },
+          "baseUrl": {
+            "type": "string"
+          },
+          "languages": {
+            "type": "object"
+          },
+          "contentHash": {
+            "type": "string"
+          },
+          "freshness": {
+            "type": "object"
+          },
+          "data": {
+            "type": "object",
+            "description": "Per-language payload; shape varies by domain."
+          }
+        }
+      },
+      "knowledge-location": {
         "type": "object",
         "required": [
           "schema",

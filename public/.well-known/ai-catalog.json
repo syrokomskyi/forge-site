@@ -46,6 +46,36 @@
       ]
     },
     {
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:contact",
+      "displayName": "Contact Knowledge",
+      "type": "application/json",
+      "url": "/api/agent/v1/contact.json",
+      "representativeQueries": [
+        "What contact information is available on this site",
+        "Get structured contact data for agent consumption"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:legal",
+      "displayName": "Legal Knowledge",
+      "type": "application/json",
+      "url": "/api/agent/v1/legal.json",
+      "representativeQueries": [
+        "What legal information is available on this site",
+        "Get structured legal data for agent consumption"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:location",
+      "displayName": "Location Knowledge",
+      "type": "application/json",
+      "url": "/api/agent/v1/location.json",
+      "representativeQueries": [
+        "What location information is available on this site",
+        "Get structured location data for agent consumption"
+      ]
+    },
+    {
       "identifier": "urn:air:forge.warpgogol.com:manifest:agent-surface",
       "displayName": "Agent Surface Manifest",
       "type": "application/json",

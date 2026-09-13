@@ -10,6 +10,27 @@
       "digest": "sha256:91e45354f85f3b36c8c517182e51ba03ef98bd2aab6071d8b77f409965bfb732"
     },
     {
+      "name": "contact",
+      "type": "skill-md",
+      "description": "Agent knowledge for contact domain",
+      "url": "/api/agent/v1/contact.json",
+      "digest": "sha256:9e5c6e9dd07526cab4b97d382ccbc0a615610bb814d92ced5442ef38ffd73e20"
+    },
+    {
+      "name": "legal",
+      "type": "skill-md",
+      "description": "Agent knowledge for legal domain",
+      "url": "/api/agent/v1/legal.json",
+      "digest": "sha256:a19a4175ff250c0ecccaa6922826f03b68e80c2c7aac3226dde47d9cd493e7f2"
+    },
+    {
+      "name": "location",
+      "type": "skill-md",
+      "description": "Agent knowledge for location domain",
+      "url": "/api/agent/v1/location.json",
+      "digest": "sha256:c08f2343cf6c9c4b03d3ec139679198172e1eaed7f1f55cfabb15680fa0e4e98"
+    },
+    {
       "name": "agent-manifest",
       "type": "skill-json",
       "description": "Agent surface manifest with capabilities and interfaces",

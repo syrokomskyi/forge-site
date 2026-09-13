@@ -19,6 +19,21 @@
       "id": "company",
       "name": "Company",
       "description": "Agent knowledge for company domain"
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "description": "Agent knowledge for contact domain"
+    },
+    {
+      "id": "legal",
+      "name": "Legal",
+      "description": "Agent knowledge for legal domain"
+    },
+    {
+      "id": "location",
+      "name": "Location",
+      "description": "Agent knowledge for location domain"
     }
   ]
 }
