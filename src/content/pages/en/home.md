@@ -34,6 +34,7 @@ blocks:
         subheading: "Forge keeps engineering decisions in the project, not in the agent's memory"
         level: 2
       body:
+        kind: stats
         stats:
           - value: "Contracts"
             label: "Project rules that agents must follow"
