@@ -12,6 +12,8 @@ blocks:
     type: hero
     props:
       hideSectionNumber: true
+      background:
+        kind: "color"
       header:
         eyebrow: "Forge"
         heading: "AI can write the code. Forge keeps the project engineered"

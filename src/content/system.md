@@ -36,4 +36,24 @@ pages:
         pin: 1.5.0
       - cosmicPlanet: Hyperion
         pin: 1.5.0
+  - pageId: impressum
+    semanticType: legal
+    output:
+      sitemap:
+        lastmod: "2026-09-13"
+    routes:
+      en: impressum
+    locales:
+      - en
+    cosmicStar: Sirius
+  - pageId: datenschutz
+    semanticType: legal
+    output:
+      sitemap:
+        lastmod: "2026-09-13"
+    routes:
+      en: datenschutz
+    locales:
+      - en
+    cosmicStar: Sirius
 ---

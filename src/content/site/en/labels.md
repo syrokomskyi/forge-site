@@ -10,6 +10,11 @@ footer:
   taglineLines:
     - "Engineering control layer for AI-assisted development"
     - "Open source · Apache-2.0"
+  legalIds:
+    - impressum
+    - datenschutz
+  navGroups:
+    legalTitle: "LEGAL"
 copyright:
   symbol: "©"
   yearFirst: 2026
