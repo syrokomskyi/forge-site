@@ -1,0 +1,24 @@
+{
+  "serverInfo": {
+    "name": "forge-warpgogol-agent-gate",
+    "version": "1.1.0",
+    "description": "Agent gate with MCP tools and semantic search"
+  },
+  "transport": {
+    "type": "streamable-http",
+    "url": "/api/agent/mcp"
+  },
+  "protocolVersion": "2025-06-18",
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    },
+    "resources": {
+      "listChanged": false,
+      "subscribe": false
+    },
+    "prompts": {
+      "listChanged": false
+    }
+  }
+}

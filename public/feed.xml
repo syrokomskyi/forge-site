@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>forge.warpgogol.com</title>
+    <link>https://forge.warpgogol.com/</link>
+    <description></description>
+    <language>en</language>
+    <atom:link href="https://forge.warpgogol.com/feed.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

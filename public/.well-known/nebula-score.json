@@ -1,0 +1,27 @@
+{
+  "nebula": 100,
+  "pillars": {
+    "performance": {
+      "score": 100,
+      "weight": 0.3,
+      "contribution": 30
+    },
+    "accessibility": {
+      "score": 100,
+      "weight": 0.3,
+      "contribution": 30
+    },
+    "contentHealth": {
+      "score": 100,
+      "weight": 0.2,
+      "contribution": 20
+    },
+    "architecturalCompliance": {
+      "score": 100,
+      "weight": 0.2,
+      "contribution": 20
+    }
+  },
+  "weightsVersion": "1.0.0",
+  "computedAt": "2026-09-13T19:39:31.049Z"
+}

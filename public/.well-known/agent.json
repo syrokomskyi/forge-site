@@ -1,0 +1,59 @@
+{
+  "surfaceVersion": "1.1.0",
+  "site": "forge-warpgogol",
+  "baseUrl": "https://forge.warpgogol.com",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "knowledge": [
+    {
+      "domain": "company",
+      "url": "/api/agent/v1/company.json",
+      "schema": "gogol.agent.knowledge/company@1"
+    },
+    {
+      "domain": "contact",
+      "url": "/api/agent/v1/contact.json",
+      "schema": "gogol.agent.knowledge/contact@1"
+    },
+    {
+      "domain": "legal",
+      "url": "/api/agent/v1/legal.json",
+      "schema": "gogol.agent.knowledge/legal@1"
+    },
+    {
+      "domain": "location",
+      "url": "/api/agent/v1/location.json",
+      "schema": "gogol.agent.knowledge/location@1"
+    }
+  ],
+  "actions": [],
+  "claims": [],
+  "interfaces": {
+    "llms": "/llms.txt",
+    "twins": {
+      "pattern": "/**.md"
+    },
+    "openapi": "/.well-known/agent.openapi.json",
+    "mcp": {
+      "url": "/api/agent/mcp",
+      "protocolVersion": "2025-06-18"
+    },
+    "search": {
+      "url": "/api/agent/search",
+      "model": "@cf/baai/bge-m3",
+      "dimensions": 1024
+    }
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-09-13T19:38:10.635Z",
+    "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z35EBjSbvYfo6NC3xJrkv8javbYzpi4uXVEJZZ4VDSSog8GGL3BVVeb3yZs2WDgjBtCe1EtZQkJ23KDExJo7tnjF4"
+  },
+  "contentHash": "d35eec39c505aff36f93ee1646d9bacc02aa5bae5bd006270b8496b85209f6c0"
+}

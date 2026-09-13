@@ -1,0 +1,39 @@
+{
+  "name": "forge-warpgogol",
+  "version": "1.0.0",
+  "description": "Agent discovery surface for forge-warpgogol. Provides structured knowledge endpoints, MCP tools, and OAuth-protected API access for AI agents.",
+  "supportedInterfaces": [
+    {
+      "url": "https://forge.warpgogol.com/.well-known/agent.json",
+      "protocolBinding": "HTTP+JSON",
+      "protocolVersion": "1.0"
+    }
+  ],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "extendedAgentCard": false
+  },
+  "skills": [
+    {
+      "id": "company",
+      "name": "Company",
+      "description": "Agent knowledge for company domain"
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "description": "Agent knowledge for contact domain"
+    },
+    {
+      "id": "legal",
+      "name": "Legal",
+      "description": "Agent knowledge for legal domain"
+    },
+    {
+      "id": "location",
+      "name": "Location",
+      "description": "Agent knowledge for location domain"
+    }
+  ]
+}

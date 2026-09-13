@@ -1,0 +1,180 @@
+{
+  "elements": [
+    {
+      "group": "nodes",
+      "data": {
+        "id": "constellation:forge-warpgogol",
+        "label": "forge-warpgogol",
+        "kind": "constellation",
+        "cosmicName": "forge-warpgogol",
+        "appId": "forge-warpgogol"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "star:/",
+        "label": "Sirius",
+        "kind": "star",
+        "cosmicName": "Sirius",
+        "route": "/"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Europa:hero",
+        "label": "Europa",
+        "kind": "planet",
+        "cosmicName": "Europa",
+        "route": "/",
+        "pin": "1.5.0",
+        "sectionId": "hero"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Ganymede:what-controls",
+        "label": "Ganymede",
+        "kind": "planet",
+        "cosmicName": "Ganymede",
+        "route": "/",
+        "pin": "1.5.0",
+        "sectionId": "what-controls"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Janus:is-not",
+        "label": "Janus",
+        "kind": "planet",
+        "cosmicName": "Janus",
+        "route": "/",
+        "pin": "1.2.0",
+        "sectionId": "is-not"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Dione:quick-start",
+        "label": "Dione",
+        "kind": "planet",
+        "cosmicName": "Dione",
+        "route": "/",
+        "pin": "1.5.0",
+        "sectionId": "quick-start"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Hyperion:architecture",
+        "label": "Hyperion",
+        "kind": "planet",
+        "cosmicName": "Hyperion",
+        "route": "/",
+        "pin": "1.5.0",
+        "sectionId": "architecture"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Hyperion:cli-demo",
+        "label": "Hyperion",
+        "kind": "planet",
+        "cosmicName": "Hyperion",
+        "route": "/",
+        "pin": "1.5.0",
+        "sectionId": "cli-demo"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Hyperion:footer",
+        "label": "Hyperion",
+        "kind": "planet",
+        "cosmicName": "Hyperion",
+        "route": "/",
+        "pin": "1.5.0",
+        "sectionId": "footer"
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-constellation:forge-warpgogol--star:/",
+        "source": "constellation:forge-warpgogol",
+        "target": "star:/",
+        "weight": 3
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Europa:hero",
+        "source": "star:/",
+        "target": "planet:/:Europa:hero",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Ganymede:what-controls",
+        "source": "star:/",
+        "target": "planet:/:Ganymede:what-controls",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Janus:is-not",
+        "source": "star:/",
+        "target": "planet:/:Janus:is-not",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Dione:quick-start",
+        "source": "star:/",
+        "target": "planet:/:Dione:quick-start",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Hyperion:architecture",
+        "source": "star:/",
+        "target": "planet:/:Hyperion:architecture",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Hyperion:cli-demo",
+        "source": "star:/",
+        "target": "planet:/:Hyperion:cli-demo",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Hyperion:footer",
+        "source": "star:/",
+        "target": "planet:/:Hyperion:footer",
+        "weight": 2
+      }
+    }
+  ]
+}

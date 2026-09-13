@@ -1,0 +1,11 @@
+overrides:
+  - srcPattern: "**"
+    rules:
+      - IMG-DELIVERY-01
+      - IMG-DELIVERY-02
+    reason: "Forge landing page has no image assets yet — hero background and section images are placeholder/CSS-only. No responsive image variants needed until real images are added."
+  - srcPattern: "**"
+    pagePattern: "**"
+    rules:
+      - IMG-DELIVERY-04
+    reason: "Forge landing page has no LCP image — text-only hero with no above-the-fold image requiring fetchpriority."
