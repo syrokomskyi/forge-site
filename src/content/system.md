@@ -9,7 +9,8 @@ i18n:
   default: en
   supported:
     en:
-      name: en
+      name: English
+      hreflang: en-US
 legalJurisdiction: DE
 verification:
   google:
