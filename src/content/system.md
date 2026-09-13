@@ -14,7 +14,7 @@ legalJurisdiction: DE
 verification:
   google:
     method: meta-tag
-    token: ""
+    token: "pending-verification"
 pages:
   - pageId: home
     semanticType: home
