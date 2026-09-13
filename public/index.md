@@ -2,13 +2,13 @@
 canonical: "https://forge.warpgogol.com/"
 language: "en"
 lastModified: "2026-09-13"
-contentHash: "sha256:5b41654c66e8834c203ee38198291e6b82237c722f784c1ee74d2c2890a9d0f5"
+contentHash: "sha256:011e54ae23b1298bb9e5ff9d372567ce5388ec3848182f7e85ccafa8986a094e"
 license: "https://forge.warpgogol.com/ai.txt"
 generator: "page.markdown.generate"
 sourceKind: "page"
 id: "home"
 route: "/"
-title: "Forge — AI can write the code. Forge keeps the project engineered."
+title: "Forge — AI can write the code. Forge keeps the project engineered"
 type: "home"
 domain: "site"
 audience: "general"
@@ -20,7 +20,7 @@ visibility: "public"
 schema: "gogol.markdown-twin@2"
 ---
 
-# Forge — AI can write the code. Forge keeps the project engineered.
+# Forge — AI can write the code. Forge keeps the project engineered
 
 ## Summary
 
@@ -35,7 +35,7 @@ Engineering rules stay with the project — regardless of which agent, model, or
 
 ## Data / APIs
 
-### AI can write the code. Forge keeps the project engineered.
+### AI can write the code. Forge keeps the project engineered
 
 Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
 

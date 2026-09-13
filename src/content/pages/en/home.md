@@ -15,7 +15,7 @@ blocks:
       header:
         eyebrow: "Forge"
         heading: "AI can write the code. Forge keeps the project engineered"
-        subheading: "Engineering rules stay with the project — regardless of which agent, model, or IDE you use."
+        subheading: "Engineering rules stay with the project — regardless of which agent, model, or IDE you use"
         level: 1
       ctaPrimaryLabel: "Get started"
       ctaPrimaryAriaLabel: "Get started with Forge"
