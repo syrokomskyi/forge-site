@@ -1,0 +1,12 @@
+kind: dns-records
+schemaVersion: 1
+zone: forge.warpgogol.com
+updatedAt: 2026-09-13
+records:
+  # BEGIN dns-aid
+  - name: _index._agents.forge.warpgogol.com
+    type: SVCB
+    content: "1 forge.warpgogol.com alpn=h2 port=443"
+    ttl: 3600
+    proxied: false
+  # END dns-aid
