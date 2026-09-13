@@ -12,8 +12,6 @@ blocks:
     type: hero
     props:
       hideSectionNumber: true
-      background:
-        kind: "color"
       header:
         eyebrow: "Forge"
         heading: "AI can write the code. Forge keeps the project engineered."
@@ -30,9 +28,6 @@ blocks:
     type: entity-grid
     props:
       hideSectionNumber: true
-      background:
-        kind: solid
-      density: normal
       header:
         eyebrow: "How Forge works"
         heading: "Five planes of engineering control"
