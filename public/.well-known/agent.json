@@ -35,7 +35,7 @@
   },
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-13T15:31:43.889Z",
+    "created": "2026-09-13T15:33:49.977Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
     "proofValue": "ztDPLi5La5ms5mVrpj3yKjordwHp5X5WZ1XDdx7VoL8C8nT9xuaohYTvHH2sakoKWCE1RFpXrLuN7DtnLhNXGYNP"
