@@ -5,8 +5,20 @@ targets:
   - id: home
     label: "Home"
     semanticTarget:
-      kind: page
+      kind: internal
       pageId: home
+    group: navigation
+  - id: github
+    label: "GitHub"
+    semanticTarget:
+      kind: external
+      href: "https://github.com/warpgogol/werkstatt"
+    group: navigation
+  - id: npm
+    label: "npm"
+    semanticTarget:
+      kind: external
+      href: "https://www.npmjs.com/package/@warpgogol/forge"
     group: navigation
   - id: impressum
     label: "Impressum"
@@ -28,4 +40,10 @@ targets:
       kind: external
       href: "https://github.com/syrokomskyi/forge/blob/main/LICENSE"
     group: legal
+  - id: email
+    label: "hi@warpgogol.com"
+    semanticTarget:
+      kind: external
+      href: "mailto:hi@warpgogol.com"
+    group: contact
 ---

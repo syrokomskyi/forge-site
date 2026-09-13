@@ -5,17 +5,28 @@ brandLabel: "Forge"
 brandAriaLabel: "Forge — Home"
 header:
   ctaLabel: "Get started"
-  navIds: []
+  navIds:
+    - home
+    - github
+    - npm
 footer:
   taglineLines:
     - "Engineering control layer for AI-assisted development"
     - "Open source · Apache-2.0"
+  navIds:
+    - home
+    - github
+    - npm
   legalIds:
     - impressum
     - datenschutz
     - license
+  contactIds:
+    - email
   navGroups:
+    navigationTitle: "NAVIGATION"
     legalTitle: "LEGAL"
+    contactTitle: "CONTACT"
 copyright:
   symbol: "©"
   yearFirst: 2026
