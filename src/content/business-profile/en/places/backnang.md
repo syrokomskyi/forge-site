@@ -6,6 +6,9 @@ status: published
 name: "Backnang"
 kind: locality
 address:
+  street: Elly-Heuss-Knapp-Weg
+  streetNumber: "29"
+  postalCode: "71522"
   locality: Backnang
   administrativeArea: "Baden-Württemberg"
   countryCode: DE
