@@ -15,3 +15,8 @@
   --ds-color-bg: #ffffff;
   --ds-color-surface: #ffffff;
 }
+
+/* Collapsed FAQ details should not show empty padding below the summary */
+.markdown-section__content details:not([open]) {
+  padding-bottom: 0;
+}
