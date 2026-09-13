@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0",
+  "appId": "forge-warpgogol",
+  "issuedAt": "2026-09-13T15:18:03.895Z",
+  "composition": {
+    "systemHash": "sha256:c0c666da13c92ba7f2fd783aaf630429768e6547db79b841ff8d546aa29c6437",
+    "constellation": "forge-warpgogol",
+    "biome": "handwerk-material-warm",
+    "stars": [
+      {
+        "route": "/",
+        "cosmicStar": "Sirius",
+        "planets": [
+          {
+            "cosmicPlanet": "Europa",
+            "pin": "1.5.0"
+          },
+          {
+            "cosmicPlanet": "Ganymede",
+            "pin": "1.5.0"
+          },
+          {
+            "cosmicPlanet": "Janus",
+            "pin": "1.2.0"
+          },
+          {
+            "cosmicPlanet": "Dione",
+            "pin": "1.5.0"
+          },
+          {
+            "cosmicPlanet": "Hyperion",
+            "pin": "1.5.0"
+          }
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "commitSha": "unknown",
+    "commitAt": "2026-09-13T15:18:03.895Z",
+    "builtAt": "2026-09-13T15:18:03.895Z",
+    "buildDurationMs": 1,
+    "builder": "local",
+    "keyVersion": "v1",
+    "verifiableCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "CosmicPassportCredential"
+      ],
+      "issuer": "did:web:forge-warpgogol.example.org",
+      "issuanceDate": "2026-09-13T15:18:03.895Z",
+      "credentialSubject": {
+        "id": "urn:warpgogol:app:forge-warpgogol",
+        "systemHash": "sha256:c0c666da13c92ba7f2fd783aaf630429768e6547db79b841ff8d546aa29c6437",
+        "commitSha": "unknown"
+      },
+      "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2026-09-13T15:18:03.895Z",
+        "verificationMethod": "did:web:forge-warpgogol.example.org#key-v1",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z4YBTgjiHHjW8tCXEoqFMgynEmq6xCXdkR4bv5hJ7WfQ1Eiq84xGHXnQzHddB92jyHqQj3CV2iUDwrTvGXEU3pd2e"
+      }
+    }
+  },
+  "scores": {
+    "nebula": 100,
+    "pillars": {
+      "performance": {
+        "score": 100,
+        "weight": 0.3
+      },
+      "accessibility": {
+        "score": 100,
+        "weight": 0.3
+      },
+      "contentHealth": {
+        "score": 100,
+        "weight": 0.2
+      },
+      "architecturalCompliance": {
+        "score": 100,
+        "weight": 0.2
+      }
+    }
+  },
+  "links": {
+    "starMapSvg": "/.well-known/cosmic-star-map.svg",
+    "publicKey": "/.well-known/cosmic-passport-key.json",
+    "dnaReport": "/.well-known/dna-compliance.json"
+  }
+}

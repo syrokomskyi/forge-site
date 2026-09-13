@@ -14,6 +14,9 @@ legalJurisdiction: DE
 pages:
   - pageId: home
     semanticType: home
+    output:
+      sitemap:
+        lastmod: "2026-09-13"
     routes:
       en: ""
     cosmicStar: Sirius

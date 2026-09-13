@@ -5,6 +5,8 @@ cosmicStar: Sirius
 title: "Forge — AI can write the code. Forge keeps the project engineered."
 description: "Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project."
 lang: en
+dateModified: "2026-09-13"
+datePublished: "2026-09-13"
 blocks:
   - id: hero
     type: hero

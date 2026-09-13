@@ -1,0 +1,27 @@
+# Forge
+Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.
+
+## Organization facts
+- Canonical URI: https://forge.warpgogol.com/.well-known/entity/business
+- Name: 
+
+## AI can write the code. Forge keeps the project engineered.
+URL: https://forge.warpgogol.com/
+Description: Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.
+Lead: Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+
+### AI can write the code. Forge keeps the project engineered.
+
+Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+
+- CTA: Get started
+
+- CTA: View on GitHub
+
+### Start in one command
+
+- CTA: pnpm create @warpgogol/forge
+
+- CTA: npm package
+
+- CTA: GitHub

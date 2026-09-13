@@ -3,7 +3,7 @@
   "info": {
     "title": "forge-warpgogol agent surface",
     "version": "1.1.0",
-    "x-gogol-content-hash": "c017f0bc0f3380cfe264c2caccd1475c57cb371a8c300fff566b8e10ec495e97"
+    "x-gogol-content-hash": "fc7de8a9300b0f0b7e594fffb330d00481715908a979af981ae3e0c02619e7b9"
   },
   "servers": [
     {
@@ -11,6 +11,26 @@
     }
   ],
   "paths": {
+    "/api/agent/v1/company.json": {
+      "get": {
+        "operationId": "knowledge.company.get",
+        "tags": [
+          "knowledge"
+        ],
+        "responses": {
+          "200": {
+            "description": "company knowledge envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/knowledge-company"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/agent/search": {
       "get": {
         "operationId": "search.query",
@@ -91,6 +111,41 @@
   },
   "components": {
     "schemas": {
+      "knowledge-company": {
+        "type": "object",
+        "required": [
+          "schema",
+          "site",
+          "baseUrl",
+          "languages",
+          "contentHash",
+          "data"
+        ],
+        "properties": {
+          "schema": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string"
+          },
+          "baseUrl": {
+            "type": "string"
+          },
+          "languages": {
+            "type": "object"
+          },
+          "contentHash": {
+            "type": "string"
+          },
+          "freshness": {
+            "type": "object"
+          },
+          "data": {
+            "type": "object",
+            "description": "Per-language payload; shape varies by domain."
+          }
+        }
+      },
       "search-response": {
         "type": "object",
         "required": [

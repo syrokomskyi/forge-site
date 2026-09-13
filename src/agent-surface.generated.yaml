@@ -5,7 +5,10 @@ languages:
   default: en
   supported:
     - en
-knowledge: []
+knowledge:
+  - domain: company
+    url: /api/agent/v1/company.json
+    schema: gogol.agent.knowledge/company@1
 actions: []
 claims: []
 interfaces:
@@ -20,5 +23,10 @@ interfaces:
     url: /api/agent/search
     model: "@cf/baai/bge-m3"
     dimensions: 1024
-proof: null
-contentHash: c017f0bc0f3380cfe264c2caccd1475c57cb371a8c300fff566b8e10ec495e97
+proof:
+  type: Ed25519Signature2020
+  created: 2026-09-13T15:17:26.611Z
+  verificationMethod: did:web:forge.warpgogol.com#key-v1
+  proofPurpose: assertionMethod
+  proofValue: ztDPLi5La5ms5mVrpj3yKjordwHp5X5WZ1XDdx7VoL8C8nT9xuaohYTvHH2sakoKWCE1RFpXrLuN7DtnLhNXGYNP
+contentHash: fc7de8a9300b0f0b7e594fffb330d00481715908a979af981ae3e0c02619e7b9

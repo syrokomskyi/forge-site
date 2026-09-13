@@ -1,0 +1,48 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://forge.warpgogol.com/",
+      "item": [
+        {
+          "href": "/api/agent/v1/company.json",
+          "type": "application/json",
+          "title": "company"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "/.well-known/agent.json",
+          "type": "application/json"
+        }
+      ],
+      "service-desc": [
+        {
+          "href": "/.well-known/agent.openapi.json",
+          "type": "application/json"
+        },
+        {
+          "href": "/.well-known/mcp/server-card.json",
+          "type": "application/json"
+        }
+      ],
+      "service": [
+        {
+          "href": "/api/agent/mcp",
+          "type": "application/json"
+        }
+      ],
+      "search": [
+        {
+          "href": "/api/agent/search",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "/llms.txt",
+          "type": "text/plain"
+        }
+      ]
+    }
+  ]
+}

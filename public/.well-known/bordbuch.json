@@ -1,0 +1,40 @@
+{
+  "site": "forge-warpgogol",
+  "generatedAt": null,
+  "ledgerHash": "sha256:b287c46a3f34a10232562c23e60b043b5f561008f07c09c5a6319e23c6b72308",
+  "eventCount": 1,
+  "latestEvent": {
+    "schemaVersion": "1.0.0",
+    "id": "event-000001",
+    "systemId": "forge-warpgogol",
+    "occurredAt": "2026-09-13T15:04:42.563Z",
+    "kind": "mission-open",
+    "status": "done",
+    "missionId": "forge-warpgogol-m000001",
+    "releaseId": null,
+    "actor": "unknown",
+    "summary": "Initial onboarding for forge-warpgogol",
+    "metadata": {
+      "brief": "Initial onboarding for forge-warpgogol",
+      "pinAtOpen": "6.289.6"
+    },
+    "previousHash": null,
+    "hash": "sha256:b287c46a3f34a10232562c23e60b043b5f561008f07c09c5a6319e23c6b72308"
+  },
+  "pseo": {
+    "modules": [],
+    "generationQueues": {},
+    "translationQueues": {},
+    "visibility": {
+      "outcomes": 0,
+      "actions": {},
+      "frozenScopes": 0
+    }
+  },
+  "validation": {
+    "error": 0,
+    "warning": 0,
+    "info": 0
+  },
+  "openEscalations": []
+}

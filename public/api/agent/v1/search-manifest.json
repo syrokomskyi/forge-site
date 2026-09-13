@@ -3,7 +3,87 @@
   "site": "forge-warpgogol",
   "model": "@cf/baai/bge-m3",
   "dimensions": 1024,
-  "generatedAt": "2026-09-13T15:06:14.446Z",
-  "chunks": [],
-  "contentHash": "610438710706da585985a70244f183fe4aff994d6a4921569959f697b966184c"
+  "generatedAt": "2026-09-13T15:17:26.179Z",
+  "chunks": [
+    {
+      "id": "en:/:architecture",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "architecture",
+      "heading": "Architecture",
+      "text": "Architecture"
+    },
+    {
+      "id": "en:/:cli-demo",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "cli-demo",
+      "heading": "See it in action",
+      "text": "See it in action"
+    },
+    {
+      "id": "en:/:hero",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "hero",
+      "heading": "AI can write the code. Forge keeps the project engineered.",
+      "text": "AI can write the code. Forge keeps the project engineered.\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use.\n\nCTA: Get started\n\nCTA: View on GitHub"
+    },
+    {
+      "id": "en:/:is-not",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "is-not",
+      "heading": "What Forge is — and what it isn't",
+      "text": "What Forge is — and what it isn't"
+    },
+    {
+      "id": "en:/:page",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": null,
+      "heading": "Forge — AI can write the code. Forge keeps the project engineered.",
+      "text": "Forge — AI can write the code. Forge keeps the project engineered.\n\nForge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use."
+    },
+    {
+      "id": "en:/:quick-start",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "quick-start",
+      "heading": "Start in one command",
+      "text": "Start in one command\n\nCTA: pnpm create @warpgogol/forge\n\nCTA: npm package\n\nCTA: GitHub"
+    },
+    {
+      "id": "en:/:what-controls",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "what-controls",
+      "heading": "Five planes of engineering control",
+      "text": "Five planes of engineering control"
+    },
+    {
+      "id": "en:knowledge:company",
+      "url": "/api/agent/v1/company.json",
+      "lang": "en",
+      "type": "knowledge",
+      "blockId": null,
+      "heading": "Knowledge: company",
+      "text": "{\"en\":{\"name\":\"Forge\",\"description\":\"Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\"}}"
+    }
+  ],
+  "contentHash": "f433fac5c38576095d0bb003c0211ca79734d6b38ef794487932d2c8d8a1e078",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-09-13T15:17:26.624Z",
+    "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3X9PvYxtnN7yao6qo5oEUxxVwzq74oUo15qYced8nWF3xmuzgKoaPSAvcWW1uTcfrKAXUG2nXLn31i9icRrcUqHX"
+  }
 }
