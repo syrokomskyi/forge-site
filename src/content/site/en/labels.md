@@ -86,4 +86,6 @@ materialCredits:
     needs-review: "Needs review"
     blocked: "Blocked"
     expired: "Expired"
+orchestrator:
+  smoothScroll: true
 ---
