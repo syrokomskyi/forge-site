@@ -12,8 +12,6 @@ i18n:
       name: English
       hreflang: en-US
 legalJurisdiction: DE
-entitlementsOverride:
-  - external-link-qr
 verification:
   google:
     method: meta-tag
