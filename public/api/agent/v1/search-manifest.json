@@ -3,7 +3,7 @@
   "site": "forge-warpgogol",
   "model": "@cf/baai/bge-m3",
   "dimensions": 1024,
-  "generatedAt": "2026-09-13T15:29:55.335Z",
+  "generatedAt": "2026-09-13T15:31:43.462Z",
   "chunks": [
     {
       "id": "en:/:architecture",
@@ -30,7 +30,7 @@
       "type": "page",
       "blockId": "hero",
       "heading": "AI can write the code. Forge keeps the project engineered",
-      "text": "AI can write the code. Forge keeps the project engineered\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use.\n\nCTA: Get started\n\nCTA: View on GitHub"
+      "text": "AI can write the code. Forge keeps the project engineered\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use\n\nCTA: Get started\n\nCTA: View on GitHub"
     },
     {
       "id": "en:/:is-not",
@@ -48,7 +48,7 @@
       "type": "page",
       "blockId": null,
       "heading": "Forge — AI can write the code. Forge keeps the project engineered",
-      "text": "Forge — AI can write the code. Forge keeps the project engineered\n\nForge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use."
+      "text": "Forge — AI can write the code. Forge keeps the project engineered\n\nForge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use"
     },
     {
       "id": "en:/:quick-start",
@@ -78,12 +78,12 @@
       "text": "{\"en\":{\"name\":\"Forge\",\"description\":\"Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\"}}"
     }
   ],
-  "contentHash": "dd79eab37c181f89bedea729ace8150034f9e54236975587ec4de48a6d06a1d9",
+  "contentHash": "6efc0c2cba192bffb79e89ceb1d961a2e7fbcd4c0ad436f1906b9afc095da2c6",
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-13T15:29:55.775Z",
+    "created": "2026-09-13T15:31:43.902Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z3DQR6TsbiixBYxYS9GTEpsYiUSLkij9gx2qg4bRkVTn7hP2hjzozaewEruti8nXVh19xF4riffJiDCp6YrTUaRkD"
+    "proofValue": "z5YLFKETA1ML3nsVmbVB83w66aZjt7FHrqXBuZ98XVfY3CphU3416TMRWuxBZ1A9LcyHzmvXyKJvJoSgBni58obZX"
   }
 }

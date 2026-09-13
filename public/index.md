@@ -2,7 +2,7 @@
 canonical: "https://forge.warpgogol.com/"
 language: "en"
 lastModified: "2026-09-13"
-contentHash: "sha256:011e54ae23b1298bb9e5ff9d372567ce5388ec3848182f7e85ccafa8986a094e"
+contentHash: "sha256:71d30636fdeb93ad8d89397cffb8a7d2eed5d86dbb19094207b0a01f381109fe"
 license: "https://forge.warpgogol.com/ai.txt"
 generator: "page.markdown.generate"
 sourceKind: "page"
@@ -24,7 +24,7 @@ schema: "gogol.markdown-twin@2"
 
 ## Summary
 
-Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
 ## Business context
 
@@ -37,7 +37,7 @@ Engineering rules stay with the project — regardless of which agent, model, or
 
 ### AI can write the code. Forge keeps the project engineered
 
-Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
 #### CTA: Get started
 

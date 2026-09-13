@@ -8,11 +8,11 @@ Forge is the engineering control layer for AI-assisted development. Contracts, d
 ## AI can write the code. Forge keeps the project engineered
 URL: https://forge.warpgogol.com/
 Description: Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.
-Lead: Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+Lead: Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
 ### AI can write the code. Forge keeps the project engineered
 
-Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
 - CTA: Get started
 
