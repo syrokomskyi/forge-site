@@ -1,5 +1,5 @@
 ---
-app: forge-warpgogol
+app: forge-site
 version: 1.0.0
 identity:
   systemStar: Sirius

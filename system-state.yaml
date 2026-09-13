@@ -1,9 +1,8 @@
 schemaVersion: 1.0.0
-systemId: forge-warpgogol
+systemId: forge-site
 currentMission: forge-warpgogol-m000002
 lastRelease: null
 lastPropagated: {}
 accessPin: null
 passportRequired: false
 ownershipRequired: false
-
