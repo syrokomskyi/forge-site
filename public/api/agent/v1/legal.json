@@ -16,18 +16,19 @@
   "data": {
     "en": {
       "address": {
-        "streetAddress": "undefined undefined",
+        "streetAddress": "Elly-Heuss-Knapp-Weg 29",
+        "postalCode": "71522",
         "addressLocality": "Backnang",
         "addressCountry": "DE"
       }
     }
   },
-  "contentHash": "a05cc809dc26d7eb6bed292bfaa5d014669b7bd8ec656797c877f059ea0acb38",
+  "contentHash": "6fa0dd89a81321cc58e02dfe8bd733369c0927b68c3994911a336577361a0474",
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-13T16:17:48.558Z",
+    "created": "2026-09-13T16:20:03.302Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z5TJHBnS2moazcsq35WMeCbPf7K39RhVuF4bLAPz3NqXbzc9T1zmTTW2uuuWeFbj5T95uroDWRhSzoxKMcCRrvJYB"
+    "proofValue": "z3FpwYp1KfkcsUUxbihFso4dXMYcEf4e3RTYvJNvfQ6A3PvED4HK7ZEeYRw9Gs9wJhvhLvNKiK5qDjk6NQRBsJogx"
   }
 }

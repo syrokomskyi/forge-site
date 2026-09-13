@@ -5,7 +5,7 @@ Forge is the engineering control layer for AI-assisted development. Contracts, d
 - Canonical URI: https://forge.warpgogol.com/.well-known/entity/business
 - Name: 
 - Email: hi@warpgogol.com
-- Address: undefined undefined, Backnang, DE
+- Address: Elly-Heuss-Knapp-Weg 29, 71522, Backnang, DE
 - Contact points: email — hi@warpgogol.com
 
 ## Location
