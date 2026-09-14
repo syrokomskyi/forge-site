@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
   "appId": "forge-site",
-  "issuedAt": "2026-09-13T20:14:41.369Z",
+  "issuedAt": "2026-09-14T01:39:34.047Z",
   "composition": {
-    "systemHash": "sha256:564a325fc25c0a8da4fe536708fdae05f386a04cb932336e3665fe0bdda865b6",
+    "systemHash": "sha256:85debb1fff86f632e9529499a339d08210c1d7de9a3b457b9e0ce6821ffa90ea",
     "constellation": "forge-site",
     "biome": "handwerk-material-warm",
     "stars": [
@@ -16,30 +16,36 @@
             "pin": "1.5.0"
           },
           {
-            "cosmicPlanet": "Ganymede",
-            "pin": "1.5.0"
+            "cosmicPlanet": "Ixion",
+            "pin": "1.0.0"
           },
           {
             "cosmicPlanet": "Janus",
             "pin": "1.2.0"
           },
           {
-            "cosmicPlanet": "Dione",
-            "pin": "1.5.0"
-          },
-          {
             "cosmicPlanet": "Hyperion",
             "pin": "1.5.0"
           }
         ]
+      },
+      {
+        "route": "impressum",
+        "cosmicStar": "Sirius",
+        "planets": []
+      },
+      {
+        "route": "datenschutz",
+        "cosmicStar": "Sirius",
+        "planets": []
       }
     ]
   },
   "provenance": {
     "commitSha": "unknown",
-    "commitAt": "2026-09-13T20:14:41.369Z",
-    "builtAt": "2026-09-13T20:14:41.369Z",
-    "buildDurationMs": 0,
+    "commitAt": "2026-09-14T01:39:34.047Z",
+    "builtAt": "2026-09-14T01:39:34.047Z",
+    "buildDurationMs": 1,
     "builder": "local",
     "keyVersion": "v1",
     "verifiableCredential": {
@@ -51,18 +57,18 @@
         "CosmicPassportCredential"
       ],
       "issuer": "did:web:forge-site.example.org",
-      "issuanceDate": "2026-09-13T20:14:41.369Z",
+      "issuanceDate": "2026-09-14T01:39:34.047Z",
       "credentialSubject": {
         "id": "urn:warpgogol:app:forge-site",
-        "systemHash": "sha256:564a325fc25c0a8da4fe536708fdae05f386a04cb932336e3665fe0bdda865b6",
+        "systemHash": "sha256:85debb1fff86f632e9529499a339d08210c1d7de9a3b457b9e0ce6821ffa90ea",
         "commitSha": "unknown"
       },
       "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2026-09-13T20:14:41.369Z",
+        "created": "2026-09-14T01:39:34.047Z",
         "verificationMethod": "did:web:forge-site.example.org#key-v1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z2yNsqb3ijSJUAjd3BRYMAomRjTjeCM7Nx1ZGCKkau9hRMxkcAunUWwmZWDM2PnEHXTd9vRrHNZKwyKKZKfJmRY1L"
+        "proofValue": "z3SJjosrhxTbyUKBfBREu24YZbQQV5128baZ3gcBzEeDxsiYd5gehiD9QpL1XNTb2SkSBJi7Z5bjt7Au4i1XQV1gU"
       }
     }
   },

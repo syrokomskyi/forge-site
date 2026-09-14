@@ -12,8 +12,8 @@
 */
 
 :root {
-  --ds-color-bg: #ffffff;
-  --ds-color-surface: #ffffff;
+  --ds-color-bg: var(--ds-color-text-inverse);
+  --ds-color-surface: var(--ds-color-text-inverse);
 }
 
 /* Collapsed FAQ details should not show empty padding below the summary */

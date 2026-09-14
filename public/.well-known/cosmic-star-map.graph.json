@@ -35,13 +35,49 @@
     {
       "group": "nodes",
       "data": {
-        "id": "planet:/:Ganymede:what-controls",
-        "label": "Ganymede",
+        "id": "planet:/:Ixion:how-forge-works",
+        "label": "Ixion",
         "kind": "planet",
-        "cosmicName": "Ganymede",
+        "cosmicName": "Ixion",
+        "route": "/",
+        "pin": "1.0.0",
+        "sectionId": "how-forge-works"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Hyperion:what-forge-does",
+        "label": "Hyperion",
+        "kind": "planet",
+        "cosmicName": "Hyperion",
         "route": "/",
         "pin": "1.5.0",
-        "sectionId": "what-controls"
+        "sectionId": "what-forge-does"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Ixion:plugins",
+        "label": "Ixion",
+        "kind": "planet",
+        "cosmicName": "Ixion",
+        "route": "/",
+        "pin": "1.0.0",
+        "sectionId": "plugins"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/:Hyperion:available-plugins",
+        "label": "Hyperion",
+        "kind": "planet",
+        "cosmicName": "Hyperion",
+        "route": "/",
+        "pin": "1.5.0",
+        "sectionId": "available-plugins"
       }
     },
     {
@@ -59,10 +95,10 @@
     {
       "group": "nodes",
       "data": {
-        "id": "planet:/:Dione:quick-start",
-        "label": "Dione",
+        "id": "planet:/:Hyperion:quick-start",
+        "label": "Hyperion",
         "kind": "planet",
-        "cosmicName": "Dione",
+        "cosmicName": "Hyperion",
         "route": "/",
         "pin": "1.5.0",
         "sectionId": "quick-start"
@@ -71,37 +107,33 @@
     {
       "group": "nodes",
       "data": {
-        "id": "planet:/:Hyperion:architecture",
+        "id": "planet:/:Hyperion:faq",
         "label": "Hyperion",
         "kind": "planet",
         "cosmicName": "Hyperion",
         "route": "/",
         "pin": "1.5.0",
-        "sectionId": "architecture"
+        "sectionId": "faq"
       }
     },
     {
       "group": "nodes",
       "data": {
-        "id": "planet:/:Hyperion:cli-demo",
-        "label": "Hyperion",
-        "kind": "planet",
-        "cosmicName": "Hyperion",
-        "route": "/",
-        "pin": "1.5.0",
-        "sectionId": "cli-demo"
+        "id": "star:/impressum",
+        "label": "Sirius",
+        "kind": "star",
+        "cosmicName": "Sirius",
+        "route": "/impressum"
       }
     },
     {
       "group": "nodes",
       "data": {
-        "id": "planet:/:Hyperion:footer",
-        "label": "Hyperion",
-        "kind": "planet",
-        "cosmicName": "Hyperion",
-        "route": "/",
-        "pin": "1.5.0",
-        "sectionId": "footer"
+        "id": "star:/datenschutz",
+        "label": "Sirius",
+        "kind": "star",
+        "cosmicName": "Sirius",
+        "route": "/datenschutz"
       }
     },
     {
@@ -125,9 +157,36 @@
     {
       "group": "edges",
       "data": {
-        "id": "edge-star:/--planet:/:Ganymede:what-controls",
+        "id": "edge-star:/--planet:/:Ixion:how-forge-works",
         "source": "star:/",
-        "target": "planet:/:Ganymede:what-controls",
+        "target": "planet:/:Ixion:how-forge-works",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Hyperion:what-forge-does",
+        "source": "star:/",
+        "target": "planet:/:Hyperion:what-forge-does",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Ixion:plugins",
+        "source": "star:/",
+        "target": "planet:/:Ixion:plugins",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/--planet:/:Hyperion:available-plugins",
+        "source": "star:/",
+        "target": "planet:/:Hyperion:available-plugins",
         "weight": 2
       }
     },
@@ -143,37 +202,37 @@
     {
       "group": "edges",
       "data": {
-        "id": "edge-star:/--planet:/:Dione:quick-start",
+        "id": "edge-star:/--planet:/:Hyperion:quick-start",
         "source": "star:/",
-        "target": "planet:/:Dione:quick-start",
+        "target": "planet:/:Hyperion:quick-start",
         "weight": 2
       }
     },
     {
       "group": "edges",
       "data": {
-        "id": "edge-star:/--planet:/:Hyperion:architecture",
+        "id": "edge-star:/--planet:/:Hyperion:faq",
         "source": "star:/",
-        "target": "planet:/:Hyperion:architecture",
+        "target": "planet:/:Hyperion:faq",
         "weight": 2
       }
     },
     {
       "group": "edges",
       "data": {
-        "id": "edge-star:/--planet:/:Hyperion:cli-demo",
-        "source": "star:/",
-        "target": "planet:/:Hyperion:cli-demo",
-        "weight": 2
+        "id": "edge-constellation:forge-site--star:/impressum",
+        "source": "constellation:forge-site",
+        "target": "star:/impressum",
+        "weight": 3
       }
     },
     {
       "group": "edges",
       "data": {
-        "id": "edge-star:/--planet:/:Hyperion:footer",
-        "source": "star:/",
-        "target": "planet:/:Hyperion:footer",
-        "weight": 2
+        "id": "edge-constellation:forge-site--star:/datenschutz",
+        "source": "constellation:forge-site",
+        "target": "star:/datenschutz",
+        "weight": 3
       }
     }
   ]
