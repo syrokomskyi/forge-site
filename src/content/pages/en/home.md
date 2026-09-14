@@ -115,8 +115,8 @@ blocks:
       body:
         kind: comparison
         labels:
-          left: "Forge IS"
-          right: "Forge IS NOT"
+          left: "Forge IS NOT"
+          right: "Forge IS"
         rows:
           - left: "Engineering control layer for AI-assisted development"
             right: "A code generator or AI coding assistant"
