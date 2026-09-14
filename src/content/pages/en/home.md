@@ -118,14 +118,14 @@ blocks:
           left: "Forge IS NOT"
           right: "Forge IS"
         rows:
-          - left: "Engineering control layer for AI-assisted development"
-            right: "A code generator or AI coding assistant"
-          - left: "Project contracts, decisions, and workflows that stay in the repo"
-            right: "A replacement for your IDE or agent"
-          - left: "Verification gates that enforce rules automatically"
-            right: "A lock-in to a specific model or vendor"
-          - left: "Framework-agnostic: works with any AI tool"
-            right: "A runtime dependency in your production app"
+          - left: "A code generator or AI coding assistant"
+            right: "Engineering control layer for AI-assisted development"
+          - left: "A replacement for your IDE or agent"
+            right: "Project contracts, decisions, and workflows that stay in the repo"
+          - left: "A lock-in to a specific model or vendor"
+            right: "Verification gates that enforce rules automatically"
+          - left: "A runtime dependency in your production app"
+            right: "Framework-agnostic: works with any AI tool"
   - id: quick-start
     type: markdown
     props:
