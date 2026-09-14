@@ -6,7 +6,8 @@ mirrors:
     storageType: non-bare
   - path: ../systems-git/forge-site
     storageType: bare
-pinnedPlatform: 6.289.6
+pinnedPlatform: 6.289.13
 status: active
 registeredAt: 2026-09-13T15:04:31.824Z
 notes: ""
+
