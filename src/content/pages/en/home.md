@@ -102,7 +102,6 @@ blocks:
         | `@warpgogol/werkstatt-phaser-game` | Phaser + Vite + Turborepo — browser games | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-phaser-game) |
         | `@warpgogol/werkstatt-godot-game` | Godot 4.x + C# — desktop and mobile games | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-godot-game) |
         | `@warpgogol/werkstatt-knowledge` | Evidence-backed knowledge bases | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-knowledge) |
-        | `@warpgogol/werkstatt-video` | Video production — Editframe stack | [npm](https://www.npmjs.com/package/@warpgogol/werkstatt-video) |
 
         Each plugin registers stack-specific validators, skills, and commands. Install the one that matches your stack — or build your own by declaring a `forge.plugin.yaml` manifest in your package.
   - id: is-not
