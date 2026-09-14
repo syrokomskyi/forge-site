@@ -1,19 +1,88 @@
 /*
 <MODULE_CONTRACT>
-<purpose>Project-specific CSS extensions. Empty by default; add overrides here when the app diverges from the shared scaffold.</purpose>
+<purpose>Forge visual identity (ADR-0080). Overrides the biome palette with a dark-first color system, Inter + JetBrains Mono typography, and Forge spacing/radius tokens.</purpose>
 <non-goals>
-  <item>Do not redefine tokens already owned by the biome or scaffold template.</item>
+  <item>Do not redefine tokens already owned by the biome or scaffold template unless overriding for Forge identity.</item>
 </non-goals>
 </MODULE_CONTRACT>
 <CHANGE_SUMMARY>
-  <item>Created as placeholder for future app-specific overrides.</item>
-  <item>Override --ds-color-bg to pure white for all sections.</item>
+  <item>ADR-0080: Forge dark-first color palette, typography, spacing, radius.</item>
 </CHANGE_SUMMARY>
 */
 
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+
 :root {
-  --ds-color-bg: var(--ds-color-text-inverse);
-  --ds-color-surface: var(--ds-color-text-inverse);
+  /* Forge color palette (ADR-0080) */
+  --forge-primary: #1a1a2e;
+  --forge-accent: #e94560;
+  --forge-surface: #16213e;
+  --forge-text: #f0f0f0;
+  --forge-muted: #a0a0b0;
+  --forge-code: #0f3460;
+  --forge-success: #4ade80;
+  --forge-warning: #fbbf24;
+  --forge-error: #f87171;
+
+  /* Forge spacing system (4px grid) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  /* Forge border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Override biome tokens with Forge identity */
+  --ds-color-primary: var(--forge-accent);
+  --ds-color-secondary: var(--forge-primary);
+  --ds-color-text-inverse: var(--forge-primary);
+  --ds-color-accent: var(--forge-accent);
+  --ds-color-bg: var(--forge-primary);
+  --ds-color-surface: var(--forge-surface);
+  --ds-color-text: var(--forge-text);
+  --ds-color-text-muted: var(--forge-muted);
+  --ds-color-text-quiet: var(--forge-muted);
+  --ds-color-border: var(--forge-code);
+  --ds-color-success: var(--forge-success);
+  --ds-color-warning-strong: var(--forge-warning);
+  --ds-color-danger: var(--forge-error);
+  --ds-color-info: var(--forge-code);
+  --ds-color-cta: var(--forge-accent);
+  --ds-color-cta-hover: #ff5a75;
+  --ds-color-cta-text: var(--forge-text);
+  --ds-color-card-bg: var(--forge-surface);
+  --ds-color-card-border: var(--forge-code);
+  --ds-color-surface-alt: var(--forge-code);
+  --ds-color-surface-glass: rgba(22, 33, 62, 0.96);
+  --ds-color-hero-text: var(--forge-text);
+  --ds-color-section-alt-base: var(--forge-surface);
+  --ds-color-section-alt-text: var(--forge-text);
+  --ds-color-section-alt-text-soft: var(--forge-muted);
+  --ds-color-section-alt-link: var(--forge-accent);
+  --ds-color-section-alt-link-hover: #ff5a75;
+  --ds-color-section-alt-accent: var(--forge-accent);
+  --ds-color-text-soft-on-dark: rgba(240, 240, 240, 0.94);
+  --ds-color-text-inverse-84: rgba(26, 26, 46, 0.84);
+  --ds-color-text-primary: var(--forge-text);
+  --ds-color-text-secondary: var(--forge-muted);
+
+  /* Typography: Inter for headings + body, JetBrains Mono for code */
+  --ds-font-heading: "Inter", system-ui, sans-serif;
+  --ds-font-body: "Inter", system-ui, sans-serif;
+  --ds-font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Dark-first color scheme */
+  color-scheme: dark;
 }
 
 /* Collapsed FAQ details should not show empty padding below the summary */
