@@ -7,7 +7,7 @@ meta:
   schemaVersion: 1
   deterministic: true
   generatedAt: null
-  contentHash: 20a47db69aef25b1298d5292c1eff8c39a4feddbc37c4586c29cc3ce6f48faca
+  contentHash: 0c3d4f40a698572b2899317039a8659e34b6904cc64eeb6cff0ff5dfa322b506
 site: forge-site
 routes:
   - route: /
@@ -79,6 +79,84 @@ routes:
     jsonld: []
     breadcrumbDepth: null
     robotsMeta: noindex,follow
+    inSitemap: false
+    hasMarkdownTwin: false
+  - route: /datenschutz/
+    lang: default
+    title: Datenschutzerklärung
+    metaDescription: Datenschutzerklärung - DSGVO-konforme Informationen zur Datenverarbeitung
+    canonical: https://forge.warpgogol.com/datenschutz/
+    hreflang:
+      en: https://forge.warpgogol.com/datenschutz
+      x-default: https://forge.warpgogol.com/datenschutz
+    og:
+      og:type: website
+      og:title: Datenschutzerklärung
+      og:description: Datenschutzerklärung - DSGVO-konforme Informationen zur Datenverarbeitung
+      og:url: https://forge.warpgogol.com/datenschutz/
+      og:site_name: Forge
+      og:locale: en_US
+      og:image: https://forge.warpgogol.com/preview/en/datenschutz.png
+      og:image:width: "1200"
+      og:image:height: "630"
+      og:image:alt: Datenschutzerklärung
+    twitter:
+      twitter:card: summary_large_image
+      twitter:title: Datenschutzerklärung
+      twitter:description: Datenschutzerklärung - DSGVO-konforme Informationen zur Datenverarbeitung
+      twitter:image: https://forge.warpgogol.com/preview/en/datenschutz.png
+    jsonld:
+      - type: BreadcrumbList
+      - type: Organization+ProfessionalService
+        name: Forge
+        url: https://forge.warpgogol.com/
+      - type: WebPage
+        name: Datenschutzerklärung
+        url: https://forge.warpgogol.com/datenschutz/
+      - type: WebSite
+        name: Forge
+        url: https://forge.warpgogol.com/
+    breadcrumbDepth: 2
+    robotsMeta: null
+    inSitemap: false
+    hasMarkdownTwin: false
+  - route: /impressum/
+    lang: default
+    title: Impressum
+    metaDescription: Impressum - Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)
+    canonical: https://forge.warpgogol.com/impressum/
+    hreflang:
+      en: https://forge.warpgogol.com/impressum
+      x-default: https://forge.warpgogol.com/impressum
+    og:
+      og:type: website
+      og:title: Impressum
+      og:description: Impressum - Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)
+      og:url: https://forge.warpgogol.com/impressum/
+      og:site_name: Forge
+      og:locale: en_US
+      og:image: https://forge.warpgogol.com/preview/en/impressum.png
+      og:image:width: "1200"
+      og:image:height: "630"
+      og:image:alt: Impressum
+    twitter:
+      twitter:card: summary_large_image
+      twitter:title: Impressum
+      twitter:description: Impressum - Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)
+      twitter:image: https://forge.warpgogol.com/preview/en/impressum.png
+    jsonld:
+      - type: BreadcrumbList
+      - type: Organization+ProfessionalService
+        name: Forge
+        url: https://forge.warpgogol.com/
+      - type: WebPage
+        name: Impressum
+        url: https://forge.warpgogol.com/impressum/
+      - type: WebSite
+        name: Forge
+        url: https://forge.warpgogol.com/
+    breadcrumbDepth: 2
+    robotsMeta: null
     inSitemap: false
     hasMarkdownTwin: false
 headers:
