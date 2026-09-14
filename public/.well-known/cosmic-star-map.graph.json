@@ -129,11 +129,35 @@
     {
       "group": "nodes",
       "data": {
+        "id": "planet:/impressum:Hyperion:content",
+        "label": "Hyperion",
+        "kind": "planet",
+        "cosmicName": "Hyperion",
+        "route": "/impressum",
+        "pin": "1.5.0",
+        "sectionId": "content"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
         "id": "star:/datenschutz",
         "label": "Sirius",
         "kind": "star",
         "cosmicName": "Sirius",
         "route": "/datenschutz"
+      }
+    },
+    {
+      "group": "nodes",
+      "data": {
+        "id": "planet:/datenschutz:Hyperion:content",
+        "label": "Hyperion",
+        "kind": "planet",
+        "cosmicName": "Hyperion",
+        "route": "/datenschutz",
+        "pin": "1.5.0",
+        "sectionId": "content"
       }
     },
     {
@@ -229,10 +253,28 @@
     {
       "group": "edges",
       "data": {
+        "id": "edge-star:/impressum--planet:/impressum:Hyperion:content",
+        "source": "star:/impressum",
+        "target": "planet:/impressum:Hyperion:content",
+        "weight": 2
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
         "id": "edge-constellation:forge-site--star:/datenschutz",
         "source": "constellation:forge-site",
         "target": "star:/datenschutz",
         "weight": 3
+      }
+    },
+    {
+      "group": "edges",
+      "data": {
+        "id": "edge-star:/datenschutz--planet:/datenschutz:Hyperion:content",
+        "source": "star:/datenschutz",
+        "target": "planet:/datenschutz:Hyperion:content",
+        "weight": 2
       }
     }
   ]
