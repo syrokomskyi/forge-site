@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
   "appId": "forge-site",
-  "issuedAt": "2026-09-14T01:57:18.971Z",
+  "issuedAt": "2026-09-14T16:56:17.494Z",
   "composition": {
-    "systemHash": "sha256:bd110d192e210ca998fcc4fd802c0ad2c54cab15ccbd1d8788e55a2dc1aa14d1",
+    "systemHash": "sha256:ce673668913678faba8c2989c1642e70bff5b68b4e7abc84ee66e99db9ff1eb7",
     "constellation": "forge-site",
     "biome": "handwerk-material-warm",
     "stars": [
@@ -53,8 +53,8 @@
   },
   "provenance": {
     "commitSha": "unknown",
-    "commitAt": "2026-09-14T01:57:18.971Z",
-    "builtAt": "2026-09-14T01:57:18.971Z",
+    "commitAt": "2026-09-14T16:56:17.494Z",
+    "builtAt": "2026-09-14T16:56:17.494Z",
     "buildDurationMs": 1,
     "builder": "local",
     "keyVersion": "v1",
@@ -67,18 +67,18 @@
         "CosmicPassportCredential"
       ],
       "issuer": "did:web:forge-site.example.org",
-      "issuanceDate": "2026-09-14T01:57:18.971Z",
+      "issuanceDate": "2026-09-14T16:56:17.494Z",
       "credentialSubject": {
         "id": "urn:warpgogol:app:forge-site",
-        "systemHash": "sha256:bd110d192e210ca998fcc4fd802c0ad2c54cab15ccbd1d8788e55a2dc1aa14d1",
+        "systemHash": "sha256:ce673668913678faba8c2989c1642e70bff5b68b4e7abc84ee66e99db9ff1eb7",
         "commitSha": "unknown"
       },
       "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2026-09-14T01:57:18.971Z",
+        "created": "2026-09-14T16:56:17.494Z",
         "verificationMethod": "did:web:forge-site.example.org#key-v1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z5DWteU3oNK11hbJhNBWJrTot6sBa7jN1Z4cW4jQZxp4o4cwXWGtny4o6ARNZhbe3E4BNgfnzFHNXE8uXTqk4MTAc"
+        "proofValue": "z3RnX2s8MEcGaYYV11YB5bPzFNxPw7rPnTNREfac8AgVd8Z7YhisgnBBKGcoryvEhMYFF8yUxQL36LajSLTuwX4v9"
       }
     }
   },
