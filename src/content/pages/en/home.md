@@ -121,11 +121,11 @@ blocks:
           - left: "Engineering control layer for AI-assisted development"
             right: "A code generator or AI coding assistant"
           - left: "Project contracts, decisions, and workflows that stay in the repo"
-            right: "A replacement for your IDE or agent"
-          - left: "Verification gates that enforce rules automatically"
-            right: "A lock-in to a specific model or vendor"
-          - left: "Framework-agnostic: works with any AI tool"
             right: "A runtime dependency in your production app"
+          - left: "Verification gates that enforce rules automatically"
+            right: "A replacement for your IDE or agent"
+          - left: "Framework-agnostic: works with any AI tool"
+            right: "A lock-in to a specific model or vendor"
   - id: quick-start
     type: markdown
     props:
