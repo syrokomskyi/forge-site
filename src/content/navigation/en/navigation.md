@@ -41,9 +41,9 @@ targets:
       href: "https://github.com/syrokomskyi/forge/blob/main/LICENSE"
     group: legal
   - id: email
-    label: "hi@warpgogol.com"
+    label: "andrii@syrokomskyi.com"
     semanticTarget:
       kind: external
-      href: "mailto:hi@warpgogol.com"
+      href: "mailto:andrii@syrokomskyi.com"
     group: contact
 ---

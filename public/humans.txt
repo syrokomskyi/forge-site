@@ -2,7 +2,7 @@
 /* TEAM */
 Studio: Warpgogol
 Site: forge.warpgogol.com
-Contact: mailto:hi@warpgogol.com
+Contact: mailto:andrii@syrokomskyi.com
 
 /* AUTHORS AND CREDITS */
 Credits: See /credits/ and public material-credit disclosures.

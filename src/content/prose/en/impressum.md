@@ -16,7 +16,7 @@ Elly-Heuss-Knapp-Weg 29
 
 **Kontakt:**
 
-E-Mail: [hi@warpgogol.com](mailto:hi@warpgogol.com)
+E-Mail: [andrii@syrokomskyi.com](mailto:andrii@syrokomskyi.com)
 
 **Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:**
 

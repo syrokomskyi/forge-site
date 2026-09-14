@@ -12,6 +12,6 @@
 ## Organization
 - Canonical URI: https://forge.warpgogol.com/.well-known/entity/business
 - Name: 
-- Email: hi@warpgogol.com
+- Email: andrii@syrokomskyi.com
 - Address: Elly-Heuss-Knapp-Weg 29, 71522, Backnang, DE
-- Contact points: email — hi@warpgogol.com
+- Contact points: email — andrii@syrokomskyi.com

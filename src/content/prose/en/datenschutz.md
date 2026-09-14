@@ -16,7 +16,7 @@ Andrii Syrokomskyi
 Elly-Heuss-Knapp-Weg 29  
 71522 Backnang, Deutschland
 
-E-Mail: [hi@warpgogol.com](mailto:hi@warpgogol.com)
+E-Mail: [andrii@syrokomskyi.com](mailto:andrii@syrokomskyi.com)
 
 ## 2. Allgemeines zur Datenverarbeitung
 
@@ -55,7 +55,7 @@ Soweit personenbezogene Daten verarbeitet werden, stehen Ihnen folgende Rechte z
 - **Widerspruch** (Art. 21 DSGVO): Sie können der Verarbeitung Ihrer Daten aufgrund berechtigten Interesses widersprechen.
 - **Beschwerde:** Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Die zuständige Aufsichtsbehörde für Baden-Württemberg ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI BW), Lautenschlagerstraße 20, 70173 Stuttgart, [https://www.baden-wuerttemberg.datenschutz.de](https://www.baden-wuerttemberg.datenschutz.de).
 
-Anfragen richten Sie bitte per E-Mail an: [hi@warpgogol.com](mailto:hi@warpgogol.com)
+Anfragen richten Sie bitte per E-Mail an: [andrii@syrokomskyi.com](mailto:andrii@syrokomskyi.com)
 
 ## 5. Aktualität dieser Datenschutzerklärung
 
