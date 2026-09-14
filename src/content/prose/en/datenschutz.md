@@ -64,5 +64,5 @@ blocks:
 
         ## 5. Aktualität dieser Datenschutzerklärung
 
-        Diese Datenschutzerklärung ist aktuell gültig und datiert vom September 2026. Sie wird bei Änderungen am Dienst oder bei Änderungen der rechtlichen Rahmenbedingungen aktualisiert.
+        Diese Datenschutzerklärung ist aktuell gültig und datiert vom September 2026. Sie wird bei Änderungen am Dienst oder bei Änderungen der rechtlichen Rahmenbedingungen aktualisiert
 ---

@@ -2,7 +2,7 @@
 canonical: "https://forge.warpgogol.com/"
 language: "en"
 lastModified: "2026-09-13"
-contentHash: "sha256:081a59b2679936dc1996782525a81f77f060605ae299c38b9a2be7fe9a33364c"
+contentHash: "sha256:7610eff9dcbb57fd5e74e77836bc66799bb3ea8220b22435f3748588bacdf6b9"
 license: "https://forge.warpgogol.com/ai.txt"
 generator: "page.markdown.generate"
 sourceKind: "page"
@@ -24,7 +24,7 @@ schema: "gogol.markdown-twin@2"
 
 ## Summary
 
-Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
 ## Business context
 
@@ -33,14 +33,14 @@ Engineering rules stay with the project — regardless of which agent, model, or
 ### What Forge is — and what it isn't
 ### Start in one command
 
-No terminal needed — just tell your AI agent what to build.
+Without a terminal — just tell your AI agent what to build
 ### FAQ
 
 ## Data / APIs
 
-### AI can write the code. Forge keeps the project engineered.
+### AI can write the code. Forge keeps the project engineered
 
-Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
 #### CTA: Get started
 
@@ -48,7 +48,7 @@ Engineering rules stay with the project — regardless of which agent, model, or
 
 ### Five planes of engineering control
 
-Forge keeps engineering decisions in the project, not in the agent's memory.
+Forge keeps engineering decisions in the project, not in the agent's memory
 
 #### 01. Contracts
 
@@ -72,7 +72,7 @@ DNA invariants that govern how the project itself changes — forward-only migra
 
 ### Extend Forge with stack-specific rules and skills
 
-Plugins add validators, skills, and commands tailored to your stack — without modifying Forge itself.
+Plugins add validators, skills, and commands tailored to your stack — without modifying Forge itself
 
 #### 01. Stack validators
 

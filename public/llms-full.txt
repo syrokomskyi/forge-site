@@ -13,14 +13,14 @@ Forge is the engineering control layer for AI-assisted development. Contracts, d
 - Region: Baden-Württemberg
 - Country: DE
 
-## AI can write the code. Forge keeps the project engineered.
+## AI can write the code. Forge keeps the project engineered
 URL: https://forge.warpgogol.com/
 Description: Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.
-Lead: Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+Lead: Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
-### AI can write the code. Forge keeps the project engineered.
+### AI can write the code. Forge keeps the project engineered
 
-Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
+Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
 - CTA: Get started
 
@@ -28,7 +28,7 @@ Engineering rules stay with the project — regardless of which agent, model, or
 
 ### Five planes of engineering control
 
-Forge keeps engineering decisions in the project, not in the agent's memory.
+Forge keeps engineering decisions in the project, not in the agent's memory
 
 - 01. Contracts: Project rules that agents must follow — naming, structure, boundaries, and conventions enforced at every session.
 
@@ -42,7 +42,7 @@ Forge keeps engineering decisions in the project, not in the agent's memory.
 
 ### Extend Forge with stack-specific rules and skills
 
-Plugins add validators, skills, and commands tailored to your stack — without modifying Forge itself.
+Plugins add validators, skills, and commands tailored to your stack — without modifying Forge itself
 
 - 01. Stack validators: Plugins register check commands that enforce stack-specific invariants — tsconfig strictness, import boundaries, barrel exports, phantom dependencies — on every commit.
 
@@ -52,4 +52,4 @@ Plugins add validators, skills, and commands tailored to your stack — without 
 
 ### Start in one command
 
-No terminal needed — just tell your AI agent what to build.
+Without a terminal — just tell your AI agent what to build
