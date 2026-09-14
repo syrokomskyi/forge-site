@@ -12,9 +12,7 @@ datePublished: "2026-09-13"
 
 Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
 
-Andrii Syrokomskyi  
-Elly-Heuss-Knapp-Weg 29  
-71522 Backnang, Deutschland
+Andrii Syrokomskyi<br> Elly-Heuss-Knapp-Weg 29<br> 71522 Backnang, Deutschland
 
 E-Mail: [andrii@syrokomskyi.com](mailto:andrii@syrokomskyi.com)
 
@@ -24,7 +22,7 @@ Diese Website dient ausschließlich der Veröffentlichung einer Produkt-Landingp
 
 Die Verarbeitung personenbezogener Daten erfolgt nur, soweit dies technisch für den Betrieb der Website erforderlich ist.
 
-## 3. Hosting und Content Delivery Network (Cloudflare)
+## 3. Hosting und Content Delivery Network — Cloudflare
 
 Diese Website wird über das Content Delivery Network (CDN) von Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA (europäische Niederlassung: Cloudflare Germany GmbH, Rosental 7, c/o Mindspace, 80331 München) ausgeliefert.
 
@@ -38,7 +36,7 @@ Wenn Sie unsere Website aufrufen, wird Ihre Anfrage über Server von Cloudflare 
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 Buchstabe f DSGVO (berechtigtes Interesse an einer sicheren, schnellen und zuverlässigen Auslieferung der Website).
 
-**Drittlandübermittlung:** Cloudflare ist ein US-amerikanisches Unternehmen und im EU-US Data Privacy Framework (DPF) zertifiziert. Zusätzlich hat Cloudflare EU-Standardvertragsklauseln (SCCs) abgeschlossen. Weitere Informationen zum Datenschutz bei Cloudflare: [https://www.cloudflare.com/de-de/privacypolicy/](https://www.cloudflare.com/de-de/privacypolicy/)
+**Drittlandübermittlung:** Cloudflare ist ein US-amerikanisches Unternehmen und im EU-US Data Privacy Framework (DPF) zertifiziert. Zusätzlich hat Cloudflare EU-Standardvertragsklauseln (SCCs) abgeschlossen. Weitere Informationen zum Datenschutz bei Cloudflare: [Cloudflare Datenschutzerklärung](https://www.cloudflare.com/de-de/privacypolicy/)
 
 **Auftragsverarbeitung:** Mit Cloudflare wurde ein Vertrag zur Auftragsverarbeitung gemäß Art. 28 DSGVO abgeschlossen.
 
@@ -53,7 +51,7 @@ Soweit personenbezogene Daten verarbeitet werden, stehen Ihnen folgende Rechte z
 - **Löschung** (Art. 17 DSGVO): Sie können die Löschung Ihrer Daten verlangen, sofern keine Aufbewahrungspflichten entgegenstehen.
 - **Einschränkung** (Art. 18 DSGVO): Sie können die Verarbeitung Ihrer Daten einschränken lassen.
 - **Widerspruch** (Art. 21 DSGVO): Sie können der Verarbeitung Ihrer Daten aufgrund berechtigten Interesses widersprechen.
-- **Beschwerde:** Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Die zuständige Aufsichtsbehörde für Baden-Württemberg ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI BW), Lautenschlagerstraße 20, 70173 Stuttgart, [https://www.baden-wuerttemberg.datenschutz.de](https://www.baden-wuerttemberg.datenschutz.de).
+- **Beschwerde:** Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Die zuständige Aufsichtsbehörde für Baden-Württemberg ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI BW), Lautenschlagerstraße 20, 70173 Stuttgart, [LfDI Baden-Württemberg](https://www.baden-wuerttemberg.datenschutz.de).
 
 Anfragen richten Sie bitte per E-Mail an: [andrii@syrokomskyi.com](mailto:andrii@syrokomskyi.com)
 
