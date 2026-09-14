@@ -45,7 +45,7 @@
   /* Override biome tokens with Forge identity */
   --ds-color-primary: var(--forge-accent);
   --ds-color-secondary: var(--forge-primary);
-  --ds-color-text-inverse: var(--forge-primary);
+  --ds-color-text-inverse: var(--forge-text);
   --ds-color-accent: var(--forge-accent);
   --ds-color-bg: var(--forge-primary);
   --ds-color-surface: var(--forge-surface);
@@ -72,7 +72,7 @@
   --ds-color-section-alt-link-hover: #ff5a75;
   --ds-color-section-alt-accent: var(--forge-accent);
   --ds-color-text-soft-on-dark: rgba(240, 240, 240, 0.94);
-  --ds-color-text-inverse-84: rgba(26, 26, 46, 0.84);
+  --ds-color-text-inverse-84: rgba(240, 240, 240, 0.84);
   --ds-color-text-primary: var(--forge-text);
   --ds-color-text-secondary: var(--forge-muted);
 
@@ -83,6 +83,33 @@
 
   /* Dark-first color scheme */
   color-scheme: dark;
+}
+
+body {
+  background-color: var(--ds-color-bg);
+}
+
+/* Map non-standard --color-* tokens (entity-grid component) to Forge palette */
+:root {
+  --color-surface: var(--forge-surface);
+  --color-border: var(--forge-code);
+  --color-text: var(--forge-text);
+  --color-text-muted: var(--forge-muted);
+}
+
+/* Dark-first texture: replace light blueprint SVG with dark variant on textured surfaces */
+.site-header--textured,
+.footer--textured {
+  background-image: url("/textures/section-noise-dark.svg");
+}
+
+/* Override Shiki github-light theme for dark-first identity */
+pre.shiki.github-light {
+  background-color: var(--forge-code) !important;
+  color: var(--forge-text) !important;
+}
+pre.shiki.github-light code {
+  color: var(--forge-text) !important;
 }
 
 /* Collapsed FAQ details should not show empty padding below the summary */
