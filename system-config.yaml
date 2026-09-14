@@ -6,8 +6,21 @@ mirrors:
     storageType: non-bare
   - path: ../systems-git/forge-site
     storageType: bare
+  - path: git@github.com:syrokomskyi/forge-site.git
+    storageType: bare
 pinnedPlatform: 6.289.47
 status: active
 registeredAt: 2026-09-13T15:04:31.824Z
 notes: ""
-
+deployment:
+  adapter: github-pages
+  channels:
+    dev:
+      workerName: syrokomskyi/forge-site
+      url: https://syrokomskyi.github.io/forge-site
+    alt:
+      workerName: syrokomskyi/forge-site
+      url: https://syrokomskyi.github.io/forge-site
+    main:
+      workerName: syrokomskyi/forge-site
+      url: https://syrokomskyi.github.io/forge-site
