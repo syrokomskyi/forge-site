@@ -30,7 +30,8 @@ footer:
 copyright:
   symbol: "©"
   yearFirst: 2026
-  holder: "Warpgogol"
+  holder: "syrokomskyi.com"
+  holderHref: "https://syrokomskyi.com"
 langSwitcher:
   switchAriaLabel: "Switch language from {currentLang} to {lang}"
 breadcrumbs:
@@ -79,7 +80,7 @@ materialCredits:
   usedOnLabel: "Used on"
   verifiedAtLabel: "Verified at"
   noPreviewLabel: "None preview"
-  copyrightExplanation: "Copyright © Warpgogol. All rights reserved unless otherwise stated."
+  copyrightExplanation: "Copyright © syrokomskyi.com. All rights reserved unless otherwise stated."
   statusLabels:
     active: "Active"
     orphaned: "Orphaned"
