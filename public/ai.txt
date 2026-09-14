@@ -1,6 +1,6 @@
 # ai.txt for forge.warpgogol.com
 # AI training and usage policy
-# Contact: mailto:andrii@syrokomskyi.com
+# Contact: mailto:hi@warpgogol.com
 
 version: 1.0
 updated: 2026-07-06
@@ -12,4 +12,4 @@ usage: inference, indexing, snippet-generation, summarization, translation
 commercial: yes
 attribution: optional
 license: Site content remains under its published rights and credits.
-contact: mailto:andrii@syrokomskyi.com
+contact: mailto:hi@warpgogol.com

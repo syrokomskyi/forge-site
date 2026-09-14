@@ -30,11 +30,11 @@ Diese Website wird über das Content Delivery Network (CDN) von Cloudflare, Inc.
 
 Wenn Sie unsere Website aufrufen, wird Ihre Anfrage über Server von Cloudflare geleitet. Dabei können folgende Daten technisch verarbeitet werden:
 
-- IP-Adresse des anfragenden Geräts (durch Cloudflare für Sicherheits- und Lastverteilungszwecke)
-- Zeitpunkt der Anfrage
-- Aufgerufene Seite / Ressource
-- Browsertyp und Betriebssystem
-- Referrer-URL
+- IP-Adresse des anfragenden Geräts (durch Cloudflare für Sicherheits- und Lastverteilungszwecke).
+- Zeitpunkt der Anfrage.
+- Aufgerufene Seite / Ressource.
+- Browsertyp und Betriebssystem.
+- Referrer-URL.
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 Buchstabe f DSGVO (berechtigtes Interesse an einer sicheren, schnellen und zuverlässigen Auslieferung der Website).
 
