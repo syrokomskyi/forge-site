@@ -1,6 +1,6 @@
 
 /* TEAM */
-Studio: Warpgogol
+Studio: Andrii Syrokomskyi
 Site: forge.warpgogol.com
 Contact: mailto:andrii@syrokomskyi.com
 
