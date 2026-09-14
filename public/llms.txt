@@ -7,7 +7,7 @@
 > OpenAPI 3.1 specification: [agent.openapi.json](https://forge.warpgogol.com/.well-known/agent.openapi.json).
 
 ## Primary sources
-- [AI can write the code. Forge keeps the project engineered](https://forge.warpgogol.com/): Engineering rules stay with the project — regardless of which agent, model, or IDE you use
+- [AI can write the code. Forge keeps the project engineered.](https://forge.warpgogol.com/): Engineering rules stay with the project — regardless of which agent, model, or IDE you use.
 
 ## Organization
 - Canonical URI: https://forge.warpgogol.com/.well-known/entity/business

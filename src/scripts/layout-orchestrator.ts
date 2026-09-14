@@ -32,8 +32,7 @@ void (async () => {
     "a[href], lord-icon, .js-inline-number, [data-motion-reveal], [data-parallax-speed], [data-motion-stagger], [data-live-photo], video[data-video-player], section[id]";
   if (!document.querySelector(ORCHESTRATED_SELECTOR)) return;
 
-  const { runStandardLayoutOrchestration } =
-    await import("@warpgogol/werkstatt-shared/share/scripts");
+  const { runStandardLayoutOrchestration } = await import("@warpgogol/werkstatt-shared/share/scripts");
 
   // Read orchestrator config from site context (injected by server)
   const siteConfig = (window as any).__SITE_CONFIG ?? {};
@@ -41,7 +40,8 @@ void (async () => {
   const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
   const deviceMemory = (navigator as Navigator & { deviceMemory?: number }).deviceMemory ?? 4;
   const hardwareConcurrency = navigator.hardwareConcurrency ?? 4;
-  const canRunSmoothScroll = !connection?.saveData && deviceMemory >= 4 && hardwareConcurrency >= 4;
+  const canRunSmoothScroll =
+    !connection?.saveData && deviceMemory >= 4 && hardwareConcurrency >= 4;
 
   await runStandardLayoutOrchestration({
     counters: orchestrator.counters ?? false,

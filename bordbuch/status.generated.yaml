@@ -1,23 +1,23 @@
 site: forge-site
 generatedAt: null
-ledgerHash: sha256:c4de1265643fb93026a02e0a3be96b2c723b3348797e806be79a8fec84639224
-eventCount: 4
+ledgerHash: sha256:4f14027c9f155cb64e9159dbe5ea88f9ef20e37195115c604fb6ff481a1677dc
+eventCount: 7
 latestEvent:
   schemaVersion: 1.0.0
-  id: event-000004
-  systemId: forge-warpgogol
-  occurredAt: 2026-09-13T19:58:19.979Z
+  id: event-000007
+  systemId: forge-site
+  occurredAt: 2026-09-13T20:50:53.594Z
   kind: mission-open
   status: done
-  missionId: forge-warpgogol-m000002
+  missionId: forge-site-m000003
   releaseId: null
   actor: unknown
-  summary: Rename Sternsystem ID from forge-warpgogol to forge-site
+  summary: Initial content for forge-site
   metadata:
-    brief: Rename Sternsystem ID from forge-warpgogol to forge-site
+    brief: Initial content for forge-site
     pinAtOpen: 6.289.6
-  previousHash: sha256:3447d576a9a1621f07388484711a06b4a42e85d877c24c66a29078de872ea790
-  hash: sha256:c4de1265643fb93026a02e0a3be96b2c723b3348797e806be79a8fec84639224
+  previousHash: sha256:180ca6ebce52e297dcbbc74fbe81c6e6c132648b56dad2f7e6c1fb17c5843b38
+  hash: sha256:4f14027c9f155cb64e9159dbe5ea88f9ef20e37195115c604fb6ff481a1677dc
 pseo:
   modules: []
   generationQueues: {}
