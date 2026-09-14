@@ -34,7 +34,7 @@ interfaces:
     dimensions: 1024
 proof:
   type: Ed25519Signature2020
-  created: 2026-09-14T17:20:07.918Z
+  created: 2026-09-14T17:45:07.544Z
   verificationMethod: did:web:forge.warpgogol.com#key-v1
   proofPurpose: assertionMethod
   proofValue: z4bD2R8t5FD5n2XqnaD2LLdyzyzo2fT4ckbenC5w4uh9pjD9QxXyWEtbPDwYvbQAZEj9LbTwVaewMja5nj5jF7tpc
