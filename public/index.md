@@ -2,7 +2,7 @@
 canonical: "https://forge.warpgogol.com/"
 language: "en"
 lastModified: "2026-09-13"
-contentHash: "sha256:a1c3abce8b4a14afd30ae1d3f29374f48d909dacd894563a34e3e80beb24c89d"
+contentHash: "sha256:7610eff9dcbb57fd5e74e77836bc66799bb3ea8220b22435f3748588bacdf6b9"
 license: "https://forge.warpgogol.com/ai.txt"
 generator: "page.markdown.generate"
 sourceKind: "page"
@@ -28,9 +28,13 @@ Engineering rules stay with the project — regardless of which agent, model, or
 
 ## Business context
 
+### What Forge does
+### Available plugins
 ### What Forge is — and what it isn't
-### Architecture
-### See it in action
+### Start in one command
+
+Without a terminal — just tell your AI agent what to build
+### FAQ
 
 ## Data / APIs
 
@@ -44,24 +48,44 @@ Engineering rules stay with the project — regardless of which agent, model, or
 
 ### Five planes of engineering control
 
-#### Contracts Project rules that agents must follow
+Forge keeps engineering decisions in the project, not in the agent's memory
 
-#### Decisions RFCs and ADRs that record why
+#### 01. Contracts
 
-#### Workflows Skills that encode team process
+Project rules that agents must follow — naming, structure, boundaries, and conventions enforced at every session.
 
-#### Verification Checks that enforce the rules
+#### 02. Decisions
 
-#### Evolution DNA invariants that govern change
+RFCs and ADRs that record why a choice was made, so the next agent understands the context without asking.
+
+#### 03. Workflows
+
+Skills that encode team process — from onboarding to deployment — as executable markdown agents can follow.
+
+#### 04. Verification
+
+Checks that enforce the rules automatically — typography, content, architecture, and DNA invariants validated on every commit.
+
+#### 05. Evolution
+
+DNA invariants that govern how the project itself changes — forward-only migrations, no silent breaking changes.
+
+### Extend Forge with stack-specific rules and skills
+
+Plugins add validators, skills, and commands tailored to your stack — without modifying Forge itself
+
+#### 01. Stack validators
+
+Plugins register check commands that enforce stack-specific invariants — tsconfig strictness, import boundaries, barrel exports, phantom dependencies — on every commit.
+
+#### 02. Skill packs
+
+Declare project-local skill packs with a custom prefix. Skills are markdown workflows that agents execute step by step — deploy, review, testing, onboarding.
+
+#### 03. Extension points
+
+Plugins can declare custom Compass contract blocks — source-file markers that compass.validate enforces, so your team's conventions become first-class checks.
 
 ## User flows
-
-### Start in one command
-
-#### CTA: pnpm create @warpgogol/forge
-
-#### CTA: npm package
-
-#### CTA: GitHub
 
 ## Constraints

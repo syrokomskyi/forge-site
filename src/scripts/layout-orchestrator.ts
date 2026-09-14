@@ -55,9 +55,10 @@ void (async () => {
     // RFC-0210: feature-video player runtime is self-gating on video[data-video-player]
     // inside runStandardLayoutOrchestration — zero cost when the page has no feature video.
     videoPlayers: orchestrator.videoPlayers ?? true,
-    // RFC-0205: Lenis smooth scroll is opt-in to avoid loading the 17 KB bundle on every page.
+    // RFC-0205: Lenis smooth scroll is enabled by default. Sites can opt out
+    // by setting orchestrator.smoothScroll: false in site/{lang}/labels.md.
     // LH-08: additionally gate Lenis on saveData/deviceMemory/hardwareConcurrency.
-    smoothScroll: (orchestrator.smoothScroll ?? false) && canRunSmoothScroll,
+    smoothScroll: (orchestrator.smoothScroll ?? true) && canRunSmoothScroll,
     // RFC-0932: external-link QR code modal — gated by entitlement, only activates when modal is present.
     externalLinkQrEntitled: orchestrator.externalLinkQrEntitled ?? false,
   });

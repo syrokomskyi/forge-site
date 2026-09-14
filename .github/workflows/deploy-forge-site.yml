@@ -1,0 +1,68 @@
+name: Deploy forge-site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/forge-site/**"
+      - "packages/**"
+  pull_request:
+    branches: [main]
+    paths:
+      - "apps/forge-site/**"
+      - "packages/**"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    name: Build & Deploy forge-site
+    env:
+      TZ: UTC
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          lfs: true
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build prepare (icons, biome CSS, registry)
+        run: pnpm --filter forge-site build.prepare
+
+      - name: Contract full check
+        run: node packages/werkstatt/bin/werkstatt.mjs run app.contract.full --site forge-site
+        env:
+          PASSPORT_SIGNING_KEY: ${{ secrets.PASSPORT_SIGNING_KEY }}
+
+      - name: Build
+        run: pnpm --filter forge-site build
+        env:
+          PASSPORT_SIGNING_KEY: ${{ secrets.PASSPORT_SIGNING_KEY }}
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=forge-site
+          workingDirectory: apps/forge-site

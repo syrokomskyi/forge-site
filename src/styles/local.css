@@ -7,5 +7,16 @@
 </MODULE_CONTRACT>
 <CHANGE_SUMMARY>
   <item>Created as placeholder for future app-specific overrides.</item>
+  <item>Override --ds-color-bg to pure white for all sections.</item>
 </CHANGE_SUMMARY>
 */
+
+:root {
+  --ds-color-bg: var(--ds-color-text-inverse);
+  --ds-color-surface: var(--ds-color-text-inverse);
+}
+
+/* Collapsed FAQ details should not show empty padding below the summary */
+.markdown-section__content details:not([open]) {
+  padding-bottom: 0;
+}

@@ -28,12 +28,36 @@ pages:
     planets:
       - cosmicPlanet: Europa
         pin: 1.5.0
-      - cosmicPlanet: Ganymede
-        pin: 1.5.0
+      - cosmicPlanet: Ixion
+        pin: 1.0.0
       - cosmicPlanet: Janus
         pin: 1.2.0
-      - cosmicPlanet: Dione
+      - cosmicPlanet: Hyperion
         pin: 1.5.0
+  - pageId: impressum
+    semanticType: legal
+    output:
+      sitemap:
+        lastmod: "2026-09-13"
+    routes:
+      en: impressum
+    locales:
+      - en
+    cosmicStar: Sirius
+    planets:
+      - cosmicPlanet: Hyperion
+        pin: 1.5.0
+  - pageId: datenschutz
+    semanticType: legal
+    output:
+      sitemap:
+        lastmod: "2026-09-13"
+    routes:
+      en: datenschutz
+    locales:
+      - en
+    cosmicStar: Sirius
+    planets:
       - cosmicPlanet: Hyperion
         pin: 1.5.0
 ---

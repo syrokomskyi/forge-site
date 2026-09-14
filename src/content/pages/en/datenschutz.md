@@ -1,6 +1,7 @@
 ---
-kind: prose
+kind: page
 pageId: datenschutz
+cosmicStar: Sirius
 title: "Datenschutzerklärung"
 description: "Datenschutzerklärung — DSGVO-konforme Informationen zur Datenverarbeitung"
 lang: en
@@ -13,6 +14,7 @@ blocks:
       hideSectionNumber: true
       heading: "Datenschutzerklärung"
       body: |
+
         ## 1. Verantwortlicher
 
         Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:

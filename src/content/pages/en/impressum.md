@@ -1,6 +1,7 @@
 ---
-kind: prose
+kind: page
 pageId: impressum
+cosmicStar: Sirius
 title: "Impressum"
 description: "Impressum — Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)"
 lang: en
@@ -29,5 +30,5 @@ blocks:
         Elly-Heuss-Knapp-Weg 29
         71522 Backnang, Deutschland
 
-        **Hinweis:** Kein Eintrag in Handels-, Vereins- oder Berufsregister. Keine Umsatzsteuer-Identifikationsnummer (Privatperson, kein Gewerbe). Keine Beteiligung an Verbraucherschlichtungsverfahren (kein B2C-Vertragsverhältnis).
+        **Hinweis:** Kein Eintrag in Handels-, Vereins- oder Berufsregister. Keine Umsatzsteuer-Identifikationsnummer (Privatperson, kein Gewerbe). Keine Beteiligung an Verbraucherschlichtungsverfahren (kein B2C-Vertragsverhältnis)
 ---

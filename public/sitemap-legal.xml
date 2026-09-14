@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <url>
+    <loc>https://forge.warpgogol.com/impressum/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forge.warpgogol.com/impressum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forge.warpgogol.com/impressum/" />
+  </url>
+  <url>
+    <loc>https://forge.warpgogol.com/datenschutz/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forge.warpgogol.com/datenschutz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forge.warpgogol.com/datenschutz/" />
+  </url>
+</urlset>

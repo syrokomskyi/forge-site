@@ -3,25 +3,25 @@
   "site": "forge-site",
   "model": "@cf/baai/bge-m3",
   "dimensions": 1024,
-  "generatedAt": "2026-09-13T20:13:02.804Z",
+  "generatedAt": "2026-09-14T01:56:51.124Z",
   "chunks": [
     {
-      "id": "en:/:architecture",
+      "id": "en:/:available-plugins",
       "url": "/",
       "lang": "en",
       "type": "page",
-      "blockId": "architecture",
-      "heading": "Architecture",
-      "text": "Architecture"
+      "blockId": "available-plugins",
+      "heading": "Available plugins",
+      "text": "Available plugins"
     },
     {
-      "id": "en:/:cli-demo",
+      "id": "en:/:faq",
       "url": "/",
       "lang": "en",
       "type": "page",
-      "blockId": "cli-demo",
-      "heading": "See it in action",
-      "text": "See it in action"
+      "blockId": "faq",
+      "heading": "FAQ",
+      "text": "FAQ"
     },
     {
       "id": "en:/:hero",
@@ -31,6 +31,15 @@
       "blockId": "hero",
       "heading": "AI can write the code. Forge keeps the project engineered",
       "text": "AI can write the code. Forge keeps the project engineered\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use\n\nCTA: Get started\n\nCTA: View on GitHub"
+    },
+    {
+      "id": "en:/:how-forge-works",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "how-forge-works",
+      "heading": "Five planes of engineering control",
+      "text": "Five planes of engineering control\n\nForge keeps engineering decisions in the project, not in the agent's memory\n\n01. Contracts\n\nProject rules that agents must follow — naming, structure, boundaries, and conventions enforced at every session.\n\n02. Decisions\n\nRFCs and ADRs that record why a choice was made, so the next agent understands the context without asking.\n\n03. Workflows\n\nSkills that encode team process — from onboarding to deployment — as executable markdown agents can follow.\n\n04. Verification\n\nChecks that enforce the rules automatically — typography, content, architecture, and DNA invariants validated on every commit.\n\n05. Evolution\n\nDNA invariants that govern how the project itself changes — forward-only migrations, no silent breaking changes."
     },
     {
       "id": "en:/:is-not",
@@ -51,22 +60,31 @@
       "text": "Forge — AI can write the code. Forge keeps the project engineered\n\nForge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use"
     },
     {
+      "id": "en:/:plugins",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "plugins",
+      "heading": "Extend Forge with stack-specific rules and skills",
+      "text": "Extend Forge with stack-specific rules and skills\n\nPlugins add validators, skills, and commands tailored to your stack — without modifying Forge itself\n\n01. Stack validators\n\nPlugins register check commands that enforce stack-specific invariants — tsconfig strictness, import boundaries, barrel exports, phantom dependencies — on every commit.\n\n02. Skill packs\n\nDeclare project-local skill packs with a custom prefix. Skills are markdown workflows that agents execute step by step — deploy, review, testing, onboarding.\n\n03. Extension points\n\nPlugins can declare custom Compass contract blocks — source-file markers that compass.validate enforces, so your team's conventions become first-class checks."
+    },
+    {
       "id": "en:/:quick-start",
       "url": "/",
       "lang": "en",
       "type": "page",
       "blockId": "quick-start",
       "heading": "Start in one command",
-      "text": "Start in one command\n\nCTA: pnpm create @warpgogol/forge\n\nCTA: npm package\n\nCTA: GitHub"
+      "text": "Start in one command\n\nWithout a terminal — just tell your AI agent what to build"
     },
     {
-      "id": "en:/:what-controls",
+      "id": "en:/:what-forge-does",
       "url": "/",
       "lang": "en",
       "type": "page",
-      "blockId": "what-controls",
-      "heading": "Five planes of engineering control",
-      "text": "Five planes of engineering control\n\nContracts Project rules that agents must follow\n\nDecisions RFCs and ADRs that record why\n\nWorkflows Skills that encode team process\n\nVerification Checks that enforce the rules\n\nEvolution DNA invariants that govern change"
+      "blockId": "what-forge-does",
+      "heading": "What Forge does",
+      "text": "What Forge does"
     },
     {
       "id": "en:knowledge:company",
@@ -105,12 +123,12 @@
       "text": "{\"en\":{\"locality\":\"Backnang\",\"region\":\"Baden-Württemberg\",\"country\":\"DE\"}}"
     }
   ],
-  "contentHash": "c3b3728625aac904216fe2dbf11785026e39b1cef2bc3cd320c9d016a5b2b54f",
+  "contentHash": "07319573515f3a863b4e371dd59ec09c1d0df08243097440192500a627612ba8",
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-13T20:13:03.300Z",
+    "created": "2026-09-14T01:56:51.554Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z2ZCxUmQjtGTMu9b6hLnEeGA4H3mhULPfYj6VWDSLNKtQTyTMHKMBnuCGpjuaabrHks43ANqCdW1xuqscRZMJFhp3"
+    "proofValue": "z2R3qMdgkFFUNXuN5YwgD7xCh8C3RTVypu1XXiGVnVjpeTVZmUCUzqhcNcaLyJpAF5VS5VLkLFdJ83reNr2hDrGWp"
   }
 }
