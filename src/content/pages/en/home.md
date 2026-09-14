@@ -145,6 +145,7 @@ blocks:
         **Prefer the terminal?**
 
         ```bash
+        pnpm add -g @warpgogol/forge
         pnpm create @warpgogol/forge my-project
         cd my-project
         pnpm install
