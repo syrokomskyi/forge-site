@@ -5,7 +5,7 @@ type: contact-point
 status: published
 name: "General Contact"
 channel: email
-value: hi@warpgogol.com
+value: andrii@syrokomskyi.com
 governance:
   authorityRef: https://forge.warpgogol.com/id/business
   effectiveFrom: "2026-09-13"
