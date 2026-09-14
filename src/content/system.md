@@ -44,6 +44,9 @@ pages:
     locales:
       - en
     cosmicStar: Sirius
+    planets:
+      - cosmicPlanet: Hyperion
+        pin: 1.5.0
   - pageId: datenschutz
     semanticType: legal
     output:
@@ -54,4 +57,7 @@ pages:
     locales:
       - en
     cosmicStar: Sirius
+    planets:
+      - cosmicPlanet: Hyperion
+        pin: 1.5.0
 ---
