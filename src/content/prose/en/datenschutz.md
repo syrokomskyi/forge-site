@@ -41,7 +41,7 @@ blocks:
         - Browsertyp und Betriebssystem
         - Referrer-URL
 
-        **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren, schnellen und zuverlässigen Auslieferung der Website).
+        **Rechtsgrundlage:** Art. 6 Abs. 1 Buchstabe f DSGVO (berechtigtes Interesse an einer sicheren, schnellen und zuverlässigen Auslieferung der Website).
 
         **Drittlandübermittlung:** Cloudflare ist ein US-amerikanisches Unternehmen und im EU-US Data Privacy Framework (DPF) zertifiziert. Zusätzlich hat Cloudflare EU-Standardvertragsklauseln (SCCs) abgeschlossen. Weitere Informationen zum Datenschutz bei Cloudflare: [https://www.cloudflare.com/de-de/privacypolicy/](https://www.cloudflare.com/de-de/privacypolicy/)
 

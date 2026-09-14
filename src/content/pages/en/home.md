@@ -14,8 +14,8 @@ blocks:
       hideSectionNumber: true
       header:
         eyebrow: "Forge"
-        heading: "AI can write the code. Forge keeps the project engineered."
-        subheading: "Engineering rules stay with the project — regardless of which agent, model, or IDE you use."
+        heading: "AI can write the code. Forge keeps the project engineered"
+        subheading: "Engineering rules stay with the project — regardless of which agent, model, or IDE you use"
         level: 1
       ctaPrimaryLabel: "Get started"
       ctaPrimaryAriaLabel: "Get started with Forge"
@@ -31,7 +31,7 @@ blocks:
       header:
         eyebrow: "How Forge works"
         heading: "Five planes of engineering control"
-        subheading: "Forge keeps engineering decisions in the project, not in the agent's memory."
+        subheading: "Forge keeps engineering decisions in the project, not in the agent's memory"
         level: 2
       body:
         kind: grid
@@ -67,7 +67,7 @@ blocks:
         - **Checks** — validators that run on every commit: typography, content discipline, architecture boundaries, DNA invariants.
         - **Missions** — scoped work units that track what changed, why, and how it was verified.
 
-        Every artifact lives in the repo. Every agent session starts from the same rules. No context is lost between sessions, models, or IDEs.
+        Every artifact lives in the repo. Every agent session starts from the same rules. Zero context is lost between sessions, models, or IDEs.
   - id: plugins
     type: entity-grid
     props:
@@ -75,7 +75,7 @@ blocks:
       header:
         eyebrow: "Plugins"
         heading: "Extend Forge with stack-specific rules and skills"
-        subheading: "Plugins add validators, skills, and commands tailored to your stack — without modifying Forge itself."
+        subheading: "Plugins add validators, skills, and commands tailored to your stack — without modifying Forge itself"
         level: 2
       body:
         kind: grid
@@ -132,7 +132,7 @@ blocks:
       hideSectionNumber: true
       eyebrow: "Quick start"
       heading: "Start in one command"
-      lead: "No terminal needed — just tell your AI agent what to build."
+      lead: "Without a terminal — just tell your AI agent what to build"
       body: |
         Open a new folder in your AI IDE (Windsurf, Cursor, Claude Code, Codex CLI, or any IDE that supports AI agents) and paste this:
 
