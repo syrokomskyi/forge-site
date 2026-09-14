@@ -104,12 +104,12 @@ body {
 }
 
 /* Override Shiki github-light theme for dark-first identity */
-pre.shiki.github-light {
-  background-color: var(--ds-forge-code) !important;
-  color: var(--ds-forge-text) !important;
+html pre.shiki.github-light {
+  background-color: var(--ds-forge-code);
+  color: var(--ds-forge-text);
 }
-pre.shiki.github-light code {
-  color: var(--ds-forge-text) !important;
+html pre.shiki.github-light code {
+  color: var(--ds-forge-text);
 }
 
 /* Collapsed FAQ details should not show empty padding below the summary */
