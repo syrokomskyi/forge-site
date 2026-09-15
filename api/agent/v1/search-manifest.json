@@ -1,0 +1,134 @@
+{
+  "schema": "1",
+  "site": "forge-site",
+  "model": "@cf/baai/bge-m3",
+  "dimensions": 1024,
+  "generatedAt": "2026-09-14T20:51:02.628Z",
+  "chunks": [
+    {
+      "id": "en:/:available-plugins",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "available-plugins",
+      "heading": "Available plugins",
+      "text": "Available plugins"
+    },
+    {
+      "id": "en:/:faq",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "faq",
+      "heading": "FAQ",
+      "text": "FAQ"
+    },
+    {
+      "id": "en:/:hero",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "hero",
+      "heading": "AI can write the code. Forge keeps the project engineered",
+      "text": "AI can write the code. Forge keeps the project engineered\n\nEngineering rules stay with the project - regardless of which agent, model, or IDE you use\n\nCTA: Get started\n\nCTA: View on GitHub"
+    },
+    {
+      "id": "en:/:how-forge-works",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "how-forge-works",
+      "heading": "Five planes of engineering control",
+      "text": "Five planes of engineering control\n\nForge keeps engineering decisions in the project, not in the agent's memory\n\n01. Contracts\n\nProject rules that agents must follow - naming, structure, boundaries, and conventions enforced at every session.\n\n02. Decisions\n\nRFCs and ADRs that record why a choice was made, so the next agent understands the context without asking.\n\n03. Workflows\n\nSkills that encode team process - from onboarding to deployment - as executable markdown agents can follow.\n\n04. Verification\n\nChecks that enforce the rules automatically - typography, content, architecture, and DNA invariants validated on every commit.\n\n05. Evolution\n\nDNA invariants that govern how the project itself changes - forward-only migrations, no silent breaking changes."
+    },
+    {
+      "id": "en:/:is-not",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "is-not",
+      "heading": "What Forge is - and what it isn't",
+      "text": "What Forge is - and what it isn't"
+    },
+    {
+      "id": "en:/:page",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": null,
+      "heading": "Forge - AI can write the code. Forge keeps the project engineered",
+      "text": "Forge - AI can write the code. Forge keeps the project engineered\n\nForge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\n\nEngineering rules stay with the project - regardless of which agent, model, or IDE you use"
+    },
+    {
+      "id": "en:/:plugins",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "plugins",
+      "heading": "Extend Forge with stack-specific rules and skills",
+      "text": "Extend Forge with stack-specific rules and skills\n\nPlugins add validators, skills, and commands tailored to your stack - without modifying Forge itself\n\n01. Stack validators\n\nPlugins register check commands that enforce stack-specific invariants - tsconfig strictness, import boundaries, barrel exports, phantom dependencies - on every commit.\n\n02. Skill packs\n\nDeclare project-local skill packs with a custom prefix. Skills are markdown workflows that agents execute step by step - deploy, review, testing, onboarding.\n\n03. Extension points\n\nPlugins can declare custom Compass contract blocks - source-file markers that compass.validate enforces, so your team's conventions become first-class checks."
+    },
+    {
+      "id": "en:/:quick-start",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "quick-start",
+      "heading": "Start in one command",
+      "text": "Start in one command\n\nWithout a terminal - just tell your AI agent what to build"
+    },
+    {
+      "id": "en:/:what-forge-does",
+      "url": "/",
+      "lang": "en",
+      "type": "page",
+      "blockId": "what-forge-does",
+      "heading": "What Forge does",
+      "text": "What Forge does"
+    },
+    {
+      "id": "en:knowledge:company",
+      "url": "/api/agent/v1/company.json",
+      "lang": "en",
+      "type": "knowledge",
+      "blockId": null,
+      "heading": "Knowledge: company",
+      "text": "{\"en\":{\"name\":\"Forge\",\"description\":\"Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\"}}"
+    },
+    {
+      "id": "en:knowledge:contact",
+      "url": "/api/agent/v1/contact.json",
+      "lang": "en",
+      "type": "knowledge",
+      "blockId": null,
+      "heading": "Knowledge: contact",
+      "text": "{\"en\":{\"email\":\"andrii@syrokomskyi.com\",\"contactPoints\":[{\"contactType\":\"email\",\"email\":\"andrii@syrokomskyi.com\"}]}}"
+    },
+    {
+      "id": "en:knowledge:legal",
+      "url": "/api/agent/v1/legal.json",
+      "lang": "en",
+      "type": "knowledge",
+      "blockId": null,
+      "heading": "Knowledge: legal",
+      "text": "{\"en\":{\"address\":{\"streetAddress\":\"Elly-Heuss-Knapp-Weg 29\",\"postalCode\":\"71522\",\"addressLocality\":\"Backnang\",\"addressCountry\":\"DE\"}}}"
+    },
+    {
+      "id": "en:knowledge:location",
+      "url": "/api/agent/v1/location.json",
+      "lang": "en",
+      "type": "knowledge",
+      "blockId": null,
+      "heading": "Knowledge: location",
+      "text": "{\"en\":{\"locality\":\"Backnang\",\"region\":\"Baden-Württemberg\",\"country\":\"DE\"}}"
+    }
+  ],
+  "contentHash": "f1f16df005848a46b41475bfab5ebf9125262c7e0ad9efb6f89306d94e058148",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-09-14T20:51:02.845Z",
+    "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z4emKyDEsY9Ta2TeBmr9GZcgb6E2gJ8Q1XNhyZi15ubtotQgYsa8aRvakmYRfUapix2Re727TNSnp6zJQwHFPqzQh"
+  }
+}

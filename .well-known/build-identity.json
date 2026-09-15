@@ -1,0 +1,14 @@
+{
+  "releaseId": "workpiece-forge-site-m000005",
+  "systemId": "forge-site",
+  "missionId": "forge-site-m000005",
+  "semver": "0.0.0-workpiece",
+  "distTreeHash": "",
+  "behaviorSnapshotHash": "",
+  "siteContentHash": "",
+  "platformVersion": "",
+  "platformSemanticHash": "",
+  "commitSha": "3d457e0018e8ba19dde07c9e4f626c23775fd45c",
+  "buildTimestamp": "2026-09-14T20:51:53.205Z",
+  "targetPlatform": "cloudflare-workers"
+}

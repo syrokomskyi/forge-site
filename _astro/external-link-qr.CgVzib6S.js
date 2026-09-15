@@ -1,0 +1,1 @@
+globalThis.process??={},globalThis.process.env??={};import{t as s}from"./external-link-qr.DuvFL5v-.js";export{s as initExternalLinkQr};

@@ -1,0 +1,99 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Sirius",
+    "identifier": "did:web:forge.warpgogol.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:forge.warpgogol.com:agent:a2a",
+      "displayName": "A2A Agent Card",
+      "type": "application/a2a+json",
+      "url": "/.well-known/agent-card.json",
+      "representativeQueries": [
+        "What agent capabilities does this site offer",
+        "Get the A2A agent card for this service"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:api:openapi",
+      "displayName": "OpenAPI Specification",
+      "type": "application/vnd.oai.openapi+json",
+      "url": "/.well-known/agent.openapi.json",
+      "representativeQueries": [
+        "What API endpoints are available on this site",
+        "Get the OpenAPI specification for agent integration"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:api:search",
+      "displayName": "Semantic Search",
+      "type": "application/json",
+      "url": "/api/agent/search",
+      "representativeQueries": [
+        "Search this site for relevant content",
+        "Find pages matching a natural language query"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:company",
+      "displayName": "Company Knowledge",
+      "type": "application/json",
+      "url": "/api/agent/v1/company.json",
+      "representativeQueries": [
+        "What company information is available on this site",
+        "Get structured company data for agent consumption"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:contact",
+      "displayName": "Contact Knowledge",
+      "type": "application/json",
+      "url": "/api/agent/v1/contact.json",
+      "representativeQueries": [
+        "What contact information is available on this site",
+        "Get structured contact data for agent consumption"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:legal",
+      "displayName": "Legal Knowledge",
+      "type": "application/json",
+      "url": "/api/agent/v1/legal.json",
+      "representativeQueries": [
+        "What legal information is available on this site",
+        "Get structured legal data for agent consumption"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:location",
+      "displayName": "Location Knowledge",
+      "type": "application/json",
+      "url": "/api/agent/v1/location.json",
+      "representativeQueries": [
+        "What location information is available on this site",
+        "Get structured location data for agent consumption"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:manifest:agent-surface",
+      "displayName": "Agent Surface Manifest",
+      "type": "application/json",
+      "url": "/.well-known/agent.json",
+      "representativeQueries": [
+        "What agent discovery endpoints does this site provide",
+        "Get the agent surface manifest for this site"
+      ]
+    },
+    {
+      "identifier": "urn:air:forge.warpgogol.com:server:mcp",
+      "displayName": "MCP Server",
+      "type": "application/mcp-server-card+json",
+      "url": "/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "What tools are available on this MCP server",
+        "List MCP server capabilities and endpoints"
+      ]
+    }
+  ]
+}

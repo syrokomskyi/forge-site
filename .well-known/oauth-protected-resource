@@ -1,0 +1,12 @@
+{
+  "resource": "https://forge.warpgogol.com/",
+  "authorization_servers": [
+    "https://forge.warpgogol.com/"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "scopes_supported": [
+    "read"
+  ]
+}

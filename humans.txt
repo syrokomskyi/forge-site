@@ -1,0 +1,18 @@
+
+/* TEAM */
+Studio: Andrii Syrokomskyi
+Site: forge.warpgogol.com
+Contact: mailto:andrii@syrokomskyi.com
+
+/* AUTHORS AND CREDITS */
+Credits: See /credits/ and public material-credit disclosures.
+
+/* SITE */
+App: forge-warpgogol
+URL: https://forge.warpgogol.com
+Language: en
+Languages: en
+Last update: 2026-07-06
+
+/* TECHNOLOGY */
+Astro 6, TypeScript, Turborepo, pnpm, @warpgogol/werkstatt-engine/kernel

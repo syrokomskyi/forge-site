@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "siteId": "forge-site",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "preferredStartPaths": [
+    "/"
+  ],
+  "sectionAnchors": [],
+  "audienceProfiles": [
+    "business-owner"
+  ]
+}
