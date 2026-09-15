@@ -6,7 +6,7 @@ Content-Signal: ai-train=no, search=yes, ai-input=yes
 # Default crawl policy
 User-agent: *
 
-# Auxiliary discovery files - explicitly allowed for all crawlers
+# Auxiliary discovery files — explicitly allowed for all crawlers
 Allow: /robots.txt
 Allow: /llms.txt
 Allow: /llms-full.txt

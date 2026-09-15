@@ -30,7 +30,7 @@
       "type": "page",
       "blockId": "hero",
       "heading": "AI can write the code. Forge keeps the project engineered",
-      "text": "AI can write the code. Forge keeps the project engineered\n\nEngineering rules stay with the project - regardless of which agent, model, or IDE you use\n\nCTA: Get started\n\nCTA: View on GitHub"
+      "text": "AI can write the code. Forge keeps the project engineered\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use\n\nCTA: Get started\n\nCTA: View on GitHub"
     },
     {
       "id": "en:/:how-forge-works",
@@ -39,7 +39,7 @@
       "type": "page",
       "blockId": "how-forge-works",
       "heading": "Five planes of engineering control",
-      "text": "Five planes of engineering control\n\nForge keeps engineering decisions in the project, not in the agent's memory\n\n01. Contracts\n\nProject rules that agents must follow - naming, structure, boundaries, and conventions enforced at every session.\n\n02. Decisions\n\nRFCs and ADRs that record why a choice was made, so the next agent understands the context without asking.\n\n03. Workflows\n\nSkills that encode team process - from onboarding to deployment - as executable markdown agents can follow.\n\n04. Verification\n\nChecks that enforce the rules automatically - typography, content, architecture, and DNA invariants validated on every commit.\n\n05. Evolution\n\nDNA invariants that govern how the project itself changes - forward-only migrations, no silent breaking changes."
+      "text": "Five planes of engineering control\n\nForge keeps engineering decisions in the project, not in the agent's memory\n\n01. Contracts\n\nProject rules that agents must follow — naming, structure, boundaries, and conventions enforced at every session.\n\n02. Decisions\n\nRFCs and ADRs that record why a choice was made, so the next agent understands the context without asking.\n\n03. Workflows\n\nSkills that encode team process — from onboarding to deployment — as executable markdown agents can follow.\n\n04. Verification\n\nChecks that enforce the rules automatically — typography, content, architecture, and DNA invariants validated on every commit.\n\n05. Evolution\n\nDNA invariants that govern how the project itself changes — forward-only migrations, no silent breaking changes."
     },
     {
       "id": "en:/:is-not",
@@ -47,8 +47,8 @@
       "lang": "en",
       "type": "page",
       "blockId": "is-not",
-      "heading": "What Forge is - and what it isn't",
-      "text": "What Forge is - and what it isn't"
+      "heading": "What Forge is — and what it isn't",
+      "text": "What Forge is — and what it isn't"
     },
     {
       "id": "en:/:page",
@@ -56,8 +56,8 @@
       "lang": "en",
       "type": "page",
       "blockId": null,
-      "heading": "Forge - AI can write the code. Forge keeps the project engineered",
-      "text": "Forge - AI can write the code. Forge keeps the project engineered\n\nForge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\n\nEngineering rules stay with the project - regardless of which agent, model, or IDE you use"
+      "heading": "Forge — AI can write the code. Forge keeps the project engineered",
+      "text": "Forge — AI can write the code. Forge keeps the project engineered\n\nForge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.\n\nEngineering rules stay with the project — regardless of which agent, model, or IDE you use"
     },
     {
       "id": "en:/:plugins",
@@ -66,7 +66,7 @@
       "type": "page",
       "blockId": "plugins",
       "heading": "Extend Forge with stack-specific rules and skills",
-      "text": "Extend Forge with stack-specific rules and skills\n\nPlugins add validators, skills, and commands tailored to your stack - without modifying Forge itself\n\n01. Stack validators\n\nPlugins register check commands that enforce stack-specific invariants - tsconfig strictness, import boundaries, barrel exports, phantom dependencies - on every commit.\n\n02. Skill packs\n\nDeclare project-local skill packs with a custom prefix. Skills are markdown workflows that agents execute step by step - deploy, review, testing, onboarding.\n\n03. Extension points\n\nPlugins can declare custom Compass contract blocks - source-file markers that compass.validate enforces, so your team's conventions become first-class checks."
+      "text": "Extend Forge with stack-specific rules and skills\n\nPlugins add validators, skills, and commands tailored to your stack — without modifying Forge itself\n\n01. Stack validators\n\nPlugins register check commands that enforce stack-specific invariants — tsconfig strictness, import boundaries, barrel exports, phantom dependencies — on every commit.\n\n02. Skill packs\n\nDeclare project-local skill packs with a custom prefix. Skills are markdown workflows that agents execute step by step — deploy, review, testing, onboarding.\n\n03. Extension points\n\nPlugins can declare custom Compass contract blocks — source-file markers that compass.validate enforces, so your team's conventions become first-class checks."
     },
     {
       "id": "en:/:quick-start",
@@ -75,7 +75,7 @@
       "type": "page",
       "blockId": "quick-start",
       "heading": "Start in one command",
-      "text": "Start in one command\n\nWithout a terminal - just tell your AI agent what to build"
+      "text": "Start in one command\n\nWithout a terminal — just tell your AI agent what to build"
     },
     {
       "id": "en:/:what-forge-does",

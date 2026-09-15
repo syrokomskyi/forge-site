@@ -29,7 +29,7 @@ agent.json manifest.
 
 ## Registration
 
-This site supports anonymous agent access - no registration or credentials
+This site supports anonymous agent access — no registration or credentials
 are required to read public discovery endpoints.
 
 - **Register URI**: `https://forge.warpgogol.com/auth`
