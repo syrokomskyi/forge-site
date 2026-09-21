@@ -12,8 +12,6 @@ i18n:
       name: English
       hreflang: en-US
 legalJurisdiction: DE
-agent:
-  enabled: false
 ui:
   codeHighlightTheme: github-dark
 verification:
