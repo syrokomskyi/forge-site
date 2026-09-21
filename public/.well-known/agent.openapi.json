@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "forge-site agent surface",
-    "version": "1.1.0",
-    "x-gogol-content-hash": "cbaeeaad2d5961327841c13f23f8743963b3f6a3cc71d44559f61de972de1277"
+    "version": "2.0.0",
+    "x-gogol-content-hash": "c11edf2639dd7ba4ad1712af5d431d0e3fc49356563d6b8773efb423c02e8bb9"
   },
   "servers": [
     {
@@ -89,83 +89,6 @@
             }
           }
         }
-      }
-    },
-    "/api/agent/search": {
-      "get": {
-        "operationId": "search.query",
-        "summary": "Semantic search over site content",
-        "tags": [
-          "search"
-        ],
-        "responses": {
-          "200": {
-            "description": "Search results",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/search-response"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Invalid query"
-          },
-          "503": {
-            "description": "Search index not available"
-          }
-        },
-        "parameters": [
-          {
-            "name": "q",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "maxLength": 1000
-            },
-            "description": "Natural language search query"
-          },
-          {
-            "name": "lang",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "string",
-              "enum": [
-                "en"
-              ]
-            },
-            "description": "Filter by language"
-          },
-          {
-            "name": "type",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "string",
-              "enum": [
-                "page",
-                "knowledge",
-                "faq",
-                "prose"
-              ]
-            },
-            "description": "Filter by content type"
-          },
-          {
-            "name": "topK",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "integer",
-              "default": 5,
-              "maximum": 20
-            },
-            "description": "Number of results to return"
-          }
-        ]
       }
     }
   },
@@ -311,33 +234,62 @@
           }
         }
       },
-      "search-response": {
+      "problem-details": {
         "type": "object",
         "required": [
-          "query",
-          "results",
-          "tookMs"
+          "type",
+          "title",
+          "status",
+          "code",
+          "retryable"
         ],
         "properties": {
-          "query": {
+          "type": {
             "type": "string"
           },
-          "results": {
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "integer"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "invalid-json",
+              "schema-violation",
+              "unknown-capability",
+              "payload-too-large",
+              "rate-limited",
+              "dispatch-failed",
+              "idempotency-key-reuse"
+            ]
+          },
+          "retryable": {
+            "type": "boolean"
+          },
+          "errors": {
             "type": "array",
             "items": {
               "type": "object",
               "properties": {
-                "chunk": {
-                  "type": "object"
+                "path": {
+                  "type": "string"
                 },
-                "score": {
-                  "type": "number"
+                "message": {
+                  "type": "string"
                 }
               }
             }
           },
-          "tookMs": {
-            "type": "number"
+          "schemaRef": {
+            "type": "string"
+          },
+          "retryAfterSeconds": {
+            "type": "integer"
           }
         }
       }
@@ -346,9 +298,5 @@
   "externalDocs": {
     "url": "https://forge.warpgogol.com/llms.txt",
     "description": "LLM-oriented text surface"
-  },
-  "x-gogol-mcp": {
-    "url": "/api/agent/mcp",
-    "protocolVersion": "2025-06-18"
   }
 }

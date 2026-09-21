@@ -2,7 +2,7 @@
 Forge is the engineering control layer for AI-assisted development. Contracts, decisions, workflows, and verification that stay with the project.
 
 ## Organization facts
-- Canonical URI: https://forge.warpgogol.com/.well-known/entity/business
+- Canonical URI: https://forge.warpgogol.com/.well-known/entity/business.json
 - Name: 
 - Email: andrii@syrokomskyi.com
 - Address: Elly-Heuss-Knapp-Weg 29, 71522, Backnang, DE

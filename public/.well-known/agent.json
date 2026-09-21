@@ -1,7 +1,18 @@
 {
-  "surfaceVersion": "1.1.0",
+  "$schema": "gogol.agent.surface/2",
+  "surfaceVersion": "2.0.0",
   "site": "forge-site",
   "baseUrl": "https://forge.warpgogol.com",
+  "generatedAt": "2026-09-21T15:54:37.641Z",
+  "supportedProtocols": [
+    "agent-skills",
+    "ard",
+    "dns-aid",
+    "linkset",
+    "llms",
+    "openapi",
+    "twins"
+  ],
   "languages": {
     "default": "en",
     "supported": [
@@ -38,22 +49,16 @@
       "pattern": "/**.md"
     },
     "openapi": "/.well-known/agent.openapi.json",
-    "mcp": {
-      "url": "/api/agent/mcp",
-      "protocolVersion": "2025-06-18"
-    },
-    "search": {
-      "url": "/api/agent/search",
-      "model": "@cf/baai/bge-m3",
-      "dimensions": 1024
-    }
+    "mcp": null,
+    "a2a": null,
+    "search": null
   },
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-14T20:51:02.827Z",
+    "created": "2026-09-21T15:54:38.033Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z4bD2R8t5FD5n2XqnaD2LLdyzyzo2fT4ckbenC5w4uh9pjD9QxXyWEtbPDwYvbQAZEj9LbTwVaewMja5nj5jF7tpc"
+    "proofValue": "z5xuPU9J6uK1bQRD7DfijRjQxRD6umpYNBfWmAHPfsosw4hADkkeYcFti3motD7cZKmACCBy4YZLgKE7h4WP2UWYb"
   },
-  "contentHash": "cbaeeaad2d5961327841c13f23f8743963b3f6a3cc71d44559f61de972de1277"
+  "contentHash": "c11edf2639dd7ba4ad1712af5d431d0e3fc49356563d6b8773efb423c02e8bb9"
 }

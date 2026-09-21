@@ -7,7 +7,7 @@
 <MODULE_CONTRACT>
 <purpose>RFC-0899: Generated access protection middleware entry point. Re-exports shared middleware from werkstatt-shared.</purpose>
 <non-goals>
-  <item>Do not implement middleware logic here — logic lives in @warpgogol/werkstatt-shared/share/middleware/access-protection.</item>
+  <item>Do not implement middleware logic here — logic lives in @warpgogol/werkstatt-shared/middleware/access-protection.</item>
 </non-goals>
 </MODULE_CONTRACT>
 <CHANGE_SUMMARY>
@@ -18,4 +18,4 @@
 
 // @ai-invariant: Re-exports shared access protection middleware. No local logic.
 // RFC-0899: access protection for dev/alt subdomains via Basic Auth PIN.
-export { accessProtectionMiddleware as default } from "@warpgogol/werkstatt-shared/share/middleware/access-protection";
+export { accessProtectionMiddleware as default } from "@warpgogol/werkstatt-shared/middleware/access-protection";

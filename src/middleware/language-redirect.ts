@@ -11,7 +11,7 @@
   <item>Redirect incoming requests to the appropriate language-prefixed path.</item>
 </responsibilities>
 <non-goals>
-  <item>Do not implement i18n logic here — delegate to @warpgogol/werkstatt-shared/share/middleware.</item>
+  <item>Do not implement i18n logic here — delegate to @warpgogol/werkstatt-shared/middleware.</item>
 </non-goals>
 </MODULE_CONTRACT>
 <MODULE_MAP>
@@ -26,7 +26,7 @@
 */
 
 // @ai-invariant: High-risk module. Runs on every request. No heavy imports.
-import { createLanguageRedirectMiddleware } from "@warpgogol/werkstatt-shared/share/middleware";
+import { createLanguageRedirectMiddleware } from "@warpgogol/werkstatt-shared/middleware";
 
 export default createLanguageRedirectMiddleware({
   supportedLangs: ["en"],

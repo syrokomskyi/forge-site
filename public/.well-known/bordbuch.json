@@ -1,25 +1,25 @@
 {
   "site": "forge-site",
   "generatedAt": null,
-  "ledgerHash": "sha256:82f908103104119133b67912d0cdd501d79f16e2b593b435bda98da87d9d39b7",
-  "eventCount": 12,
+  "ledgerHash": "sha256:4c8397e607b49f8bbb07adb75aecd42013b85920fba34b13b70b790de89131fd",
+  "eventCount": 19,
   "latestEvent": {
     "schemaVersion": "1.0.0",
-    "id": "event-000012",
+    "id": "event-000019",
     "systemId": "forge-site",
-    "occurredAt": "2026-09-14T20:42:33.469Z",
+    "occurredAt": "2026-09-21T14:22:06.326Z",
     "kind": "mission-open",
     "status": "done",
-    "missionId": "forge-site-m000005",
+    "missionId": "forge-site-m000007",
     "releaseId": null,
     "actor": "unknown",
-    "summary": "Add GitHub Pages deployment: external mirror + deployment config",
+    "summary": "RFC-1119 regression gate: validate PBP extraction produces identical output",
     "metadata": {
-      "brief": "Add GitHub Pages deployment: external mirror + deployment config",
-      "pinAtOpen": "6.289.47"
+      "brief": "RFC-1119 regression gate: validate PBP extraction produces identical output",
+      "pinAtOpen": "6.297.3"
     },
-    "previousHash": "sha256:9b2c53d7d97e753dba9ad1336033cd38368153f31eb3beb39524c5d66aba67fa",
-    "hash": "sha256:82f908103104119133b67912d0cdd501d79f16e2b593b435bda98da87d9d39b7"
+    "previousHash": "sha256:725447ff47cb4497c788b62f8f2a749258003dfb03a7546e1737ecf1ed5be75e",
+    "hash": "sha256:4c8397e607b49f8bbb07adb75aecd42013b85920fba34b13b70b790de89131fd"
   },
   "pseo": {
     "modules": [],

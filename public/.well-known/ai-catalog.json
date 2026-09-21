@@ -26,16 +26,6 @@
       ]
     },
     {
-      "identifier": "urn:air:forge.warpgogol.com:api:search",
-      "displayName": "Semantic Search",
-      "type": "application/json",
-      "url": "/api/agent/search",
-      "representativeQueries": [
-        "Search this site for relevant content",
-        "Find pages matching a natural language query"
-      ]
-    },
-    {
       "identifier": "urn:air:forge.warpgogol.com:knowledge:company",
       "displayName": "Company Knowledge",
       "type": "application/json",
@@ -83,16 +73,6 @@
       "representativeQueries": [
         "What agent discovery endpoints does this site provide",
         "Get the agent surface manifest for this site"
-      ]
-    },
-    {
-      "identifier": "urn:air:forge.warpgogol.com:server:mcp",
-      "displayName": "MCP Server",
-      "type": "application/mcp-server-card+json",
-      "url": "/.well-known/mcp/server-card.json",
-      "representativeQueries": [
-        "What tools are available on this MCP server",
-        "List MCP server capabilities and endpoints"
       ]
     }
   ]
