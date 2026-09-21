@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "forge-site agent surface",
-    "version": "1.1.0",
-    "x-gogol-content-hash": "cbaeeaad2d5961327841c13f23f8743963b3f6a3cc71d44559f61de972de1277"
+    "version": "2.0.0",
+    "x-gogol-content-hash": "91cf67bf44522ff10a575154faf77bb64f236d23dd4191718a98669d7838f8d3"
   },
   "servers": [
     {
@@ -311,6 +311,65 @@
           }
         }
       },
+      "problem-details": {
+        "type": "object",
+        "required": [
+          "type",
+          "title",
+          "status",
+          "code",
+          "retryable"
+        ],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "integer"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "invalid-json",
+              "schema-violation",
+              "unknown-capability",
+              "payload-too-large",
+              "rate-limited",
+              "dispatch-failed",
+              "idempotency-key-reuse"
+            ]
+          },
+          "retryable": {
+            "type": "boolean"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "schemaRef": {
+            "type": "string"
+          },
+          "retryAfterSeconds": {
+            "type": "integer"
+          }
+        }
+      },
       "search-response": {
         "type": "object",
         "required": [
@@ -326,12 +385,48 @@
             "type": "array",
             "items": {
               "type": "object",
+              "required": [
+                "title",
+                "canonicalUrl",
+                "updatedAt",
+                "lang",
+                "type",
+                "score",
+                "text"
+              ],
               "properties": {
-                "chunk": {
-                  "type": "object"
+                "title": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "canonicalUrl": {
+                  "type": "string"
+                },
+                "updatedAt": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "lang": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "page",
+                    "knowledge",
+                    "faq",
+                    "prose"
+                  ]
                 },
                 "score": {
                   "type": "number"
+                },
+                "text": {
+                  "type": "string"
                 }
               }
             }
@@ -349,6 +444,6 @@
   },
   "x-gogol-mcp": {
     "url": "/api/agent/mcp",
-    "protocolVersion": "2025-06-18"
+    "protocolVersion": "2026-07-28"
   }
 }

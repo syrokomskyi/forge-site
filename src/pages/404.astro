@@ -15,13 +15,16 @@
 <CHANGE_SUMMARY>
   <item>RFC-0310: initial generated 404 route.</item>
   <item>ADR-0075: pass scrollToTopLabel to BaseLayout.</item>
+  <item>RFC-1101: step 1 — delete RFC-0868 shim layer (224 artifacts), repoint consumers to werkstatt-shared</item>
 </CHANGE_SUMMARY>
 */
 
 import { getRouteRegistry } from "@warpgogol/werkstatt-site/share/astro/routes";
+import { setBasePath } from "@warpgogol/werkstatt-site/share/astro/url-policy";
 import { resolvePageRoute } from "@warpgogol/werkstatt-site/share/astro/page-handler";
-import type { SemanticPageType } from "@warpgogol/werkstatt-shared/share/semantic";
-import { buildPageSemanticModel, buildPbpSemanticProfile } from "@warpgogol/werkstatt-site/pbp/semantic-profile";
+import type { SemanticPageType } from "@warpgogol/werkstatt-shared/semantic";
+import { buildPbpSemanticProfile } from "@warpgogol/pbp/semantic-profile";
+import { buildPageSemanticModel } from "@warpgogol/werkstatt-site/pbp/semantic-model";
 import BaseLayout from "@warpgogol/werkstatt-site/ui/components/layout";
 import GrowthProvider from "@warpgogol/werkstatt-site/growth/provider.astro";
 import Header from "@warpgogol/werkstatt-site/ui/components/header";
@@ -43,6 +46,7 @@ try {
 
 export const prerender = true;
 
+setBasePath(import.meta.env.BASE_URL);
 Astro.response.status = 404;
 
 const { defaultLanguage } = await getRouteRegistry();
@@ -110,11 +114,11 @@ const data = await resolvePageRoute({
       title="Diese Seite gibt es hier nicht."
       intro="Der Link ist vielleicht veraltet oder die Adresse vertippt. Von hier kommen Sie wieder zurück in die wichtigsten Bereiche."
       homeLabel="Zur Startseite"
-      homeHref="/"
+      homeHref={`${import.meta.env.BASE_URL}`}
       primaryLabel="Leistungen ansehen"
-      primaryHref="/leistungen"
+      primaryHref={`${import.meta.env.BASE_URL}leistungen`}
       contactLabel="Kontakt aufnehmen"
-      contactHref="/kontakt"
+      contactHref={`${import.meta.env.BASE_URL}kontakt`}
     />
   </main>
   <Footer lang={lang} defaultLang={defaultLanguage} />

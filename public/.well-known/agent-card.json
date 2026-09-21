@@ -1,11 +1,11 @@
 {
   "name": "forge-site",
   "version": "1.0.0",
-  "description": "Agent discovery surface for forge-site. Provides structured knowledge endpoints, MCP tools, and OAuth-protected API access for AI agents.",
+  "description": "A2A agent surface for forge-site. Executes the advertised capability skills synchronously via SendMessage.",
   "supportedInterfaces": [
     {
-      "url": "https://forge.warpgogol.com/.well-known/agent.json",
-      "protocolBinding": "HTTP+JSON",
+      "url": "https://forge.warpgogol.com/api/agent/a2a",
+      "protocolBinding": "JSONRPC",
       "protocolVersion": "1.0"
     }
   ],
@@ -18,22 +18,34 @@
     {
       "id": "company",
       "name": "Company",
-      "description": "Agent knowledge for company domain"
+      "description": "Agent knowledge for company domain",
+      "tags": [
+        "knowledge"
+      ]
     },
     {
       "id": "contact",
       "name": "Contact",
-      "description": "Agent knowledge for contact domain"
+      "description": "Agent knowledge for contact domain",
+      "tags": [
+        "knowledge"
+      ]
     },
     {
       "id": "legal",
       "name": "Legal",
-      "description": "Agent knowledge for legal domain"
+      "description": "Agent knowledge for legal domain",
+      "tags": [
+        "knowledge"
+      ]
     },
     {
       "id": "location",
       "name": "Location",
-      "description": "Agent knowledge for location domain"
+      "description": "Agent knowledge for location domain",
+      "tags": [
+        "knowledge"
+      ]
     }
   ]
 }

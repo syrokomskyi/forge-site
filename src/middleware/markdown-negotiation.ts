@@ -22,14 +22,14 @@
   <item>GENERATED — do not edit directly; rerun agent.markdown-negotiation.generate.</item>
   <item>Add export default onRequest so middleware.ts can import as default (matches language-redirect and retired-tombstones templates).</item>
   <item>Add Vary: Accept to ALL page responses (not just negotiated) to prevent CDN serving cached HTML for Accept: text/markdown.</item>
-  <item>Replace hardcoded isPageRoute extension regex with ico|png|jpg|jpeg|webp|avif|gif|bmp|svg|css|js|mjs|json|txt|xml|woff|woff2|ttf|otf|webmanifest|md|pdf|webm|mp4|wasm|map|m3u8|ts|html|ndjson|vtt|yaml placeholder injected from PAGE_ROUTE_EXCLUDED_EXTENSIONS — single source of truth in @warpgogol/werkstatt-shared/share/redirects.</item>
+  <item>Replace hardcoded isPageRoute extension regex with ico|png|jpg|jpeg|webp|avif|gif|bmp|svg|css|js|mjs|json|txt|xml|woff|woff2|ttf|otf|webmanifest|md|pdf|webm|mp4|wasm|map|m3u8|ts|html|ndjson|vtt|yaml placeholder injected from PAGE_ROUTE_EXCLUDED_EXTENSIONS — single source of truth in @warpgogol/werkstatt-shared/redirects.</item>
 </CHANGE_SUMMARY>
 */
 
 // @ai-invariant: Runs on every GET request. Fast Accept header check before any fetch.
 // RFC-0785: markdown content negotiation for agent requests.
 import { defineMiddleware } from "astro:middleware";
-import { markdownTwinUrlPath } from "@warpgogol/werkstatt-shared/share/semantic";
+import { markdownTwinUrlPath } from "@warpgogol/werkstatt-shared/semantic";
 
 const SUPPORTED_LANGS = ["en"];
 

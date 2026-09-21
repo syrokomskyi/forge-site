@@ -1,0 +1,37 @@
+site: forge-site
+generatedAt: null
+ledgerHash: sha256:665e4fcc7b196f6649d444d2122c68da825c3ba199e1a8f1f38f0b4f9da3c48d
+eventCount: 16
+latestEvent:
+  schemaVersion: 1.0.0
+  id: event-000016
+  systemId: forge-site
+  occurredAt: 2026-09-14T20:54:19.017Z
+  kind: mirror-sync
+  status: done
+  missionId: null
+  releaseId: null
+  actor: sternsystem.sync
+  summary: "Mirror sync (push, branch: main) — 2f3da397390e"
+  metadata:
+    mirrorUrls:
+      - git@github.com:syrokomskyi/forge-site.git
+    direction: push
+    branch: main
+    commitSha: 2f3da397390e0c8e7a9e2d4a4d23b05dd8e4f711
+    result: ok
+  previousHash: sha256:be8e7893b0830388fa13492522fcb8947c505fbd05f1cd9aa311a40de14018e1
+  hash: sha256:665e4fcc7b196f6649d444d2122c68da825c3ba199e1a8f1f38f0b4f9da3c48d
+pseo:
+  modules: []
+  generationQueues: {}
+  translationQueues: {}
+  visibility:
+    outcomes: 0
+    actions: {}
+    frozenScopes: 0
+validation:
+  error: 0
+  warning: 0
+  info: 0
+openEscalations: []
