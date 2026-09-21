@@ -2,13 +2,7 @@
   "name": "forge-site",
   "version": "1.0.0",
   "description": "A2A agent surface for forge-site. Executes the advertised capability skills synchronously via SendMessage.",
-  "supportedInterfaces": [
-    {
-      "url": "https://forge.warpgogol.com/api/agent/a2a",
-      "protocolBinding": "JSONRPC",
-      "protocolVersion": "1.0"
-    }
-  ],
+  "supportedInterfaces": [],
   "capabilities": {
     "streaming": false,
     "pushNotifications": false,

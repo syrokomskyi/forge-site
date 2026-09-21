@@ -3,7 +3,7 @@
   "info": {
     "title": "forge-site agent surface",
     "version": "2.0.0",
-    "x-gogol-content-hash": "91cf67bf44522ff10a575154faf77bb64f236d23dd4191718a98669d7838f8d3"
+    "x-gogol-content-hash": "c11edf2639dd7ba4ad1712af5d431d0e3fc49356563d6b8773efb423c02e8bb9"
   },
   "servers": [
     {
@@ -89,83 +89,6 @@
             }
           }
         }
-      }
-    },
-    "/api/agent/search": {
-      "get": {
-        "operationId": "search.query",
-        "summary": "Semantic search over site content",
-        "tags": [
-          "search"
-        ],
-        "responses": {
-          "200": {
-            "description": "Search results",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/search-response"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Invalid query"
-          },
-          "503": {
-            "description": "Search index not available"
-          }
-        },
-        "parameters": [
-          {
-            "name": "q",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "maxLength": 1000
-            },
-            "description": "Natural language search query"
-          },
-          {
-            "name": "lang",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "string",
-              "enum": [
-                "en"
-              ]
-            },
-            "description": "Filter by language"
-          },
-          {
-            "name": "type",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "string",
-              "enum": [
-                "page",
-                "knowledge",
-                "faq",
-                "prose"
-              ]
-            },
-            "description": "Filter by content type"
-          },
-          {
-            "name": "topK",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "integer",
-              "default": 5,
-              "maximum": 20
-            },
-            "description": "Number of results to return"
-          }
-        ]
       }
     }
   },
@@ -369,81 +292,11 @@
             "type": "integer"
           }
         }
-      },
-      "search-response": {
-        "type": "object",
-        "required": [
-          "query",
-          "results",
-          "tookMs"
-        ],
-        "properties": {
-          "query": {
-            "type": "string"
-          },
-          "results": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "title",
-                "canonicalUrl",
-                "updatedAt",
-                "lang",
-                "type",
-                "score",
-                "text"
-              ],
-              "properties": {
-                "title": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                },
-                "canonicalUrl": {
-                  "type": "string"
-                },
-                "updatedAt": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                },
-                "lang": {
-                  "type": "string"
-                },
-                "type": {
-                  "type": "string",
-                  "enum": [
-                    "page",
-                    "knowledge",
-                    "faq",
-                    "prose"
-                  ]
-                },
-                "score": {
-                  "type": "number"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "tookMs": {
-            "type": "number"
-          }
-        }
       }
     }
   },
   "externalDocs": {
     "url": "https://forge.warpgogol.com/llms.txt",
     "description": "LLM-oriented text surface"
-  },
-  "x-gogol-mcp": {
-    "url": "/api/agent/mcp",
-    "protocolVersion": "2026-07-28"
   }
 }

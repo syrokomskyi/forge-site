@@ -2,17 +2,14 @@ $schema: gogol.agent.surface/2
 surfaceVersion: 2.0.0
 site: forge-site
 baseUrl: https://forge.warpgogol.com
-generatedAt: 2026-09-21T14:23:20.024Z
+generatedAt: 2026-09-21T15:54:37.641Z
 supportedProtocols:
-  - a2a
   - agent-skills
   - ard
   - dns-aid
   - linkset
   - llms
-  - mcp
   - openapi
-  - search
   - twins
 languages:
   default: en
@@ -38,20 +35,13 @@ interfaces:
   twins:
     pattern: /**.md
   openapi: /.well-known/agent.openapi.json
-  mcp:
-    url: /api/agent/mcp
-    protocolVersion: 2026-07-28
-  a2a:
-    url: /api/agent/a2a
-    protocolVersion: "1.0"
-  search:
-    url: /api/agent/search
-    model: "@cf/baai/bge-m3"
-    dimensions: 1024
+  mcp: null
+  a2a: null
+  search: null
 proof:
   type: Ed25519Signature2020
-  created: 2026-09-21T14:23:20.102Z
+  created: 2026-09-21T15:54:38.033Z
   verificationMethod: did:web:forge.warpgogol.com#key-v1
   proofPurpose: assertionMethod
-  proofValue: z4EJLAEpjFbUabvzmxbvyttvYYzCVXPWME4qZmfXpyaV6qrAv2JJhDueaxa76PikjkiUNekDt8FetCePhDztogXpN
-contentHash: 91cf67bf44522ff10a575154faf77bb64f236d23dd4191718a98669d7838f8d3
+  proofValue: z5xuPU9J6uK1bQRD7DfijRjQxRD6umpYNBfWmAHPfsosw4hADkkeYcFti3motD7cZKmACCBy4YZLgKE7h4WP2UWYb
+contentHash: c11edf2639dd7ba4ad1712af5d431d0e3fc49356563d6b8773efb423c02e8bb9

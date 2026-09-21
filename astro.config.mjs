@@ -150,7 +150,7 @@ export default defineConfig({
   ...(isAstroDev
     ? {}
     : {
-        
+        outDir: "./dist/client",
       }),
   // [RFC-0149] Build-time sharp optimization for prerendered images (host-portable output).
   image: { service: sharpImageService() },

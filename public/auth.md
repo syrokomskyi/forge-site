@@ -7,7 +7,6 @@ This site supports AI agent discovery via standard protocols.
 - **Agent Manifest**: `/.well-known/agent.json`
 - **OpenAPI Spec**: `/.well-known/agent.openapi.json`
 - **API Catalog**: `/.well-known/api-catalog` (RFC 9264 linkset+json)
-- **MCP Server Card**: `/.well-known/mcp/server-card.json`
 - **Agent Skills**: `/.well-known/agent-skills/index.json`
 - **LLMs.txt**: `/llms.txt`
 

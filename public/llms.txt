@@ -3,14 +3,13 @@
 > For complete documentation in a single file, see [llms-full.txt](https://forge.warpgogol.com/llms-full.txt).
 > Machine-readable Agent Surface (structured knowledge + capabilities): [agent.json](https://forge.warpgogol.com/.well-known/agent.json).
 > API discovery catalog (RFC 9727): [api-catalog](https://forge.warpgogol.com/.well-known/api-catalog).
-> MCP Server Card (SEP-1649): [server-card.json](https://forge.warpgogol.com/.well-known/mcp/server-card.json).
 > OpenAPI 3.1 specification: [agent.openapi.json](https://forge.warpgogol.com/.well-known/agent.openapi.json).
 
 ## Primary sources
 - [AI can write the code. Forge keeps the project engineered](https://forge.warpgogol.com/): Engineering rules stay with the project — regardless of which agent, model, or IDE you use
 
 ## Organization
-- Canonical URI: https://forge.warpgogol.com/.well-known/entity/business
+- Canonical URI: https://forge.warpgogol.com/.well-known/entity/business.json
 - Name: 
 - Email: andrii@syrokomskyi.com
 - Address: Elly-Heuss-Knapp-Weg 29, 71522, Backnang, DE

@@ -7,7 +7,7 @@ meta:
   schemaVersion: 1
   deterministic: true
   generatedAt: null
-  contentHash: 0c3d4f40a698572b2899317039a8659e34b6904cc64eeb6cff0ff5dfa322b506
+  contentHash: 4426117562db01d242f4778e347d1e0feb0acb07c3d23f2286856d5df26cbeea
 site: forge-site
 routes:
   - route: /
@@ -16,17 +16,17 @@ routes:
     metaDescription: Forge is the engineering control layer for AI-assisted
       development. Contracts, decisions, workflows, and verification that stay
       with the project.
-    canonical: https://forge.warpgogol.com/
+    canonical: https://forge.warpgogol.com/forge-site/
     hreflang:
-      en: https://forge.warpgogol.com/
-      x-default: https://forge.warpgogol.com/
+      en: https://forge.warpgogol.com/forge-site/
+      x-default: https://forge.warpgogol.com/forge-site/
     og:
       og:type: website
       og:title: Forge - AI can write the code. Forge keeps the project engineered
       og:description: Forge is the engineering control layer for AI-assisted
         development. Contracts, decisions, workflows, and verification that stay
         with the project.
-      og:url: https://forge.warpgogol.com/
+      og:url: https://forge.warpgogol.com/forge-site/
       og:site_name: Forge
       og:locale: en_US
       og:image: https://forge.warpgogol.com/preview/en/home.png
@@ -47,7 +47,7 @@ routes:
         url: https://forge.warpgogol.com/
       - type: WebPage
         name: Forge - AI can write the code. Forge keeps the project engineered
-        url: https://forge.warpgogol.com/
+        url: https://forge.warpgogol.com/forge-site/
       - type: WebSite
         name: Forge
         url: https://forge.warpgogol.com/
@@ -72,7 +72,7 @@ routes:
     lang: default
     title: 404 · Forge - AI can write the code. Forge keeps the project engineered
     metaDescription: Diese Seite wurde nicht gefunden.
-    canonical: https://forge.warpgogol.com/404/
+    canonical: https://forge.warpgogol.com/forge-site/404/
     hreflang: {}
     og: {}
     twitter: {}
@@ -85,15 +85,15 @@ routes:
     lang: default
     title: Datenschutzerklärung
     metaDescription: Datenschutzerklärung - DSGVO-konforme Informationen zur Datenverarbeitung
-    canonical: https://forge.warpgogol.com/datenschutz/
+    canonical: https://forge.warpgogol.com/forge-site/datenschutz/
     hreflang:
-      en: https://forge.warpgogol.com/datenschutz
-      x-default: https://forge.warpgogol.com/datenschutz
+      en: https://forge.warpgogol.com/forge-site/datenschutz
+      x-default: https://forge.warpgogol.com/forge-site/datenschutz
     og:
       og:type: website
       og:title: Datenschutzerklärung
       og:description: Datenschutzerklärung - DSGVO-konforme Informationen zur Datenverarbeitung
-      og:url: https://forge.warpgogol.com/datenschutz/
+      og:url: https://forge.warpgogol.com/forge-site/datenschutz/
       og:site_name: Forge
       og:locale: en_US
       og:image: https://forge.warpgogol.com/preview/en/datenschutz.png
@@ -112,7 +112,7 @@ routes:
         url: https://forge.warpgogol.com/
       - type: WebPage
         name: Datenschutzerklärung
-        url: https://forge.warpgogol.com/datenschutz/
+        url: https://forge.warpgogol.com/forge-site/datenschutz/
       - type: WebSite
         name: Forge
         url: https://forge.warpgogol.com/
@@ -124,15 +124,15 @@ routes:
     lang: default
     title: Impressum
     metaDescription: Impressum - Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)
-    canonical: https://forge.warpgogol.com/impressum/
+    canonical: https://forge.warpgogol.com/forge-site/impressum/
     hreflang:
-      en: https://forge.warpgogol.com/impressum
-      x-default: https://forge.warpgogol.com/impressum
+      en: https://forge.warpgogol.com/forge-site/impressum
+      x-default: https://forge.warpgogol.com/forge-site/impressum
     og:
       og:type: website
       og:title: Impressum
       og:description: Impressum - Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)
-      og:url: https://forge.warpgogol.com/impressum/
+      og:url: https://forge.warpgogol.com/forge-site/impressum/
       og:site_name: Forge
       og:locale: en_US
       og:image: https://forge.warpgogol.com/preview/en/impressum.png
@@ -151,7 +151,7 @@ routes:
         url: https://forge.warpgogol.com/
       - type: WebPage
         name: Impressum
-        url: https://forge.warpgogol.com/impressum/
+        url: https://forge.warpgogol.com/forge-site/impressum/
       - type: WebSite
         name: Forge
         url: https://forge.warpgogol.com/
@@ -186,17 +186,13 @@ headers:
     type="application/json"'
   - 'Link: < /.well-known/agent.openapi.json>; rel="service-desc";
     type="application/json"'
-  - 'Link: < /.well-known/api-catalog>; rel="service-desc";
+  - 'Link: < /.well-known/api-catalog>; rel="api-catalog";
     type="application/linkset+json"'
   - 'Link: < /.well-known/ai-catalog.json>; rel="service-desc";
     type="application/json"'
-  - 'Link: < /.well-known/mcp/server-card.json>; rel="service-desc";
+  - 'Link: < /.well-known/agent-card.json>; rel="service-desc";
     type="application/json"'
   - 'Link: < /.well-known/agent-skills/index.json>; rel="service-desc";
-    type="application/json"'
-  - 'Link: < /.well-known/oauth-protected-resource>; rel="service-desc";
-    type="application/json"'
-  - 'Link: < /.well-known/oauth-authorization-server>; rel="service-desc";
     type="application/json"'
   - 'Link: < /auth.md>; rel="service-doc"; type="text/markdown"'
   - 'Link: < /llms.txt>; rel="service-doc"; type="text/plain"'
@@ -209,9 +205,16 @@ headers:
   - /.well-known/*
   - "X-Content-Type-Options: nosniff"
   - "Cache-Control: public, max-age=300"
-  - "# RFC-0783: API Catalog — application/linkset+json content type"
+  - "# RFC-1115: dereferenceable entity documents — JSON-LD content type"
+  - /.well-known/entity/*
+  - "Content-Type: application/ld+json; charset=utf-8"
+  - "X-Content-Type-Options: nosniff"
+  - "Cache-Control: public, max-age=300"
+  - "# RFC-0783/1113: API Catalog — linkset+json with the RFC 9727 profile
+    parameter"
   - /.well-known/api-catalog
-  - "Content-Type: application/linkset+json; charset=utf-8"
+  - 'Content-Type: application/linkset+json; charset=utf-8;
+    profile="https://www.rfc-editor.org/rfc/rfc9727.html"'
   - "X-Content-Type-Options: nosniff"
   - "Cache-Control: public, max-age=300"
   - "# ARD (Agentic Resource Discovery) ai-catalog.json — application/json with
@@ -228,16 +231,6 @@ headers:
   - "Cache-Control: public, max-age=300"
   - "# Agent Skills Index — application/json content type"
   - /.well-known/agent-skills/index.json
-  - "Content-Type: application/json; charset=utf-8"
-  - "X-Content-Type-Options: nosniff"
-  - "Cache-Control: public, max-age=300"
-  - "# OAuth Protected Resource Metadata — application/json content type"
-  - /.well-known/oauth-protected-resource
-  - "Content-Type: application/json; charset=utf-8"
-  - "X-Content-Type-Options: nosniff"
-  - "Cache-Control: public, max-age=300"
-  - "# OAuth Authorization Server Metadata — application/json content type"
-  - /.well-known/oauth-authorization-server
   - "Content-Type: application/json; charset=utf-8"
   - "X-Content-Type-Options: nosniff"
   - "Cache-Control: public, max-age=300"

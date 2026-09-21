@@ -34,22 +34,6 @@
         {
           "href": "/.well-known/agent.openapi.json",
           "type": "application/json"
-        },
-        {
-          "href": "/.well-known/mcp/server-card.json",
-          "type": "application/json"
-        }
-      ],
-      "service": [
-        {
-          "href": "/api/agent/mcp",
-          "type": "application/json"
-        }
-      ],
-      "search": [
-        {
-          "href": "/api/agent/search",
-          "type": "application/json"
         }
       ],
       "service-doc": [
