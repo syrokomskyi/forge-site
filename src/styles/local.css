@@ -1,6 +1,6 @@
 /*
 <MODULE_CONTRACT>
-<purpose>Forge visual identity (ADR-0080). Overrides the biome palette with a dark-first color system, Inter + JetBrains Mono typography, and Forge spacing/radius tokens.</purpose>
+<purpose>local.css — Forge visual identity (ADR-0080). Overrides the biome palette with a dark-first color system, Inter + JetBrains Mono typography, and Forge spacing/radius tokens.</purpose>
 <non-goals>
   <item>Do not redefine tokens already owned by the biome or scaffold template unless overriding for Forge identity.</item>
 </non-goals>
