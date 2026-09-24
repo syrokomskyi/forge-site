@@ -2,12 +2,12 @@
   "schemaVersion": "1.0.0",
   "systemId": "forge-site",
   "cosmicStar": "Sirius",
-  "pinnedAt": "2026-09-21T15:57:35.280Z",
+  "pinnedAt": "2026-09-24T00:06:02.194Z",
   "platform": {
-    "version": "6.316.47",
-    "commit": "8b189994cf630afac85add1769d76b2ca5b22e3d",
-    "rfcHead": "RFC-1119",
-    "platformSemanticHash": "sha256:0a2b397ee2e6a3e052c4c13a307e2b418b716971bb2bc182ae09332ab7e8cf3f"
+    "version": "6.316.159",
+    "commit": "f515d993332c5598b5a71051dff46d8ae21d09fa",
+    "rfcHead": "RFC-0387",
+    "platformSemanticHash": "sha256:acae3643eb4591f390fd4658cad1503f3fbcec7cf40cd7d91ea43e4c34dd0e31"
   },
   "migratorCursor": [
     "rfc-0479",
@@ -35,5 +35,795 @@
     "rfc-0885",
     "rfc-1105"
   ],
-  "capabilities": []
+  "capabilities": [
+    {
+      "semanticId": "agent-webmcp",
+      "version": "1.0.0",
+      "intent": [
+        "register-agent-capabilities"
+      ]
+    },
+    {
+      "semanticId": "brand-label",
+      "version": "1.1.0",
+      "intent": [
+        "establish-identity",
+        "guide-navigation"
+      ]
+    },
+    {
+      "semanticId": "breadcrumbs",
+      "version": "1.1.0",
+      "intent": [
+        "guide-navigation",
+        "orient-visitor",
+        "fulfill-legal-requirement"
+      ]
+    },
+    {
+      "semanticId": "copyright",
+      "version": "1.1.0",
+      "intent": [
+        "fulfill-legal-requirement",
+        "display-compliance"
+      ]
+    },
+    {
+      "semanticId": "currency-aware-price-display",
+      "version": "1.0.0",
+      "intent": [
+        "pricing",
+        "trust"
+      ]
+    },
+    {
+      "semanticId": "cycle-toggle",
+      "version": "1.0.0",
+      "intent": [
+        "orient-visitor",
+        "guide-navigation"
+      ]
+    },
+    {
+      "semanticId": "donation-card",
+      "version": "1.0.0",
+      "intent": [
+        "display-bank-details",
+        "facilitate-donation",
+        "build-trust"
+      ]
+    },
+    {
+      "semanticId": "effect-host",
+      "version": "1.0.0",
+      "intent": [
+        "render-effect-host",
+        "apply-composable-effects",
+        "host-glass-surface-effects"
+      ]
+    },
+    {
+      "semanticId": "external-link-qr-modal",
+      "version": "1.0.0",
+      "intent": [
+        "facilitate-sharing"
+      ]
+    },
+    {
+      "semanticId": "footer-promo",
+      "version": "1.1.0",
+      "intent": [
+        "convert-visitor",
+        "drive-contact"
+      ]
+    },
+    {
+      "semanticId": "footer",
+      "version": "1.2.0",
+      "intent": [
+        "guide-navigation",
+        "fulfill-legal-requirement",
+        "display-compliance"
+      ]
+    },
+    {
+      "semanticId": "header",
+      "version": "1.1.0",
+      "intent": [
+        "guide-navigation",
+        "orient-visitor",
+        "establish-identity"
+      ]
+    },
+    {
+      "semanticId": "lang-switcher",
+      "version": "1.1.0",
+      "intent": [
+        "orient-visitor",
+        "guide-navigation"
+      ]
+    },
+    {
+      "semanticId": "layout",
+      "version": "1.0.0",
+      "intent": [
+        "orient-visitor",
+        "guide-navigation"
+      ]
+    },
+    {
+      "semanticId": "live-photo",
+      "version": "1.0.0",
+      "intent": [
+        "render-living-photo",
+        "overlay-looping-clip-on-poster",
+        "preserve-static-photo-fallback"
+      ]
+    },
+    {
+      "semanticId": "material-credit",
+      "version": "1.0.0",
+      "intent": [
+        "disclose-material-provenance",
+        "render-credits",
+        "emit-structured-credit-data"
+      ]
+    },
+    {
+      "semanticId": "media",
+      "version": "1.0.0",
+      "intent": [
+        "orient-visitor",
+        "demonstrate-expertise"
+      ]
+    },
+    {
+      "semanticId": "nachweis-card",
+      "version": "1.0.0",
+      "intent": [
+        "verify"
+      ]
+    },
+    {
+      "semanticId": "nachweis-detail",
+      "version": "1.0.0",
+      "intent": [
+        "verify"
+      ]
+    },
+    {
+      "semanticId": "nachweis-list",
+      "version": "1.0.0",
+      "intent": [
+        "verify"
+      ]
+    },
+    {
+      "semanticId": "nachweis-verify",
+      "version": "1.0.0",
+      "intent": [
+        "verify"
+      ]
+    },
+    {
+      "semanticId": "not-found",
+      "version": "0.1.0",
+      "intent": [
+        "guide-lost-visitors",
+        "preserve-site-navigation"
+      ]
+    },
+    {
+      "semanticId": "page-renderer",
+      "version": "1.0.0",
+      "intent": [
+        "render-page-body"
+      ]
+    },
+    {
+      "semanticId": "passport-header",
+      "version": "1.0.0",
+      "intent": [
+        "display-passport-identity",
+        "show-app-name-and-tagline"
+      ]
+    },
+    {
+      "semanticId": "passport-provenance",
+      "version": "1.0.0",
+      "intent": [
+        "display-build-provenance",
+        "show-commit-sha-and-timestamp",
+        "show-vc-credential"
+      ]
+    },
+    {
+      "semanticId": "passport-score-grid",
+      "version": "1.0.0",
+      "intent": [
+        "display-nebula-score",
+        "show-pillar-breakdown",
+        "show-composite-score"
+      ]
+    },
+    {
+      "semanticId": "passport-star-map",
+      "version": "1.0.0",
+      "intent": [
+        "display-star-map",
+        "show-component-graph",
+        "visualise-architecture"
+      ]
+    },
+    {
+      "semanticId": "person-profile",
+      "version": "1.1.0",
+      "intent": [
+        "introduce-team",
+        "humanise-brand",
+        "demonstrate-expertise"
+      ]
+    },
+    {
+      "semanticId": "portal-view",
+      "version": "1.0.0",
+      "intent": [
+        "render-portal-view"
+      ]
+    },
+    {
+      "semanticId": "pulsar",
+      "version": "1.0.0",
+      "intent": [
+        "show-build-freshness",
+        "heartbeat-indicator",
+        "display-uptime-status"
+      ]
+    },
+    {
+      "semanticId": "responsive-image",
+      "version": "1.0.0",
+      "intent": [
+        "render-responsive-image",
+        "adapt-image-provider-output",
+        "preserve-authored-image-fidelity"
+      ]
+    },
+    {
+      "semanticId": "scroll-to-top",
+      "version": "1.0.0",
+      "intent": [
+        "guide-navigation",
+        "orient-visitor"
+      ]
+    },
+    {
+      "semanticId": "section-card-grid",
+      "version": "1.1.0",
+      "intent": [
+        "render-card-grid",
+        "support-body-kind-cards",
+        "panel-effects"
+      ]
+    },
+    {
+      "semanticId": "section-comparison",
+      "version": "1.0.0",
+      "intent": [
+        "render-comparison-rows",
+        "support-body-kind-comparison"
+      ]
+    },
+    {
+      "semanticId": "section-list",
+      "version": "1.0.0",
+      "intent": [
+        "render-icon-capable-list",
+        "support-body-kind-list"
+      ]
+    },
+    {
+      "semanticId": "section-offer-capacity",
+      "version": "1.0.0",
+      "intent": [
+        "render-offer-capacity",
+        "avoid-frozen-availability"
+      ]
+    },
+    {
+      "semanticId": "section-paragraphs",
+      "version": "1.0.0",
+      "intent": [
+        "render-paragraph-stack",
+        "support-body-kind-paragraphs"
+      ]
+    },
+    {
+      "semanticId": "section-rich",
+      "version": "1.0.0",
+      "intent": [
+        "render-prose-content",
+        "bridge-gsap-inline-number",
+        "support-body-kind-rich"
+      ]
+    },
+    {
+      "semanticId": "section-split-list",
+      "version": "1.0.0",
+      "intent": [
+        "render-two-column-list",
+        "support-body-kind-split-list"
+      ]
+    },
+    {
+      "semanticId": "section-stats",
+      "version": "1.0.0",
+      "intent": [
+        "render-stat-grid",
+        "bridge-gsap-counter",
+        "support-body-kind-stats"
+      ]
+    },
+    {
+      "semanticId": "section-cta-group",
+      "version": "1.0.0",
+      "intent": [
+        "render-cta-group"
+      ]
+    },
+    {
+      "semanticId": "section-cta",
+      "version": "1.0.0",
+      "intent": [
+        "render-call-to-action"
+      ]
+    },
+    {
+      "semanticId": "section-header",
+      "version": "1.0.0",
+      "intent": [
+        "render-section-title",
+        "render-section-number",
+        "render-tone-segmented-heading",
+        "render-optional-subheading"
+      ]
+    },
+    {
+      "semanticId": "section-image",
+      "version": "1.0.0",
+      "intent": [
+        "render-section-image",
+        "apply-image-fade-masks",
+        "bridge-gsap-parallax"
+      ]
+    },
+    {
+      "semanticId": "section-shell",
+      "version": "1.0.0",
+      "intent": [
+        "wrap-section",
+        "apply-visual-modifiers",
+        "apply-density-and-tone",
+        "hold-glass-overlay"
+      ]
+    },
+    {
+      "semanticId": "social-meta",
+      "version": "1.0.0",
+      "intent": [
+        "orient-visitor"
+      ]
+    },
+    {
+      "semanticId": "structured-data",
+      "version": "1.1.0",
+      "intent": [
+        "fulfill-legal-requirement",
+        "orient-visitor"
+      ]
+    },
+    {
+      "semanticId": "site-background",
+      "version": "1.0.0",
+      "intent": [
+        "paint-site-background",
+        "shell-layer"
+      ]
+    },
+    {
+      "semanticId": "about",
+      "version": "1.0.0",
+      "intent": [
+        "introduce-team",
+        "humanise-brand"
+      ]
+    },
+    {
+      "semanticId": "cancellation",
+      "version": "1.0.0",
+      "intent": [
+        "fulfill-legal-requirement",
+        "display-compliance"
+      ]
+    },
+    {
+      "semanticId": "cosmic",
+      "version": "1.0.0",
+      "intent": [
+        "display-passport-identity",
+        "visualise-architecture"
+      ]
+    },
+    {
+      "semanticId": "home",
+      "version": "1.0.0",
+      "intent": [
+        "establish-identity",
+        "drive-donation"
+      ]
+    },
+    {
+      "semanticId": "legal",
+      "version": "1.0.0",
+      "intent": [
+        "fulfill-legal-requirement",
+        "display-compliance"
+      ]
+    },
+    {
+      "semanticId": "privacy",
+      "version": "1.0.0",
+      "intent": [
+        "fulfill-legal-requirement",
+        "display-compliance"
+      ]
+    },
+    {
+      "semanticId": "projects",
+      "version": "1.0.0",
+      "intent": [
+        "showcase-work",
+        "demonstrate-expertise"
+      ]
+    },
+    {
+      "semanticId": "terms",
+      "version": "1.0.0",
+      "intent": [
+        "fulfill-legal-requirement",
+        "display-compliance"
+      ]
+    },
+    {
+      "semanticId": "approach",
+      "version": "1.4.0",
+      "intent": [
+        "explain-approach",
+        "build-trust",
+        "demonstrate-expertise"
+      ]
+    },
+    {
+      "semanticId": "article-header",
+      "version": "1.0.0",
+      "intent": [
+        "surface-content",
+        "orient-visitor"
+      ]
+    },
+    {
+      "semanticId": "article-list",
+      "version": "1.0.0",
+      "intent": [
+        "explain-approach",
+        "build-trust",
+        "answer-questions"
+      ]
+    },
+    {
+      "semanticId": "audience-cards",
+      "version": "1.3.0",
+      "intent": [
+        "segmentation",
+        "clarify-positioning"
+      ]
+    },
+    {
+      "semanticId": "breadcrumbs",
+      "version": "1.0.0",
+      "intent": [
+        "orient-visitor",
+        "surface-content",
+        "fulfill-legal-requirement"
+      ]
+    },
+    {
+      "semanticId": "changelog",
+      "version": "1.0.0",
+      "intent": [
+        "surface-content",
+        "orient-visitor"
+      ]
+    },
+    {
+      "semanticId": "chat-widget",
+      "version": "1.0.0",
+      "intent": [
+        "drive-contact",
+        "capture-lead",
+        "convert-visitor"
+      ]
+    },
+    {
+      "semanticId": "comparison-cards",
+      "version": "1.2.0",
+      "intent": [
+        "differentiation",
+        "clarify-positioning"
+      ]
+    },
+    {
+      "semanticId": "controlled-responsibility-block",
+      "version": "1.2.0",
+      "intent": [
+        "trust",
+        "legal-clarity",
+        "de-risk"
+      ]
+    },
+    {
+      "semanticId": "credits-gallery",
+      "version": "1.0.0",
+      "intent": [
+        "surface-content",
+        "fulfill-legal-requirement"
+      ]
+    },
+    {
+      "semanticId": "donation-card",
+      "version": "1.1.0",
+      "intent": [
+        "display-donation-card",
+        "facilitate-donation",
+        "build-trust"
+      ]
+    },
+    {
+      "semanticId": "donation-use",
+      "version": "1.4.0",
+      "intent": [
+        "signal-transparency",
+        "build-trust",
+        "drive-donation"
+      ]
+    },
+    {
+      "semanticId": "dynamic-status-block",
+      "version": "1.0.0",
+      "intent": [
+        "build-trust",
+        "establish-identity",
+        "clarify-positioning"
+      ]
+    },
+    {
+      "semanticId": "entity-grid",
+      "version": "1.0.0",
+      "intent": [
+        "trust",
+        "legal-clarity",
+        "de-risk"
+      ]
+    },
+    {
+      "semanticId": "exit-diagram",
+      "version": "1.0.0",
+      "intent": [
+        "trust",
+        "legal-clarity",
+        "de-risk"
+      ]
+    },
+    {
+      "semanticId": "faq-list",
+      "version": "1.1.0",
+      "intent": [
+        "explain-approach",
+        "build-trust",
+        "answer-questions"
+      ]
+    },
+    {
+      "semanticId": "final-cta",
+      "version": "1.5.0",
+      "intent": [
+        "convert-visitor",
+        "drive-contact",
+        "capture-lead"
+      ]
+    },
+    {
+      "semanticId": "gratitude",
+      "version": "1.0.0",
+      "intent": [
+        "build-trust",
+        "differentiation"
+      ]
+    },
+    {
+      "semanticId": "hero-decision-card",
+      "version": "1.1.0",
+      "intent": [
+        "introduction",
+        "cta",
+        "clarify-positioning"
+      ]
+    },
+    {
+      "semanticId": "hero",
+      "version": "1.5.0",
+      "intent": [
+        "convert-visitor",
+        "establish-identity",
+        "clarify-positioning"
+      ]
+    },
+    {
+      "semanticId": "impact",
+      "version": "1.5.0",
+      "intent": [
+        "demonstrate-expertise",
+        "show-social-proof",
+        "build-trust"
+      ]
+    },
+    {
+      "semanticId": "markdown",
+      "version": "1.5.0",
+      "intent": [
+        "surface-content",
+        "fulfill-legal-requirement",
+        "orient-visitor"
+      ]
+    },
+    {
+      "semanticId": "mountain-journey",
+      "version": "1.0.0",
+      "intent": [
+        "convert-visitor",
+        "establish-identity"
+      ]
+    },
+    {
+      "semanticId": "navigation",
+      "version": "1.2.0",
+      "intent": [
+        "guide-navigation",
+        "orient-visitor"
+      ]
+    },
+    {
+      "semanticId": "notausgang-block",
+      "version": "1.2.0",
+      "intent": [
+        "trust",
+        "legal-clarity",
+        "de-risk"
+      ]
+    },
+    {
+      "semanticId": "open-source-registry",
+      "version": "1.0.0",
+      "intent": [
+        "fulfill-legal-requirement",
+        "signal-transparency"
+      ]
+    },
+    {
+      "semanticId": "ownership-block",
+      "version": "1.2.0",
+      "intent": [
+        "trust",
+        "legal-clarity",
+        "de-risk"
+      ]
+    },
+    {
+      "semanticId": "people",
+      "version": "2.0.0",
+      "intent": [
+        "humanise-brand",
+        "introduce-team",
+        "attribute-ownership",
+        "build-trust"
+      ]
+    },
+    {
+      "semanticId": "price-card",
+      "version": "1.2.0",
+      "intent": [
+        "pricing",
+        "trust",
+        "clarify-positioning"
+      ]
+    },
+    {
+      "semanticId": "problem",
+      "version": "1.4.0",
+      "intent": [
+        "articulate-problem",
+        "build-trust",
+        "clarify-positioning"
+      ]
+    },
+    {
+      "semanticId": "send-message",
+      "version": "1.3.0",
+      "intent": [
+        "drive-contact",
+        "capture-lead",
+        "convert-visitor"
+      ]
+    },
+    {
+      "semanticId": "service-metadata-block",
+      "version": "1.0.0",
+      "intent": [
+        "build-trust",
+        "legal-clarity"
+      ]
+    },
+    {
+      "semanticId": "social-proof",
+      "version": "1.4.0",
+      "intent": [
+        "show-social-proof",
+        "build-trust",
+        "convert-visitor"
+      ]
+    },
+    {
+      "semanticId": "toc",
+      "version": "1.0.0",
+      "intent": [
+        "orient-visitor",
+        "surface-content"
+      ]
+    },
+    {
+      "semanticId": "transparency",
+      "version": "1.3.0",
+      "intent": [
+        "signal-transparency",
+        "build-trust",
+        "capture-lead"
+      ]
+    },
+    {
+      "semanticId": "trust-strip",
+      "version": "1.2.0",
+      "intent": [
+        "trust",
+        "proof"
+      ]
+    },
+    {
+      "semanticId": "video",
+      "version": "1.0.0",
+      "intent": [
+        "demonstrate-expertise",
+        "orient-visitor",
+        "build-trust"
+      ]
+    },
+    {
+      "semanticId": "women",
+      "version": "1.4.0",
+      "intent": [
+        "humanise-brand",
+        "establish-identity",
+        "introduce-team"
+      ]
+    }
+  ]
 }

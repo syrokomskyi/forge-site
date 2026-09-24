@@ -8,7 +8,7 @@ mirrors:
     storageType: bare
   - path: git@github.com:syrokomskyi/forge-site.git
     storageType: bare
-pinnedPlatform: 6.316.47
+pinnedPlatform: 6.316.159
 status: active
 registeredAt: 2026-09-13T15:04:31.824Z
 deployment:
