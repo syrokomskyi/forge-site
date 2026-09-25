@@ -1,0 +1,33 @@
+site: forge-site
+generatedAt: null
+ledgerHash: sha256:e27eb5cd8d342a6d8d006cd26230bfb12c820e68fa847c9e867386023cd4081b
+eventCount: 24
+latestEvent:
+  schemaVersion: 1.0.0
+  id: event-000024
+  systemId: forge-site
+  occurredAt: 2026-09-23T23:58:08.422Z
+  kind: mission-open
+  status: done
+  missionId: forge-site-m000008
+  releaseId: null
+  actor: unknown
+  summary: re-wire tools/ to siteModuleLoaders canonical surface (RFC-1147/1148)
+  metadata:
+    brief: re-wire tools/ to siteModuleLoaders canonical surface (RFC-1147/1148)
+    pinAtOpen: 6.316.47
+  previousHash: sha256:6f6f8cc1152a59873762dbcc22898d8ea2e82a566f955eb5f75d293d14306274
+  hash: sha256:e27eb5cd8d342a6d8d006cd26230bfb12c820e68fa847c9e867386023cd4081b
+pseo:
+  modules: []
+  generationQueues: {}
+  translationQueues: {}
+  visibility:
+    outcomes: 0
+    actions: {}
+    frozenScopes: 0
+validation:
+  error: 0
+  warning: 0
+  info: 0
+openEscalations: []

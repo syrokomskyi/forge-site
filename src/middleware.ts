@@ -11,7 +11,6 @@
 </non-goals>
 </MODULE_CONTRACT>
 <CHANGE_SUMMARY>
-  <item>RFC-0589: chain retired-tombstone middleware first for 410 Gone handling.</item>
   <item>RFC-0785: chain markdown-negotiation middleware for agent content negotiation.</item>
   <item>RFC-0899: chain access-protection middleware first for dev/alt subdomain auth gate.</item>
   <item>RFC-1097: step 6 — compass.migrate codemod run
@@ -20,7 +19,8 @@ Mechanical v1 to v2 header migration across the workspace: 942 files rewritten �
   <item>RFC-1097: sweep — werkstatt-engine clean
 
 Sweep batch 4: 73 Compass headers on headerless engine files (certification, component-runtime, isolation, evolution, testing), real KEY_DECISIONS on 75 files (kernel, cache, dht, swim, gitmesh, runtime), ~80 purpose expansions (CONTRACT-02/PURPOSE-02), non-goals on 13 CONTRACT-03 files, CS-07 history literal fix repo-wide (253 files). Policy: .template.ts/.template.astro excludedPaths. werkstatt-engine now 0 diagnostics.</item>
-  <history>RFC-0569</history>
+  <item>RFC-1149: migrate ambient filesystem and process IO to the WorkspaceIO port across engine and shared</item>
+  <history>RFC-0569, RFC-0589</history>
 </CHANGE_SUMMARY>
 */
 // @ai-invariant: High-risk module. Middleware chain. Access protection runs first, then tombstone, then language redirect, then markdown negotiation.
@@ -36,13 +36,15 @@ import languageRedirectMiddleware from "./middleware/language-redirect";
 import tombstoneMiddleware from "./middleware/retired-tombstones";
 import markdownNegotiationMiddleware from "./middleware/markdown-negotiation";
 import { createDevNormalizeMiddleware, resolveNormalizeConfig } from "@warpgogol/werkstatt-shared/text/text-normalize";
-import { loadSystemManifestSync } from "@warpgogol/werkstatt-site/content";
+import { loadSystemManifest } from "@warpgogol/werkstatt-site/content";
 
 const devNormalize = import.meta.env.DEV
   ? createDevNormalizeMiddleware(
       resolveNormalizeConfig(
-        loadSystemManifestSync(
-          resolve(dirname(fileURLToPath(import.meta.url)), "content"),
+        (
+          await loadSystemManifest(
+            resolve(dirname(fileURLToPath(import.meta.url)), "content"),
+          )
         ).manifest,
       ),
     )

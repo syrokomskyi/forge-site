@@ -1,0 +1,73 @@
+{
+  "payload": {
+    "schema": "site-passport/v1",
+    "systemId": "forge-site",
+    "creator": {
+      "identity": "unknown",
+      "publicKey": "0d8011ea0ae0fb95687e8cd444db793e3ff7469c9022d427d67e4f384a96b5be"
+    },
+    "platform": {
+      "version": "6.316.159",
+      "semanticHash": "sha256:acae3643eb4591f390fd4658cad1503f3fbcec7cf40cd7d91ea43e4c34dd0e31"
+    },
+    "provenance": {
+      "createdAt": "2026-09-25T20:36:52.277Z",
+      "generatedAt": "2026-09-25T20:36:52.282Z",
+      "bordbuchHead": "sha256:3ffe1f535df1a6bd507370782c1b24fbfa6df2325e5eaa3d7b561cce1b96da71",
+      "missionCounter": 0
+    },
+    "resources": {
+      "channels": {
+        "dev": {
+          "workerName": "syrokomskyi/forge-site",
+          "url": "https://syrokomskyi.github.io/forge-site"
+        },
+        "alt": {
+          "workerName": "syrokomskyi/forge-site",
+          "url": "https://syrokomskyi.github.io/forge-site"
+        },
+        "main": {
+          "workerName": "syrokomskyi/forge-site",
+          "url": "https://syrokomskyi.github.io/forge-site"
+        }
+      },
+      "customDomains": [],
+      "vectorizeIndexes": [],
+      "r2Prefixes": [],
+      "secretNames": [
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_READONLY_API_TOKEN",
+        "CLOUDFLARE_ZONE_ID",
+        "GH_TOKEN",
+        "LAGEBILD_API_KEY",
+        "LAGEBILD_API_URL",
+        "LAGEBILD_SOURCE_SYSTEM_ID",
+        "LAGEBILD_TENANT_ID",
+        "PUBLIC_IMAGE_PROVIDER",
+        "SEARCH_REINDEX_TOKEN",
+        "UPSTASH_QSTASH_CURRENT_SIGNING_KEY",
+        "UPSTASH_QSTASH_NEXT_SIGNING_KEY",
+        "UPSTASH_QSTASH_TOKEN",
+        "UPSTASH_QSTASH_URL",
+        "UPSTASH_REDIS_REST_TOKEN",
+        "UPSTASH_REDIS_REST_URL"
+      ]
+    },
+    "mirrors": [
+      {
+        "role": "cache",
+        "locator": "../systems-cache/forge-site"
+      },
+      {
+        "role": "bare",
+        "locator": "../systems-git/forge-site"
+      },
+      {
+        "role": "external",
+        "locator": "git@github.com:syrokomskyi/forge-site.git"
+      }
+    ]
+  },
+  "passportHash": "sha256:09ea8289b13ce4e20974342630644ae37147dc2366362ba0af62b089a3e0b500",
+  "signature": "a4f95add8a8d32cafc1ea0abdeec9da647b0c7130ccbe7205ed92ae502782b91ec5e4d3db7d5281ced31f5b82017a11acf388bce2f4045d282ddc6ef93138c0a"
+}
