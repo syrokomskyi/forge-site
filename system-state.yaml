@@ -4,6 +4,6 @@ currentMission: null
 lastRelease: null
 lastPropagated: {}
 accessPin: null
-passportRequired: false
+passportRequired: true
 ownershipRequired: false
 
