@@ -3,7 +3,7 @@
   "surfaceVersion": "2.0.0",
   "site": "forge-site",
   "baseUrl": "https://forge.warpgogol.com",
-  "generatedAt": "2026-09-25T20:50:08.877Z",
+  "generatedAt": "2026-09-25T21:25:37.506Z",
   "supportedProtocols": [
     "agent-skills",
     "ard",
@@ -55,7 +55,7 @@
   },
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-25T20:50:09.567Z",
+    "created": "2026-09-25T21:25:37.679Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
     "proofValue": "z5xuPU9J6uK1bQRD7DfijRjQxRD6umpYNBfWmAHPfsosw4hADkkeYcFti3motD7cZKmACCBy4YZLgKE7h4WP2UWYb"
