@@ -1,25 +1,25 @@
 {
   "site": "forge-site",
   "generatedAt": null,
-  "ledgerHash": "sha256:e27eb5cd8d342a6d8d006cd26230bfb12c820e68fa847c9e867386023cd4081b",
-  "eventCount": 24,
+  "ledgerHash": "sha256:60afcd6c564508a378641c9c8c638e12f29c6efc7bef0f4b4f3256eb154dd3db",
+  "eventCount": 29,
   "latestEvent": {
     "schemaVersion": "1.0.0",
-    "id": "event-000024",
+    "id": "event-000029",
     "systemId": "forge-site",
-    "occurredAt": "2026-09-23T23:58:08.422Z",
+    "occurredAt": "2026-09-25T20:37:17.905Z",
     "kind": "mission-open",
     "status": "done",
-    "missionId": "forge-site-m000008",
+    "missionId": "forge-site-m000009",
     "releaseId": null,
     "actor": "unknown",
-    "summary": "re-wire tools/ to siteModuleLoaders canonical surface (RFC-1147/1148)",
+    "summary": "ADR-0091: set externalEditBaselineSha, add owner DID (RFC-0561), regenerate DRIFT-01 drifted files",
     "metadata": {
-      "brief": "re-wire tools/ to siteModuleLoaders canonical surface (RFC-1147/1148)",
-      "pinAtOpen": "6.316.47"
+      "brief": "ADR-0091: set externalEditBaselineSha, add owner DID (RFC-0561), regenerate DRIFT-01 drifted files",
+      "pinAtOpen": "6.316.159"
     },
-    "previousHash": "sha256:6f6f8cc1152a59873762dbcc22898d8ea2e82a566f955eb5f75d293d14306274",
-    "hash": "sha256:e27eb5cd8d342a6d8d006cd26230bfb12c820e68fa847c9e867386023cd4081b"
+    "previousHash": "sha256:3ffe1f535df1a6bd507370782c1b24fbfa6df2325e5eaa3d7b561cce1b96da71",
+    "hash": "sha256:60afcd6c564508a378641c9c8c638e12f29c6efc7bef0f4b4f3256eb154dd3db"
   },
   "pseo": {
     "modules": [],
