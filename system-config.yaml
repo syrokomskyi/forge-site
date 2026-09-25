@@ -10,6 +10,7 @@ mirrors:
     storageType: bare
 pinnedPlatform: 6.316.159
 status: active
+owner: did:web:warpgogol.com#operator-v1
 registeredAt: 2026-09-13T15:04:31.824Z
 deployment:
   adapter: github-pages
@@ -24,4 +25,3 @@ deployment:
       workerName: syrokomskyi/forge-site
       url: https://syrokomskyi.github.io/forge-site
 notes: ""
-

@@ -1,14 +1,14 @@
 
 /* TEAM */
-Studio: Andrii Syrokomskyi
+Studio: Warpgogol
 Site: forge.warpgogol.com
-Contact: mailto:andrii@syrokomskyi.com
+Contact: mailto:hi@warpgogol.com
 
 /* AUTHORS AND CREDITS */
 Credits: See /credits/ and public material-credit disclosures.
 
 /* SITE */
-App: forge-warpgogol
+App: forge-site
 URL: https://forge.warpgogol.com
 Language: en
 Languages: en
