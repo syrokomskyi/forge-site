@@ -1,25 +1,23 @@
 site: forge-site
 generatedAt: null
-ledgerHash: sha256:60afcd6c564508a378641c9c8c638e12f29c6efc7bef0f4b4f3256eb154dd3db
-eventCount: 29
+ledgerHash: sha256:e84f507733016728f021d4749c4f41d1e47bb3616cf693fbe055bbe89ac6c857
+eventCount: 34
 latestEvent:
   schemaVersion: 1.0.0
-  id: event-000029
+  id: event-000034
   systemId: forge-site
-  occurredAt: 2026-09-25T20:37:17.905Z
+  occurredAt: 2026-09-25T21:23:58.436Z
   kind: mission-open
   status: done
-  missionId: forge-site-m000009
+  missionId: forge-site-m000010
   releaseId: null
   actor: unknown
-  summary: "ADR-0091: set externalEditBaselineSha, add owner DID (RFC-0561),
-    regenerate DRIFT-01 drifted files"
+  summary: Bump externalEditBaselineSha past m000009 reconcile commits (ADR-0091)
   metadata:
-    brief: "ADR-0091: set externalEditBaselineSha, add owner DID (RFC-0561),
-      regenerate DRIFT-01 drifted files"
-    pinAtOpen: 6.316.159
-  previousHash: sha256:3ffe1f535df1a6bd507370782c1b24fbfa6df2325e5eaa3d7b561cce1b96da71
-  hash: sha256:60afcd6c564508a378641c9c8c638e12f29c6efc7bef0f4b4f3256eb154dd3db
+    brief: Bump externalEditBaselineSha past m000009 reconcile commits (ADR-0091)
+    pinAtOpen: 6.316.197
+  previousHash: sha256:e5596d21a11d0fbed2d1846398caa91b73a60f749b951ac09bdc0d930d4272e2
+  hash: sha256:e84f507733016728f021d4749c4f41d1e47bb3616cf693fbe055bbe89ac6c857
 pseo:
   modules: []
   generationQueues: {}
