@@ -1,0 +1,4 @@
+{"kind":"op-started","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","op":"leitstand.ship","missionId":"forge-site-m000012","at":"2026-10-01T12:37:40.119Z","platformVersion":""}
+{"kind":"step-started","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","step":"preflight","seq":0,"at":"2026-10-01T12:37:40.120Z"}
+{"kind":"step-done","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","step":"preflight","seq":0,"at":"2026-10-01T12:37:57.786Z"}
+{"kind":"step-started","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","step":"mission-validate","seq":1,"at":"2026-10-01T12:37:57.788Z"}
