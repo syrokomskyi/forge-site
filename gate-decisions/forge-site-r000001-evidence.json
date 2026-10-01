@@ -1,0 +1,65 @@
+{
+  "schema": "werkstatt/evidence-cache@1",
+  "releaseId": "forge-site-r000001",
+  "artifactHash": "sha256:e246909babf5d5b43ebc6405737268c6baa03e1b50d56e812ce67ab70a2a7045",
+  "evidence": [
+    {
+      "schema": "werkstatt/evidence-envelope@1",
+      "evidenceId": "ev-astro-mission-check-2026-10-01t13-08-12-393z",
+      "candidateId": "forge-site",
+      "producerId": "astro-mission-check",
+      "producerAttemptId": "certify-2026-10-01t13-08-12-393z-f6fssh-0",
+      "producedAt": "2026-10-01T13:08:12.393Z",
+      "result": {
+        "schema": "werkstatt/evidence-result@1",
+        "producerId": "astro-mission-check",
+        "producerAttemptId": "certify-2026-10-01t13-08-12-393z-f6fssh-0",
+        "diagnostics": [
+          {
+            "ruleId": "MISSION-CHECK-01",
+            "severity": "warning",
+            "message": "mission.check skipped — no dev deployment URL available (first deploy or no open mission)",
+            "evidence": []
+          }
+        ],
+        "bindingHash": "sha256:e246909babf5d5b43ebc6405737268c6baa03e1b50d56e812ce67ab70a2a7045",
+        "applicability": {
+          "appliesTo": [
+            "astro-req-01-candidate-integrity",
+            "astro-req-02-business-truth-compliance",
+            "astro-req-03-editorial-localization",
+            "astro-req-04-information-architecture-discoverability",
+            "astro-req-05-ux-conversion",
+            "astro-req-06-visual-accessibility",
+            "astro-req-07-performance-runtime",
+            "astro-req-08-security-operational-readiness",
+            "astro-req-09-independent-qualitative-evaluation"
+          ],
+          "scope": "site"
+        }
+      },
+      "payloads": [],
+      "redaction": {
+        "schema": "werkstatt/redaction-report@1",
+        "policyVersion": "1.0.0",
+        "detectedSecrets": 0,
+        "detectedPii": 0,
+        "resolved": true,
+        "unresolvedSecrets": 0,
+        "unresolvedPii": 0
+      },
+      "authorityAdmission": {
+        "schema": "werkstatt/authority-admission@1",
+        "authoritySequence": 1,
+        "admittedAt": "2026-10-01T13:08:12.393Z",
+        "admittedBy": "leitstand.certify"
+      },
+      "freshness": {
+        "expiresAt": "2026-10-01T13:38:12.393Z",
+        "staleAfter": "2026-10-01T14:08:12.393Z"
+      }
+    }
+  ],
+  "producedAt": "2026-10-01T13:08:12.393Z",
+  "producedByGate": "dev"
+}
