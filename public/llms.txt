@@ -3,6 +3,7 @@
 > For complete documentation in a single file, see [llms-full.txt](https://forge.warpgogol.com/llms-full.txt).
 > Machine-readable Agent Surface (structured knowledge + capabilities): [agent.json](https://forge.warpgogol.com/.well-known/agent.json).
 > API discovery catalog (RFC 9727): [api-catalog](https://forge.warpgogol.com/.well-known/api-catalog).
+> ARD agent resource catalog (v0.91): [ard.json](https://forge.warpgogol.com/.well-known/ard.json).
 > OpenAPI 3.1 specification: [agent.openapi.json](https://forge.warpgogol.com/.well-known/agent.openapi.json).
 
 ## Primary sources
