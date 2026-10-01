@@ -1,0 +1,5 @@
+version: 1
+entries:
+  - filePattern: "_astro/schemas.*.js"
+    disposition: accepted-debt
+    note: "Platform-generated schema bundle carries a guarded new Function('') capability probe (try/catch + UA check); no user-controlled markup reaches it."
