@@ -54,3 +54,24 @@ trust/evidence/screenshots/
 
 # ADR-0087: transient build identity — written pre-build by handoff helpers, untracked by design
 public/.well-known/build-identity.json
+
+# CACHE-CLONE-ONLY — do not remove
+package.json
+pnpm-lock.yaml
+astro.config.mjs
+astro.config.ts
+tsconfig.json
+wrangler.toml
+wrangler.jsonc
+behavior.snapshot.generated.yaml
+bordbuch/status.generated.yaml
+public/.well-known/bordbuch/status.generated.yaml
+src/agent-capabilities.generated.json
+src/agent-capabilities.generated.yaml
+src/agent-surface.generated.json
+src/agent-surface.generated.yaml
+src/entitlements.generated.yaml
+src/env.schema.generated.mjs
+src/freshness.generated.yaml
+src/styles/biome.generated.css
+src/surface.generated.yaml
