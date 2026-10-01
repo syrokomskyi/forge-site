@@ -7,13 +7,13 @@
       "publicKey": "0d8011ea0ae0fb95687e8cd444db793e3ff7469c9022d427d67e4f384a96b5be"
     },
     "platform": {
-      "version": "6.316.197",
-      "semanticHash": "sha256:4013ce9bbeee29b0b05dd9dea3c91bb4acb4a7a99ab27fce4ec3648d653cf7c1"
+      "version": "6.320.33",
+      "semanticHash": "sha256:57e6e73a6e9ca101beeb17896edf1626400cfdbc541f6505850223d740163251"
     },
     "provenance": {
       "createdAt": "2026-09-25T20:36:52.277Z",
       "generatedAt": "2026-09-25T21:53:32.283Z",
-      "bordbuchHead": "sha256:0816dc61ea8824feacc9c460462168a75bc73841ed4e8bf6cbe46f643d676fe6",
+      "bordbuchHead": "sha256:cee9a26d99da08db53df6c044ef307ed7667dfcbd72848730214f4b9d42e6591",
       "missionCounter": 0
     },
     "resources": {
@@ -68,6 +68,6 @@
       }
     ]
   },
-  "passportHash": "sha256:869d4a10bffa100c0782fbc7e27545336616a9b73bf1090857d3acba7f74755d",
-  "signature": "de0e2078dab24e08dd2b71de965d44c7082c50dd30a1cfe89d0ec1a5fe6bfedd3dc516c0ab1cc44222d672290c9e13a099703b71e90e0eb39736721db39eb40c"
+  "passportHash": "sha256:08bdc89449282bbd437431a216b1c5ebc15ac90d295666cdc97b86621ce81f74",
+  "signature": "a91f660c52f571ac953dbbb7c55a643e721d0f616b107246d98fb6edfb80080b8777383b0a10e98dd46b769302f8e43baac69167c77378e35ce8260bc07ff60a"
 }
