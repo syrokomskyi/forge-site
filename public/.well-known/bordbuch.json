@@ -1,25 +1,25 @@
 {
   "site": "forge-site",
   "generatedAt": null,
-  "ledgerHash": "sha256:a2f4c2ee986d064bd714479ed377f25157109c19ae768a6c29fb2bcbc12758af",
-  "eventCount": 40,
+  "ledgerHash": "sha256:02baec377377e25b660e0e0afda8907afed88591615ede821dae5e273f05b6f2",
+  "eventCount": 46,
   "latestEvent": {
     "schemaVersion": "1.0.0",
-    "id": "event-000040",
+    "id": "event-000046",
     "systemId": "forge-site",
-    "occurredAt": "2026-10-01T10:12:13.913Z",
+    "occurredAt": "2026-10-01T12:31:23.695Z",
     "kind": "mission-open",
     "status": "done",
-    "missionId": "forge-site-m000011",
+    "missionId": "forge-site-m000012",
     "releaseId": null,
-    "actor": "unknown",
-    "summary": "chore: seed src/csp-sinks.allowlist.yaml — accepted-debt for platform schemas.*.js capability probe (RFC-1178 follow-up)",
+    "actor": "operator",
+    "summary": "Release + alt-channel deploy: CSP allowlist seed re-validation under blocking csp.sinks.validate (platform 6.320.34)",
     "metadata": {
-      "brief": "chore: seed src/csp-sinks.allowlist.yaml — accepted-debt for platform schemas.*.js capability probe (RFC-1178 follow-up)",
-      "pinAtOpen": "6.316.197"
+      "brief": "Release + alt-channel deploy: CSP allowlist seed re-validation under blocking csp.sinks.validate (platform 6.320.34)",
+      "pinAtOpen": "6.320.33"
     },
-    "previousHash": "sha256:ad328d8b1e7cb9ad5bf750affef965040fbaff497d40b9215b920f150a7768bb",
-    "hash": "sha256:a2f4c2ee986d064bd714479ed377f25157109c19ae768a6c29fb2bcbc12758af"
+    "previousHash": "sha256:f579975a09073b5f18980ac179170796e04186a8ac47d317031993d28976588d",
+    "hash": "sha256:02baec377377e25b660e0e0afda8907afed88591615ede821dae5e273f05b6f2"
   },
   "pseo": {
     "modules": [],
