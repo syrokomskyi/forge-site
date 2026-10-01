@@ -1,6 +1,6 @@
 {
   "schema": "werkstatt/deployment-effect-record@1",
-  "effectHash": "sha256:555a94eee362d90b4e08338f6c0ef202587ce3e6e01f5c8ab11d9d1f27e4afbc",
+  "effectHash": "sha256:71e8309d4146a4d5fe8aab2f7b96654c5f43fe4f0d062dcf0b04da5d19153812",
   "operationId": "op-mupkdvpk-w4smdbbe",
   "candidateId": "forge-site",
   "gate": "dev-deploy",
@@ -9,6 +9,7 @@
   "decisionId": "dec-2026-10-01t13-22-52-948z-d13ru7",
   "durableSyncVerified": false,
   "mainVerificationDecisionId": null,
-  "state": "authorized",
-  "timestamp": "2026-10-01T13:22:54.536Z"
+  "state": "failed",
+  "timestamp": "2026-10-01T13:22:55.101Z",
+  "deploymentUrl": "https://syrokomskyi.github.io/forge-site"
 }
