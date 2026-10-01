@@ -2,3 +2,5 @@
 {"kind":"step-started","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","step":"preflight","seq":0,"at":"2026-10-01T12:37:40.120Z"}
 {"kind":"step-done","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","step":"preflight","seq":0,"at":"2026-10-01T12:37:57.786Z"}
 {"kind":"step-started","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","step":"mission-validate","seq":1,"at":"2026-10-01T12:37:57.788Z"}
+{"kind":"step-done","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","step":"mission-validate","seq":1,"at":"2026-10-01T12:43:28.156Z"}
+{"kind":"step-started","opId":"leitstand-ship-2026-10-01T12-37-40-119Z","step":"mission-reconcile","seq":2,"at":"2026-10-01T12:43:28.158Z"}
