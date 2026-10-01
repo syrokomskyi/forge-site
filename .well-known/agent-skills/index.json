@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "site": "forge-site",
+  "skills": [
+    {
+      "name": "company",
+      "type": "skill-md",
+      "description": "Agent knowledge for company domain",
+      "url": "/.well-known/agent-skills/company/SKILL.md",
+      "digest": "sha256:38cbe09594d6ce248825f18567f996e2328961baf7b77a40b5395279ec12455b"
+    },
+    {
+      "name": "contact",
+      "type": "skill-md",
+      "description": "Agent knowledge for contact domain",
+      "url": "/.well-known/agent-skills/contact/SKILL.md",
+      "digest": "sha256:dd90edf92e75e5e22cb72612b4bc2e7f7fa268c892f9914d77cad30b3efa9585"
+    },
+    {
+      "name": "legal",
+      "type": "skill-md",
+      "description": "Agent knowledge for legal domain",
+      "url": "/.well-known/agent-skills/legal/SKILL.md",
+      "digest": "sha256:139d38178756ed4ff6c6b99c31906ce062fee149bb9d0ef585afd9067257f62a"
+    },
+    {
+      "name": "location",
+      "type": "skill-md",
+      "description": "Agent knowledge for location domain",
+      "url": "/.well-known/agent-skills/location/SKILL.md",
+      "digest": "sha256:d274556f0a25b71d62f34ada58b8caa8c26539819f91137f1321392e1930180d"
+    },
+    {
+      "name": "agent-manifest",
+      "type": "skill-json",
+      "description": "Agent surface manifest with capabilities and interfaces",
+      "url": "/.well-known/agent.json",
+      "digest": "sha256:da1b8633ff205504ece14d877d2255979b34163487dd23831e97984f9b8f0753"
+    },
+    {
+      "name": "openapi-spec",
+      "type": "skill-json",
+      "description": "OpenAPI 3.1 specification for agent API endpoints",
+      "url": "/.well-known/agent.openapi.json",
+      "digest": "sha256:d4b206bbc68984eca6a330a186ef6e695094402bc1151a7b972660a3f70275c4"
+    },
+    {
+      "name": "llms-txt",
+      "type": "skill-txt",
+      "description": "LLM-friendly site summary",
+      "url": "/llms.txt",
+      "digest": "sha256:549cc519dfe4bd9ac537c0399f6b38c757a54f491c5fa1114aeae101a28d07c6"
+    }
+  ]
+}

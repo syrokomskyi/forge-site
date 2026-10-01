@@ -9,20 +9,21 @@
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=()
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'self'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: blob: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self' https:; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'self'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: blob: https:; media-src 'self' blob:; worker-src 'self' blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-RA3tiXt53Wg1Qs5Oy4t0MDhJ8mNPPnnoINk2Pf2bdbA=' 'sha256-eNJyI0o9k5ReNxLmFFJtOKh0dMETqcYxIDuVtbJ/Y9Y=' 'sha256-fYz7yeznZJk0zC0rHZc5Z4balzTotG8+iX7ZS9J17OA=' 'sha256-iFSn1j7UI4oJE3HLSo7aLHXXXa10oaDCowX+IWR7TNE=' 'sha256-v/c9mV7OzMg6WAOwIiG6je3zMGGwR3GvACkbILW9lFw=' 'sha256-x4mwecxYsb2/gzj7RFJYIArF5pO6KHu9j9hpTmsGEKU=' 'sha256-z1DHQ0Nr8CMyP+mBpwovs7snFBZBAE5rMV6X7yQCWec='; connect-src 'self' https: data:; upgrade-insecure-requests; require-trusted-types-for 'script'; trusted-types werkstatt
   Cross-Origin-Resource-Policy: same-site
+  Cross-Origin-Opener-Policy: same-origin
   X-DNS-Prefetch-Control: on
   Vary: Accept
   Link: < /.well-known/agent.json>; rel="service-meta"; type="application/json"
   Link: < /.well-known/agent.openapi.json>; rel="service-desc"; type="application/json"
-  Link: < /.well-known/api-catalog>; rel="service-desc"; type="application/linkset+json"
-  Link: < /.well-known/ai-catalog.json>; rel="service-desc"; type="application/json"
-  Link: < /.well-known/mcp/server-card.json>; rel="service-desc"; type="application/json"
+  Link: < /.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json"
+  Link: < /.well-known/ard.json>; rel="ard"; type="application/ai-catalog+json"
+  Link: < /.well-known/ai-catalog.json>; rel="ai-catalog"; type="application/ai-catalog+json"
+  Link: < /.well-known/agent-card.json>; rel="service-desc"; type="application/json"
   Link: < /.well-known/agent-skills/index.json>; rel="service-desc"; type="application/json"
-  Link: < /.well-known/oauth-protected-resource>; rel="service-desc"; type="application/json"
-  Link: < /.well-known/oauth-authorization-server>; rel="service-desc"; type="application/json"
   Link: < /auth.md>; rel="service-doc"; type="text/markdown"
   Link: < /llms.txt>; rel="service-doc"; type="text/plain"
+  Link: < /llms.txt>; rel="describedby"; type="text/plain"
 
 
 # RFC-0315: Markdown twins — text/markdown content type + short freshness
@@ -31,20 +32,55 @@
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=300
 
+# RFC-1164: per-page JSON-LD mirrors — ld+json content type + CORS-open
+/*.jsonld
+  Content-Type: application/ld+json; charset=utf-8
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *
+
+# RFC-1164: Schemamap index — xml content type, hourly freshness
+/schemamap.xml
+  Content-Type: application/xml; charset=utf-8
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
 # RFC-0315: .well-known/* — short freshness, nosniff
 /.well-known/*
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=300
 
-# RFC-0783: API Catalog — application/linkset+json content type
-/.well-known/api-catalog
-  Content-Type: application/linkset+json; charset=utf-8
+# RFC-1115: dereferenceable entity documents — JSON-LD content type
+/.well-known/entity/*
+  Content-Type: application/ld+json; charset=utf-8
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=300
 
-# ARD (Agentic Resource Discovery) ai-catalog.json — application/json with CORS
+# RFC-0783/1113: API Catalog — linkset+json with the RFC 9727 profile parameter
+/.well-known/api-catalog
+  Content-Type: application/linkset+json; charset=utf-8; profile="https://www.rfc-editor.org/rfc/rfc9727.html"
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=300
+
+# ARD (Agentic Resource Discovery) — canonical v0.91 path + predecessor alias,
+# both served as the catalog media type with CORS
+/.well-known/ard.json
+  Content-Type: application/ai-catalog+json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=300
+
 /.well-known/ai-catalog.json
-  Content-Type: application/json; charset=utf-8
+  Content-Type: application/ai-catalog+json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=300
+
+# Agent Skills documents — markdown with the agent-skills profile, CORS-open.
+# Overrides the generic /*.md content type (last matching rule wins).
+/.well-known/agent-skills/*/SKILL.md
+  Content-Type: text/markdown; charset=utf-8; profile="urn:air:agent-skills"
   Access-Control-Allow-Origin: *
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=300
@@ -61,22 +97,18 @@
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=300
 
-# OAuth Protected Resource Metadata — application/json content type
-/.well-known/oauth-protected-resource
-  Content-Type: application/json; charset=utf-8
-  X-Content-Type-Options: nosniff
-  Cache-Control: public, max-age=300
-
-# OAuth Authorization Server Metadata — application/json content type
-/.well-known/oauth-authorization-server
-  Content-Type: application/json; charset=utf-8
-  X-Content-Type-Options: nosniff
-  Cache-Control: public, max-age=300
-
 # RFC-0315: /api/agent/v1/* — short freshness, nosniff
 /api/agent/v1/*
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=300
+
+# RFC-1165: /ask — NLWeb endpoint; deterministic extractive answers are
+# CDN-cacheable per frozen index state (short window keeps reindex churn honest)
+/ask
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: POST, OPTIONS
 
 # Cache static assets for performance
 /_astro/*

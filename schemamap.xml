@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemamap xmlns="https://forge.warpgogol.com/schemas/schemamap/0.1">
+  <resource>
+    <loc>https://forge.warpgogol.com/</loc>
+    <jsonld>https://forge.warpgogol.com/index.jsonld</jsonld>
+    <type>BreadcrumbList</type>
+    <type>Organization</type>
+    <type>ProfessionalService</type>
+    <type>WebPage</type>
+    <type>WebSite</type>
+  </resource>
+  <resource>
+    <loc>https://forge.warpgogol.com/datenschutz/</loc>
+    <jsonld>https://forge.warpgogol.com/datenschutz.jsonld</jsonld>
+    <type>BreadcrumbList</type>
+    <type>Organization</type>
+    <type>ProfessionalService</type>
+    <type>WebPage</type>
+    <type>WebSite</type>
+  </resource>
+  <resource>
+    <loc>https://forge.warpgogol.com/impressum/</loc>
+    <jsonld>https://forge.warpgogol.com/impressum.jsonld</jsonld>
+    <type>BreadcrumbList</type>
+    <type>Organization</type>
+    <type>ProfessionalService</type>
+    <type>WebPage</type>
+    <type>WebSite</type>
+  </resource>
+</schemamap>

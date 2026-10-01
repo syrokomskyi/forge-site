@@ -6,11 +6,28 @@ Content-Signal: ai-train=no, search=yes, ai-input=yes
 # Default crawl policy
 User-agent: *
 
-# Auxiliary discovery files — explicitly allowed for all crawlers
+# Auxiliary discovery files - explicitly allowed for all crawlers
 Allow: /robots.txt
 Allow: /llms.txt
 Allow: /llms-full.txt
 Allow: /sitemap.xml
 Allow: /sitemap-content.xml
+
+# AI-training crawlers - derived from Content-Signal ai-train=no (RFC-1161)
+User-agent: GPTBot
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: cohere-ai
+User-agent: Meta-ExternalAgent
+User-agent: AI2Bot
+User-agent: Diffbot
+User-agent: Webzio-Extended
+User-agent: Timpibot
+User-agent: VelenPublicWebCrawler
+Disallow: /
 
 Sitemap: https://forge.warpgogol.com/sitemap.xml

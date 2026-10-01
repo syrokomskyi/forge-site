@@ -1,0 +1,69 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Sirius",
+    "identifier": "did:web:forge.warpgogol.com"
+  },
+  "entries": [
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:forge.warpgogol.com:agent:a2a",
+      "displayName": "A2A Agent Card",
+      "type": "application/a2a-agent-card+json",
+      "url": "https://forge.warpgogol.com/.well-known/agent-card.json",
+      "description": "A2A agent card describing the site's agent capabilities, skills, and endpoint.",
+      "representativeQueries": [
+        "What agent capabilities does this site offer",
+        "Get the A2A agent card for this service"
+      ]
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:company",
+      "displayName": "Company Knowledge",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://forge.warpgogol.com/.well-known/agent-skills/company/SKILL.md",
+      "description": "Agent skill document for the site's canonical company knowledge.",
+      "representativeQueries": [
+        "What company information is available on this site",
+        "Get structured company data for agent consumption"
+      ]
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:contact",
+      "displayName": "Contact Knowledge",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://forge.warpgogol.com/.well-known/agent-skills/contact/SKILL.md",
+      "description": "Agent skill document for the site's canonical contact knowledge.",
+      "representativeQueries": [
+        "What contact information is available on this site",
+        "Get structured contact data for agent consumption"
+      ]
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:legal",
+      "displayName": "Legal Knowledge",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://forge.warpgogol.com/.well-known/agent-skills/legal/SKILL.md",
+      "description": "Agent skill document for the site's canonical legal knowledge.",
+      "representativeQueries": [
+        "What legal information is available on this site",
+        "Get structured legal data for agent consumption"
+      ]
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:forge.warpgogol.com:knowledge:location",
+      "displayName": "Location Knowledge",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://forge.warpgogol.com/.well-known/agent-skills/location/SKILL.md",
+      "description": "Agent skill document for the site's canonical location knowledge.",
+      "representativeQueries": [
+        "What location information is available on this site",
+        "Get structured location data for agent consumption"
+      ]
+    }
+  ]
+}

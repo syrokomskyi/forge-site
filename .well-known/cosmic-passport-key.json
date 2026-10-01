@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "appId": "forge-warpgogol",
+  "keys": [
+    {
+      "version": "v1",
+      "active": true,
+      "type": "Ed25519VerificationKey2020",
+      "publicKeyMultibase": "zbABSj5ftS32CpXx3fY9SxhXXykk2GfNgEnzsoFXJfew",
+      "createdAt": "2026-09-13T15:16:14.945Z"
+    }
+  ]
+}

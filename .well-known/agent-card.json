@@ -1,0 +1,45 @@
+{
+  "name": "forge-site",
+  "version": "1.0.0",
+  "description": "A2A agent surface for forge-site. Executes the advertised capability skills synchronously via SendMessage.",
+  "supportedInterfaces": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "extendedAgentCard": false
+  },
+  "skills": [
+    {
+      "id": "company",
+      "name": "Company",
+      "description": "Agent knowledge for company domain",
+      "tags": [
+        "knowledge"
+      ]
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "description": "Agent knowledge for contact domain",
+      "tags": [
+        "knowledge"
+      ]
+    },
+    {
+      "id": "legal",
+      "name": "Legal",
+      "description": "Agent knowledge for legal domain",
+      "tags": [
+        "knowledge"
+      ]
+    },
+    {
+      "id": "location",
+      "name": "Location",
+      "description": "Agent knowledge for location domain",
+      "tags": [
+        "knowledge"
+      ]
+    }
+  ]
+}

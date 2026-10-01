@@ -4,6 +4,9 @@
     <loc>https://forge.warpgogol.com/sitemap-content.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://forge.warpgogol.com/sitemap-legal.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://forge.warpgogol.com/sitemap-images.xml</loc>
   </sitemap>
   <sitemap>
