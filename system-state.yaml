@@ -10,6 +10,13 @@ lastPropagated:
     state: succeeded
     operationId: op-mupkrv3c-aykyryjl
     leaseExpiresAt: null
+  alt:
+    releaseId: forge-site-r000001
+    at: 2026-10-01T13:34:51.724Z
+    healthy: true
+    state: succeeded
+    operationId: op-mupkt8sb-oacvekt7
+    leaseExpiresAt: null
 accessPin: null
 passportRequired: true
 ownershipRequired: false
