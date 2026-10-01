@@ -2,12 +2,12 @@
   "schemaVersion": "1.0.0",
   "systemId": "forge-site",
   "cosmicStar": "Sirius",
-  "pinnedAt": "2026-10-01T10:39:56.714Z",
+  "pinnedAt": "2026-10-01T12:44:35.425Z",
   "platform": {
-    "version": "6.320.33",
-    "commit": "908621be287fb4645c2eca4110bf2882630eb5c4",
+    "version": "6.320.34",
+    "commit": "ad6aad09da9ac2eb1d857aa5c374dd10a18caeab",
     "rfcHead": "RFC-0387",
-    "platformSemanticHash": "sha256:57e6e73a6e9ca101beeb17896edf1626400cfdbc541f6505850223d740163251"
+    "platformSemanticHash": "sha256:d85eedb82c895f142a7cb186e64ac77e1e5f55ee6a955c19a28ab91cb7f57b79"
   },
   "migratorCursor": [
     "rfc-0479",
