@@ -1,0 +1,14 @@
+{
+  "schema": "werkstatt/deployment-effect-record@1",
+  "effectHash": "sha256:9f3f225c4e31c1930c9889161a459633b29181279b0670b7c642019c92e78417",
+  "operationId": "op-mupk1dme-hgjib9nd",
+  "candidateId": "forge-site",
+  "gate": "dev-deploy",
+  "channel": "dev",
+  "artifactHash": "sha256:e246909babf5d5b43ebc6405737268c6baa03e1b50d56e812ce67ab70a2a7045",
+  "decisionId": "dec-2026-10-01t13-13-09-855z-dq8t6q",
+  "durableSyncVerified": false,
+  "mainVerificationDecisionId": null,
+  "state": "authorized",
+  "timestamp": "2026-10-01T13:13:11.222Z"
+}
