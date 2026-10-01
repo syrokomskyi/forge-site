@@ -13,7 +13,7 @@
     "provenance": {
       "createdAt": "2026-09-25T20:36:52.277Z",
       "generatedAt": "2026-09-25T21:53:32.283Z",
-      "bordbuchHead": "sha256:7cf45c338cb39062f259bbbb82c8143ed586623951c1dbb1c27ab4058b30b972",
+      "bordbuchHead": "sha256:0816dc61ea8824feacc9c460462168a75bc73841ed4e8bf6cbe46f643d676fe6",
       "missionCounter": 0
     },
     "resources": {
@@ -68,6 +68,6 @@
       }
     ]
   },
-  "passportHash": "sha256:db2b2b9dd8649820a35ee565abe662f0a5a25561de6e00ac5b525a4efaaf2cc4",
-  "signature": "b9e484f8011ba7040766bdd31a49c475b9c9ab888515e73025e3bc54b86983020ec26a5668c0d6fbce41e2219aad0ef2bae90f49f364f71e3d21ef7e061c5705"
+  "passportHash": "sha256:869d4a10bffa100c0782fbc7e27545336616a9b73bf1090857d3acba7f74755d",
+  "signature": "de0e2078dab24e08dd2b71de965d44c7082c50dd30a1cfe89d0ec1a5fe6bfedd3dc516c0ab1cc44222d672290c9e13a099703b71e90e0eb39736721db39eb40c"
 }
