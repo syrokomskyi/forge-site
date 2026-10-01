@@ -3,7 +3,7 @@
   "surfaceVersion": "2.0.0",
   "site": "forge-site",
   "baseUrl": "https://forge.warpgogol.com",
-  "generatedAt": "2026-09-25T21:28:41.946Z",
+  "generatedAt": "2026-10-01T10:15:03.890Z",
   "supportedProtocols": [
     "agent-skills",
     "ard",
@@ -11,6 +11,7 @@
     "linkset",
     "llms",
     "openapi",
+    "schemamap",
     "twins"
   ],
   "languages": {
@@ -42,23 +43,26 @@
     }
   ],
   "actions": [],
+  "deprecations": [],
   "claims": [],
   "interfaces": {
     "llms": "/llms.txt",
+    "schemamap": "/schemamap.xml",
     "twins": {
       "pattern": "/**.md"
     },
     "openapi": "/.well-known/agent.openapi.json",
     "mcp": null,
     "a2a": null,
-    "search": null
+    "search": null,
+    "nlweb": null
   },
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-09-25T21:28:42.349Z",
+    "created": "2026-10-01T10:15:04.069Z",
     "verificationMethod": "did:web:forge.warpgogol.com#key-v1",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z5xuPU9J6uK1bQRD7DfijRjQxRD6umpYNBfWmAHPfsosw4hADkkeYcFti3motD7cZKmACCBy4YZLgKE7h4WP2UWYb"
+    "proofValue": "z2xmrdkKGcu5en1L4qRoQSdKtGmCX36bMqWXQu5UyRVmJM1KUsuf4JVhqPVuthV9x7pUhbLtcfskUBr51BwTZUbB3"
   },
-  "contentHash": "c11edf2639dd7ba4ad1712af5d431d0e3fc49356563d6b8773efb423c02e8bb9"
+  "contentHash": "84f393f44fe050a01df27f899b02dcf77b0acc79ceb94c304fceee2c16b6e614"
 }

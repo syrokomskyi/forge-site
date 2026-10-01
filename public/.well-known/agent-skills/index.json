@@ -6,29 +6,29 @@
       "name": "company",
       "type": "skill-md",
       "description": "Agent knowledge for company domain",
-      "url": "/api/agent/v1/company.json",
-      "digest": "sha256:91e45354f85f3b36c8c517182e51ba03ef98bd2aab6071d8b77f409965bfb732"
+      "url": "/.well-known/agent-skills/company/SKILL.md",
+      "digest": "sha256:38cbe09594d6ce248825f18567f996e2328961baf7b77a40b5395279ec12455b"
     },
     {
       "name": "contact",
       "type": "skill-md",
       "description": "Agent knowledge for contact domain",
-      "url": "/api/agent/v1/contact.json",
-      "digest": "sha256:9e5c6e9dd07526cab4b97d382ccbc0a615610bb814d92ced5442ef38ffd73e20"
+      "url": "/.well-known/agent-skills/contact/SKILL.md",
+      "digest": "sha256:dd90edf92e75e5e22cb72612b4bc2e7f7fa268c892f9914d77cad30b3efa9585"
     },
     {
       "name": "legal",
       "type": "skill-md",
       "description": "Agent knowledge for legal domain",
-      "url": "/api/agent/v1/legal.json",
-      "digest": "sha256:a19a4175ff250c0ecccaa6922826f03b68e80c2c7aac3226dde47d9cd493e7f2"
+      "url": "/.well-known/agent-skills/legal/SKILL.md",
+      "digest": "sha256:139d38178756ed4ff6c6b99c31906ce062fee149bb9d0ef585afd9067257f62a"
     },
     {
       "name": "location",
       "type": "skill-md",
       "description": "Agent knowledge for location domain",
-      "url": "/api/agent/v1/location.json",
-      "digest": "sha256:c08f2343cf6c9c4b03d3ec139679198172e1eaed7f1f55cfabb15680fa0e4e98"
+      "url": "/.well-known/agent-skills/location/SKILL.md",
+      "digest": "sha256:d274556f0a25b71d62f34ada58b8caa8c26539819f91137f1321392e1930180d"
     },
     {
       "name": "agent-manifest",

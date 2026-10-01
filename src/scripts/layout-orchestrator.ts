@@ -13,12 +13,14 @@
 </MODULE_CONTRACT>
 <CHANGE_SUMMARY>
   <item>LH-02: guard the dynamic import behind a querySelector for orchestrated elements.</item>
+  <item>RFC-1175: ORCHESTRATED_SELECTOR gains video[data-bg-video] — background loops now need the runtime (capability-gated autoplay).</item>
   <item>RFC-1097: step 6 — compass.migrate codemod run
 
 Mechanical v1 to v2 header migration across the workspace: 942 files rewritten — CHANGE_SUMMARY windows collapsed into history, forbidden v1 blocks stripped, KEY_DECISIONS seeded from @ai-invariant comments (5 files) or TODO placeholders (103 files), blocks reordered to canonical order.</item>
   <item>RFC-1097: sweep — werkstatt-engine clean
 
 Sweep batch 4: 73 Compass headers on headerless engine files (certification, component-runtime, isolation, evolution, testing), real KEY_DECISIONS on 75 files (kernel, cache, dht, swim, gitmesh, runtime), ~80 purpose expansions (CONTRACT-02/PURPOSE-02), non-goals on 13 CONTRACT-03 files, CS-07 history literal fix repo-wide (253 files). Policy: .template.ts/.template.astro excludedPaths. werkstatt-engine now 0 diagnostics.</item>
+  <item>RFC-1175: close Lighthouse gaps — directive-allowlist robots (Schemamap retired, ROBOTS-SURFACE-01), capability-gated video (preload=none, data-bg-video, saveData/reduced-motion), single fetchpriority=high per page (IMG-DELIVERY-05), inlined shared texture token, 24px QR touch targets; RFC-1177 security-headers draft</item>
 </CHANGE_SUMMARY>
 */
 
@@ -34,7 +36,7 @@ void (async () => {
   // contains an element it manages — links to harden, LordIcons, or motion hooks.
   // Pages with none of these skip the dynamic import entirely.
   const ORCHESTRATED_SELECTOR =
-    "a[href], lord-icon, .js-inline-number, [data-motion-reveal], [data-parallax-speed], [data-motion-stagger], [data-live-photo], video[data-video-player], section[id]";
+    "a[href], lord-icon, .js-inline-number, [data-motion-reveal], [data-parallax-speed], [data-motion-stagger], [data-live-photo], video[data-video-player], video[data-bg-video], section[id]";
   if (!document.querySelector(ORCHESTRATED_SELECTOR)) return;
 
   const { runStandardLayoutOrchestration } = await import("@warpgogol/werkstatt-shared/client-scripts");

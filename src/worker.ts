@@ -34,6 +34,7 @@ before matchStaticAsset short-circuits prerendered pages (Astro issue #16252).</
 
 // @ai-invariant: Wraps Astro Cloudflare handler. Runs before matchStaticAsset for prerendered pages.
 // RFC-0785: markdown content negotiation for agent requests.
+/// <reference types="@cloudflare/workers-types" />
 import { default as astroHandler } from "@astrojs/cloudflare/entrypoints/server";
 import { markdownTwinUrlPath } from "@warpgogol/werkstatt-shared/semantic";
 import { checkAccessProtection, addNoIndexHeaderIfNeeded } from "@warpgogol/werkstatt-shared/middleware/access-protection";
@@ -92,6 +93,15 @@ export default {
     }
 
     if (!isPageRoute(url.pathname)) {
+      // Byte-range requests go straight to the ASSETS binding: the Astro adapter
+      // re-invokes it with a URL string and drops request headers, so Range would
+      // never reach the backend (progressive video/audio could not seek).
+      if (request.headers.has("Range")) {
+        const assetResponse = await (env.ASSETS as Fetcher).fetch(request);
+        if (assetResponse.status !== 404) {
+          return addNoIndexHeaderIfNeeded(request, assetResponse);
+        }
+      }
       const response = await astroHandler.fetch(request, env, ctx);
       return addNoIndexHeaderIfNeeded(request, response);
     }

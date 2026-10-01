@@ -1,0 +1,33 @@
+site: forge-site
+generatedAt: null
+ledgerHash: sha256:e84f507733016728f021d4749c4f41d1e47bb3616cf693fbe055bbe89ac6c857
+eventCount: 34
+latestEvent:
+  schemaVersion: 1.0.0
+  id: event-000034
+  systemId: forge-site
+  occurredAt: 2026-09-25T21:23:58.436Z
+  kind: mission-open
+  status: done
+  missionId: forge-site-m000010
+  releaseId: null
+  actor: unknown
+  summary: Bump externalEditBaselineSha past m000009 reconcile commits (ADR-0091)
+  metadata:
+    brief: Bump externalEditBaselineSha past m000009 reconcile commits (ADR-0091)
+    pinAtOpen: 6.316.197
+  previousHash: sha256:e5596d21a11d0fbed2d1846398caa91b73a60f749b951ac09bdc0d930d4272e2
+  hash: sha256:e84f507733016728f021d4749c4f41d1e47bb3616cf693fbe055bbe89ac6c857
+pseo:
+  modules: []
+  generationQueues: {}
+  translationQueues: {}
+  visibility:
+    outcomes: 0
+    actions: {}
+    frozenScopes: 0
+validation:
+  error: 0
+  warning: 0
+  info: 0
+openEscalations: []
