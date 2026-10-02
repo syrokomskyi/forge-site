@@ -14,4 +14,5 @@ blocks:
       hideSectionNumber: true
       heading: "Impressum"
       contentRef: "prose/impressum.en"
+    inherit: false
 ---

@@ -14,4 +14,5 @@ blocks:
       hideSectionNumber: true
       heading: "Datenschutzerklärung"
       contentRef: "prose/datenschutz.en"
+    inherit: false
 ---
