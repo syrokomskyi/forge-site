@@ -1,25 +1,25 @@
 {
   "site": "forge-site",
   "generatedAt": null,
-  "ledgerHash": "sha256:02baec377377e25b660e0e0afda8907afed88591615ede821dae5e273f05b6f2",
-  "eventCount": 46,
+  "ledgerHash": "sha256:c2d61a014ec5d0919aa283e4aec4521bb1f520728e205a55286ad1a81c9a70d1",
+  "eventCount": 58,
   "latestEvent": {
     "schemaVersion": "1.0.0",
-    "id": "event-000046",
+    "id": "event-000058",
     "systemId": "forge-site",
-    "occurredAt": "2026-10-01T12:31:23.695Z",
+    "occurredAt": "2026-10-02T20:10:25.387Z",
     "kind": "mission-open",
     "status": "done",
-    "missionId": "forge-site-m000012",
+    "missionId": "forge-site-m000013",
     "releaseId": null,
-    "actor": "operator",
-    "summary": "Release + alt-channel deploy: CSP allowlist seed re-validation under blocking csp.sinks.validate (platform 6.320.34)",
+    "actor": "unknown",
+    "summary": "RFC-1185 shared-context migration validation",
     "metadata": {
-      "brief": "Release + alt-channel deploy: CSP allowlist seed re-validation under blocking csp.sinks.validate (platform 6.320.34)",
-      "pinAtOpen": "6.320.33"
+      "brief": "RFC-1185 shared-context migration validation",
+      "pinAtOpen": "6.320.34"
     },
-    "previousHash": "sha256:f579975a09073b5f18980ac179170796e04186a8ac47d317031993d28976588d",
-    "hash": "sha256:02baec377377e25b660e0e0afda8907afed88591615ede821dae5e273f05b6f2"
+    "previousHash": "sha256:2e840d2943542fc233edb104214bb9005ab8313ad41515f3c534ae1992fbe78f",
+    "hash": "sha256:c2d61a014ec5d0919aa283e4aec4521bb1f520728e205a55286ad1a81c9a70d1"
   },
   "pseo": {
     "modules": [],
@@ -35,6 +35,11 @@
     "error": 0,
     "warning": 0,
     "info": 0
+  },
+  "latestDeploy": {
+    "eventId": "event-000056",
+    "occurredAt": "2026-10-01T13:34:55.823Z",
+    "status": "done"
   },
   "openEscalations": []
 }

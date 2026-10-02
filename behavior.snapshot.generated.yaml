@@ -7,7 +7,7 @@ meta:
   schemaVersion: 1
   deterministic: true
   generatedAt: null
-  contentHash: e2a70b67b3b1e986b87ba643b6c55de3c405308c975a85fd25bb0aa97de2f9c5
+  contentHash: e0bcb9a87c2cdee869beef866219274e0f801f89424b77f00d60857f5f700a23
 site: forge-site
 routes:
   - route: /
@@ -178,11 +178,11 @@ headers:
     'self'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data:
     blob: https:; media-src 'self' blob:; worker-src 'self' blob:; font-src
     'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'
+    'sha256-3Muz0bCQr8KqHaEKAOfYGsc60ixbPQr6Y9JF258gq3U='
     'sha256-RA3tiXt53Wg1Qs5Oy4t0MDhJ8mNPPnnoINk2Pf2bdbA='
     'sha256-eNJyI0o9k5ReNxLmFFJtOKh0dMETqcYxIDuVtbJ/Y9Y='
     'sha256-fYz7yeznZJk0zC0rHZc5Z4balzTotG8+iX7ZS9J17OA='
     'sha256-iFSn1j7UI4oJE3HLSo7aLHXXXa10oaDCowX+IWR7TNE='
-    'sha256-v/c9mV7OzMg6WAOwIiG6je3zMGGwR3GvACkbILW9lFw='
     'sha256-x4mwecxYsb2/gzj7RFJYIArF5pO6KHu9j9hpTmsGEKU='
     'sha256-z1DHQ0Nr8CMyP+mBpwovs7snFBZBAE5rMV6X7yQCWec='; connect-src 'self'
     https: data:; upgrade-insecure-requests; require-trusted-types-for 'script';
