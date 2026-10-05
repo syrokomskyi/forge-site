@@ -1,17 +1,17 @@
 {
-  "releaseId": "forge-site-r000001",
+  "releaseId": "forge-site-r000003",
   "systemId": "forge-site",
-  "missionId": "forge-site-m000012",
+  "missionId": "forge-site-m000015",
   "semver": "0.1.0",
-  "distTreeHash": "sha256:004d927185a58437986b56c970ca78e661130c7df71eaef8f80cd60109ff8482",
-  "behaviorSnapshotHash": "sha256:906eb593b03d000bc3206eb51d651a6056d99bb2a99cb30374ab2ae1381cbd55",
-  "siteContentHash": "sha256:ac9d6c89a37d0c59b8ebabc98e5dbb8d1ce4190ced8505619e1ed222115840e2",
-  "platformVersion": "6.320.36",
-  "platformSemanticHash": "sha256:12635bb5eda301fbce86ea04853d3d0a6bd38fdda633c0915f1700fdb684300b",
-  "commitSha": "cb251f12885fabf9c994f3aa7590324eff64181f",
-  "buildTimestamp": "2026-10-01T13:08:02.906Z",
+  "distTreeHash": "sha256:49e747196fb908088af7401bb94fe147be60c787892597386a0dcc8a99922e90",
+  "behaviorSnapshotHash": "sha256:684d6e5cef4e393d4bcae59ac741f50356e83f1d1d860c8ad0d5920d0051e2c3",
+  "siteContentHash": "sha256:22e6a64491000937f40edc0c673cfe7630f42c87ff9d4e53a92874ddf69e0d22",
+  "platformVersion": "6.335.31",
+  "platformSemanticHash": "sha256:0735aca636a613e6e8db41261b53226f165876c6b7ff6248cdd5e43e8679f977",
+  "commitSha": "c99f8b15af0ab75ccb255d3dcf763ebb1b6f9217",
+  "buildTimestamp": "2026-10-05T03:00:11.616Z",
   "targetPlatform": "cloudflare-workers",
-  "signature": "8bfb4930433f20809a0152c109d257400593b5de520c1e2542d4d9acc8d850b64b08656efc6b41bc3ce6048f44bd040a024c77dcdc24ba951ac80e2e1127ee02",
+  "signature": "d91038825d586adc68945021a519f122f6b34dd4b78f178752bd56f9fa00fd7ab33976fc4421b7e2e95d6201dc448c919d916716db00d60df96280648b802a08",
   "publicKeyUrl": null,
-  "signedAt": "2026-10-01T13:08:14.851Z"
+  "signedAt": "2026-10-05T03:26:20.928Z"
 }

@@ -9,7 +9,7 @@
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=()
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'self'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: blob: https:; media-src 'self' blob:; worker-src 'self' blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-RA3tiXt53Wg1Qs5Oy4t0MDhJ8mNPPnnoINk2Pf2bdbA=' 'sha256-eNJyI0o9k5ReNxLmFFJtOKh0dMETqcYxIDuVtbJ/Y9Y=' 'sha256-fYz7yeznZJk0zC0rHZc5Z4balzTotG8+iX7ZS9J17OA=' 'sha256-iFSn1j7UI4oJE3HLSo7aLHXXXa10oaDCowX+IWR7TNE=' 'sha256-v/c9mV7OzMg6WAOwIiG6je3zMGGwR3GvACkbILW9lFw=' 'sha256-x4mwecxYsb2/gzj7RFJYIArF5pO6KHu9j9hpTmsGEKU=' 'sha256-z1DHQ0Nr8CMyP+mBpwovs7snFBZBAE5rMV6X7yQCWec='; connect-src 'self' https: data:; upgrade-insecure-requests; require-trusted-types-for 'script'; trusted-types werkstatt
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'self'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: blob: https:; media-src 'self' blob:; worker-src 'self' blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-RA3tiXt53Wg1Qs5Oy4t0MDhJ8mNPPnnoINk2Pf2bdbA=' 'sha256-e0Uxa7AqIEBJOlI+jKFb2iV76GS8hIDnh1Gpgp63KX8=' 'sha256-eNJyI0o9k5ReNxLmFFJtOKh0dMETqcYxIDuVtbJ/Y9Y=' 'sha256-fYz7yeznZJk0zC0rHZc5Z4balzTotG8+iX7ZS9J17OA=' 'sha256-iFSn1j7UI4oJE3HLSo7aLHXXXa10oaDCowX+IWR7TNE=' 'sha256-x4mwecxYsb2/gzj7RFJYIArF5pO6KHu9j9hpTmsGEKU=' 'sha256-z1DHQ0Nr8CMyP+mBpwovs7snFBZBAE5rMV6X7yQCWec='; connect-src 'self' https: data:; upgrade-insecure-requests; require-trusted-types-for 'script'; trusted-types werkstatt
   Cross-Origin-Resource-Policy: same-site
   Cross-Origin-Opener-Policy: same-origin
   X-DNS-Prefetch-Control: on
@@ -62,6 +62,16 @@
   Content-Type: application/linkset+json; charset=utf-8; profile="https://www.rfc-editor.org/rfc/rfc9727.html"
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=300
+
+# RFC-1188: Web Bot Auth key directory — JSON, CORS-open (receivers verify
+# signatures cross-origin), extensionless path needs an explicit content type
+/.well-known/http-message-signatures-directory
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=300
+
+
 
 # ARD (Agentic Resource Discovery) — canonical v0.91 path + predecessor alias,
 # both served as the catalog media type with CORS
