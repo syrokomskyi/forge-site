@@ -1,25 +1,27 @@
 site: forge-site
 generatedAt: null
-ledgerHash: sha256:e2b344eb0c04815e5b2d18512b54774ad199faad87d582f4065c38c193c84280
-eventCount: 66
+ledgerHash: sha256:a39125134236af12984dcb06e443150afd98dd7d13efdd08b87098f73424470b
+eventCount: 67
 latestEvent:
   schemaVersion: 1.0.0
-  id: event-000066
+  id: event-000067
   systemId: forge-site
-  occurredAt: 2026-10-05T01:37:56.774Z
-  kind: mission-open
+  occurredAt: 2026-10-05T01:52:34.701Z
+  kind: mirror-sync
   status: done
-  missionId: forge-site-m000014
+  missionId: null
   releaseId: null
-  actor: unknown
-  summary: Publish to alt channel + enable referral.attribution entitlement
-    (RFC-1191 dogfood)
+  actor: sternsystem.sync
+  summary: "Mirror sync (push, branch: main) — 54382de42405"
   metadata:
-    brief: Publish to alt channel + enable referral.attribution entitlement
-      (RFC-1191 dogfood)
-    pinAtOpen: 6.322.0
-  previousHash: sha256:4fd94be8866c2966d4079b60c1912df950541964ad209573a1bf7ab7c419cc82
-  hash: sha256:e2b344eb0c04815e5b2d18512b54774ad199faad87d582f4065c38c193c84280
+    mirrorUrls:
+      - git@github.com:syrokomskyi/forge-site.git
+    direction: push
+    branch: main
+    commitSha: 54382de42405fcb2712587a79d42e566c5675e18
+    result: ok
+  previousHash: sha256:e2b344eb0c04815e5b2d18512b54774ad199faad87d582f4065c38c193c84280
+  hash: sha256:a39125134236af12984dcb06e443150afd98dd7d13efdd08b87098f73424470b
 pseo:
   modules: []
   generationQueues: {}
