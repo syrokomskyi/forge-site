@@ -1,0 +1,5 @@
+customerId: null
+features:
+  - referral.attribution
+  - external-link-qr
+source: override
