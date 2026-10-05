@@ -1,6 +1,6 @@
 {
   "schema": "werkstatt/gate-decision@1",
-  "decisionId": "dec-2026-10-05t03-26-15-493z-dkbxnn",
+  "decisionId": "dec-2026-10-05t03-32-03-781z-rmdsd1",
   "candidateId": "forge-site",
   "policyBundleRoot": "sha256:50003197b060c6f3b33eb860b4be98daed8e1472b4074009b3091c03a12f7bde",
   "gate": "dev",
@@ -9,7 +9,7 @@
     {
       "evidenceId": "ev-astro-mission-check-2026-10-05t03-26-15-493z",
       "evidenceHash": "sha256:50003197b060c6f3b33eb860b4be98daed8e1472b4074009b3091c03a12f7bde",
-      "selectedAt": "2026-10-05T03:26:15.493Z"
+      "selectedAt": "2026-10-05T03:32:03.781Z"
     }
   ],
   "status": "pass",
@@ -21,5 +21,5 @@
   },
   "reasons": [],
   "actionPackRef": null,
-  "decidedAt": "2026-10-05T03:26:15.493Z"
+  "decidedAt": "2026-10-05T03:32:03.781Z"
 }
