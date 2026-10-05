@@ -3,3 +3,4 @@
 {"kind":"step-done","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"preflight","seq":0,"at":"2026-10-05T01:47:11.606Z"}
 {"kind":"step-started","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"mission-validate","seq":1,"at":"2026-10-05T01:47:11.606Z"}
 {"kind":"step-failed","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"mission-validate","seq":1,"at":"2026-10-05T01:52:33.649Z","error":"mission.validate failed: [mission.validate] forge-site-m000014 validation FAILED (astro build failed)"}
+{"kind":"step-started","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"mission-validate","seq":1,"at":"2026-10-05T02:01:46.372Z"}
