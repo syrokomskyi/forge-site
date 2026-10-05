@@ -21,3 +21,5 @@
 {"kind":"step-failed","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"certify-dev","seq":4,"at":"2026-10-05T02:20:56.425Z","error":"leitstand.dev-deploy failed: [leitstand.dev-deploy] denied: CERT-DEPLOY-07 — gate \"dev-deploy\" decision is \"fail\", not \"pass\" — deployment denied"}
 {"kind":"step-started","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"certify-dev","seq":4,"at":"2026-10-05T02:27:43.558Z"}
 {"kind":"step-failed","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"certify-dev","seq":4,"at":"2026-10-05T02:27:50.482Z","error":"leitstand.dev-deploy failed: [leitstand.dev-deploy] denied: CERT-DEPLOY-07 — gate \"dev-deploy\" decision is \"fail\", not \"pass\" — deployment denied"}
+{"kind":"step-started","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"certify-dev","seq":4,"at":"2026-10-05T02:30:35.693Z"}
+{"kind":"step-failed","opId":"leitstand-ship-2026-10-05T01-47-08-227Z","step":"certify-dev","seq":4,"at":"2026-10-05T02:30:56.958Z","error":"leitstand.dev-deploy failed: [leitstand.dev-deploy] denied: CERT-DEPLOY-07 — gate \"dev-deploy\" decision is \"fail\", not \"pass\" — deployment denied"}
