@@ -7,7 +7,7 @@ meta:
   schemaVersion: 1
   deterministic: true
   generatedAt: null
-  contentHash: 7d3cfbb834a159e119ac93333a00b441193cbad391796ce906869729aaecefaf
+  contentHash: b893ada2471f8005acbf9fc3249c687d8bceac571eb3469c6e406edc446362bb
 site: forge-site
 routes:
   - route: /
@@ -179,7 +179,7 @@ headers:
     blob: https:; media-src 'self' blob:; worker-src 'self' blob:; font-src
     'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'
     'sha256-RA3tiXt53Wg1Qs5Oy4t0MDhJ8mNPPnnoINk2Pf2bdbA='
-    'sha256-eLfXMt3gYm+QvDgTWFSdhmVNt5dLGcv8raahSEy4j5g='
+    'sha256-e0Uxa7AqIEBJOlI+jKFb2iV76GS8hIDnh1Gpgp63KX8='
     'sha256-eNJyI0o9k5ReNxLmFFJtOKh0dMETqcYxIDuVtbJ/Y9Y='
     'sha256-fYz7yeznZJk0zC0rHZc5Z4balzTotG8+iX7ZS9J17OA='
     'sha256-iFSn1j7UI4oJE3HLSo7aLHXXXa10oaDCowX+IWR7TNE='
