@@ -1,45 +1,25 @@
 {
   "schema": "werkstatt/gate-decision@1",
-  "decisionId": "dec-2026-10-05t03-19-09-234z-omd2gy",
+  "decisionId": "dec-2026-10-05t03-26-15-493z-dkbxnn",
   "candidateId": "forge-site",
   "policyBundleRoot": "sha256:50003197b060c6f3b33eb860b4be98daed8e1472b4074009b3091c03a12f7bde",
   "gate": "dev",
   "evaluationCut": 1,
   "selectedEvidence": [
     {
-      "evidenceId": "ev-astro-mission-check-2026-10-05t03-19-09-234z",
+      "evidenceId": "ev-astro-mission-check-2026-10-05t03-26-15-493z",
       "evidenceHash": "sha256:50003197b060c6f3b33eb860b4be98daed8e1472b4074009b3091c03a12f7bde",
-      "selectedAt": "2026-10-05T03:19:09.234Z"
+      "selectedAt": "2026-10-05T03:26:15.493Z"
     }
   ],
-  "status": "fail",
+  "status": "pass",
   "coverage": {
     "schema": "werkstatt/coverage-report@1",
     "totalRequirements": 9,
-    "coveredRequirements": 0,
-    "uncoveredRequirements": [
-      "astro-req-01-candidate-integrity",
-      "astro-req-02-business-truth-compliance",
-      "astro-req-03-editorial-localization",
-      "astro-req-04-information-architecture-discoverability",
-      "astro-req-05-ux-conversion",
-      "astro-req-06-visual-accessibility",
-      "astro-req-07-performance-runtime",
-      "astro-req-08-security-operational-readiness",
-      "astro-req-09-independent-qualitative-evaluation"
-    ]
+    "coveredRequirements": 9,
+    "uncoveredRequirements": []
   },
-  "reasons": [
-    "astro-req-01-candidate-integrity: admitted evidence contains error diagnostic",
-    "astro-req-02-business-truth-compliance: admitted evidence contains error diagnostic",
-    "astro-req-03-editorial-localization: admitted evidence contains error diagnostic",
-    "astro-req-04-information-architecture-discoverability: admitted evidence contains error diagnostic",
-    "astro-req-05-ux-conversion: admitted evidence contains error diagnostic",
-    "astro-req-06-visual-accessibility: admitted evidence contains error diagnostic",
-    "astro-req-07-performance-runtime: admitted evidence contains error diagnostic",
-    "astro-req-08-security-operational-readiness: admitted evidence contains error diagnostic",
-    "astro-req-09-independent-qualitative-evaluation: admitted evidence contains error diagnostic"
-  ],
+  "reasons": [],
   "actionPackRef": null,
-  "decidedAt": "2026-10-05T03:19:09.234Z"
+  "decidedAt": "2026-10-05T03:26:15.493Z"
 }

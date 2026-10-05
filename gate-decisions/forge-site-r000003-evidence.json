@@ -5,20 +5,20 @@
   "evidence": [
     {
       "schema": "werkstatt/evidence-envelope@1",
-      "evidenceId": "ev-astro-mission-check-2026-10-05t03-19-09-234z",
+      "evidenceId": "ev-astro-mission-check-2026-10-05t03-26-15-493z",
       "candidateId": "forge-site",
       "producerId": "astro-mission-check",
-      "producerAttemptId": "certify-2026-10-05t03-19-09-234z-78w1c5-0",
-      "producedAt": "2026-10-05T03:19:09.234Z",
+      "producerAttemptId": "certify-2026-10-05t03-26-15-493z-vyb9zm-0",
+      "producedAt": "2026-10-05T03:26:15.493Z",
       "result": {
         "schema": "werkstatt/evidence-result@1",
         "producerId": "astro-mission-check",
-        "producerAttemptId": "certify-2026-10-05t03-19-09-234z-78w1c5-0",
+        "producerAttemptId": "certify-2026-10-05t03-26-15-493z-vyb9zm-0",
         "diagnostics": [
           {
             "ruleId": "MISSION-CHECK-01",
-            "severity": "error",
-            "message": "mission.check exited with code 1",
+            "severity": "info",
+            "message": "mission.check passed",
             "evidence": []
           }
         ],
@@ -51,15 +51,15 @@
       "authorityAdmission": {
         "schema": "werkstatt/authority-admission@1",
         "authoritySequence": 1,
-        "admittedAt": "2026-10-05T03:19:09.234Z",
+        "admittedAt": "2026-10-05T03:26:15.493Z",
         "admittedBy": "leitstand.certify"
       },
       "freshness": {
-        "expiresAt": "2026-10-05T03:49:12.955Z",
-        "staleAfter": "2026-10-05T04:19:12.955Z"
+        "expiresAt": "2026-10-05T03:56:18.663Z",
+        "staleAfter": "2026-10-05T04:26:18.663Z"
       }
     }
   ],
-  "producedAt": "2026-10-05T03:19:09.234Z",
+  "producedAt": "2026-10-05T03:26:15.493Z",
   "producedByGate": "dev"
 }
