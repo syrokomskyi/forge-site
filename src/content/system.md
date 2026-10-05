@@ -18,6 +18,9 @@ verification:
   google:
     method: meta-tag
     token: "pending-verification"
+entitlementsOverride:
+  # RFC-1191: paid referral attribution module (first-touch wg_ref cookie, consent-gated)
+  - referral.attribution
 pages:
   - pageId: home
     semanticType: home
