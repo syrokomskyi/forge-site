@@ -1,25 +1,30 @@
 {
   "site": "forge-site",
   "generatedAt": null,
-  "ledgerHash": "sha256:c2d61a014ec5d0919aa283e4aec4521bb1f520728e205a55286ad1a81c9a70d1",
-  "eventCount": 58,
+  "ledgerHash": "sha256:a39125134236af12984dcb06e443150afd98dd7d13efdd08b87098f73424470b",
+  "eventCount": 67,
   "latestEvent": {
     "schemaVersion": "1.0.0",
-    "id": "event-000058",
+    "id": "event-000067",
     "systemId": "forge-site",
-    "occurredAt": "2026-10-02T20:10:25.387Z",
-    "kind": "mission-open",
+    "occurredAt": "2026-10-05T01:52:34.701Z",
+    "kind": "mirror-sync",
     "status": "done",
-    "missionId": "forge-site-m000013",
+    "missionId": null,
     "releaseId": null,
-    "actor": "unknown",
-    "summary": "RFC-1185 shared-context migration validation",
+    "actor": "sternsystem.sync",
+    "summary": "Mirror sync (push, branch: main) — 54382de42405",
     "metadata": {
-      "brief": "RFC-1185 shared-context migration validation",
-      "pinAtOpen": "6.320.34"
+      "mirrorUrls": [
+        "git@github.com:syrokomskyi/forge-site.git"
+      ],
+      "direction": "push",
+      "branch": "main",
+      "commitSha": "54382de42405fcb2712587a79d42e566c5675e18",
+      "result": "ok"
     },
-    "previousHash": "sha256:2e840d2943542fc233edb104214bb9005ab8313ad41515f3c534ae1992fbe78f",
-    "hash": "sha256:c2d61a014ec5d0919aa283e4aec4521bb1f520728e205a55286ad1a81c9a70d1"
+    "previousHash": "sha256:e2b344eb0c04815e5b2d18512b54774ad199faad87d582f4065c38c193c84280",
+    "hash": "sha256:a39125134236af12984dcb06e443150afd98dd7d13efdd08b87098f73424470b"
   },
   "pseo": {
     "modules": [],

@@ -67,3 +67,9 @@ Apply these instructions when reading or editing files under `src/content/`.
 **Slash-segment rule for agents:** if a `pageId` contains `/`, each new segment starts with a lowercase letter. Use camelCase only *inside* a segment, never to start a new segment after `/`. Examples: `cosmic/passport`, `cosmic/starMap`.
 
 **Key invariant:** Can a content file be found from `pageIdToContentFileSlug(pageId)` without reading route slugs? If yes, it uses the correct naming. If its lookup depends on the route URL, it is following the old convention and must be renamed (RFC-0054).
+
+## Agent-surface form bindings (RFC-1186)
+
+- A `send-message` block MAY declare `agentCapability: <capability-id>` in `props` to expose the form as an agent action. The id must exist in the closed capability catalog (`packages/werkstatt-site/src/domain/ontology/capabilities/`); omitting the prop keeps the form web-only.
+- Bind the write capability (`*.submit`/`*.apply`) — the `*.prepare` preview sibling activates through its `nextAction` linkage, not through a second prop.
+- One capability maps to exactly one `formId` per site; locale mirrors of the same form share the `formId` and bind the same capability.

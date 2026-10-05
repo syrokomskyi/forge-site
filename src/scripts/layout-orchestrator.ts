@@ -68,5 +68,11 @@ void (async () => {
     smoothScroll: (orchestrator.smoothScroll ?? true) && canRunSmoothScroll,
     // RFC-0932: external-link QR code modal — gated by entitlement, only activates when modal is present.
     externalLinkQrEntitled: orchestrator.externalLinkQrEntitled ?? false,
+    // RFC-1192: conditional cookie-consent surface — activated only when the
+    // site has entitled COOKIE_MODULES entries.
+    cookieModules: orchestrator.cookieModules ?? [],
+    // RFC-1191: referral-attribution capture — compiled out unless the site
+    // is entitled (flag is absent → module never runs).
+    referralAttribution: orchestrator.referralAttribution ?? false,
   });
 })();
