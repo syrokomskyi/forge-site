@@ -19,3 +19,5 @@
 {"kind":"step-failed","opId":"leitstand-ship-2026-10-05T02-52-46-025Z","step":"certify-dev","seq":4,"at":"2026-10-05T03:05:13.408Z","error":"leitstand.dev-deploy failed: [leitstand.dev-deploy] denied: CERT-DEPLOY-07 — gate \"dev-deploy\" decision is \"fail\", not \"pass\" — deployment denied"}
 {"kind":"step-started","opId":"leitstand-ship-2026-10-05T02-52-46-025Z","step":"certify-dev","seq":4,"at":"2026-10-05T03:19:06.227Z"}
 {"kind":"step-failed","opId":"leitstand-ship-2026-10-05T02-52-46-025Z","step":"certify-dev","seq":4,"at":"2026-10-05T03:19:14.554Z","error":"leitstand.dev-deploy failed: [leitstand.dev-deploy] denied: CERT-DEPLOY-07 — gate \"dev-deploy\" decision is \"fail\", not \"pass\" — deployment denied"}
+{"kind":"step-started","opId":"leitstand-ship-2026-10-05T02-52-46-025Z","step":"certify-dev","seq":4,"at":"2026-10-05T03:26:12.045Z"}
+{"kind":"step-failed","opId":"leitstand-ship-2026-10-05T02-52-46-025Z","step":"certify-dev","seq":4,"at":"2026-10-05T03:26:22.695Z","error":"leitstand.dev-deploy failed: [leitstand.dev-deploy] failed at phase: wrangler-deploy"}
