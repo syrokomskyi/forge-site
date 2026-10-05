@@ -1,0 +1,45 @@
+{
+  "schema": "werkstatt/gate-decision@1",
+  "decisionId": "dec-2026-10-05t02-09-20-104z-sy52ny",
+  "candidateId": "forge-site",
+  "policyBundleRoot": "sha256:e9cb10409833b7282f706a552ad5c3d0d26a6b9b7cd494a9fe3cd782e133fdc2",
+  "gate": "dev",
+  "evaluationCut": 1,
+  "selectedEvidence": [
+    {
+      "evidenceId": "ev-astro-mission-check-2026-10-05t02-09-20-104z",
+      "evidenceHash": "sha256:e9cb10409833b7282f706a552ad5c3d0d26a6b9b7cd494a9fe3cd782e133fdc2",
+      "selectedAt": "2026-10-05T02:09:20.104Z"
+    }
+  ],
+  "status": "fail",
+  "coverage": {
+    "schema": "werkstatt/coverage-report@1",
+    "totalRequirements": 9,
+    "coveredRequirements": 0,
+    "uncoveredRequirements": [
+      "astro-req-01-candidate-integrity",
+      "astro-req-02-business-truth-compliance",
+      "astro-req-03-editorial-localization",
+      "astro-req-04-information-architecture-discoverability",
+      "astro-req-05-ux-conversion",
+      "astro-req-06-visual-accessibility",
+      "astro-req-07-performance-runtime",
+      "astro-req-08-security-operational-readiness",
+      "astro-req-09-independent-qualitative-evaluation"
+    ]
+  },
+  "reasons": [
+    "astro-req-01-candidate-integrity: admitted evidence contains error diagnostic",
+    "astro-req-02-business-truth-compliance: admitted evidence contains error diagnostic",
+    "astro-req-03-editorial-localization: admitted evidence contains error diagnostic",
+    "astro-req-04-information-architecture-discoverability: admitted evidence contains error diagnostic",
+    "astro-req-05-ux-conversion: admitted evidence contains error diagnostic",
+    "astro-req-06-visual-accessibility: admitted evidence contains error diagnostic",
+    "astro-req-07-performance-runtime: admitted evidence contains error diagnostic",
+    "astro-req-08-security-operational-readiness: admitted evidence contains error diagnostic",
+    "astro-req-09-independent-qualitative-evaluation: admitted evidence contains error diagnostic"
+  ],
+  "actionPackRef": null,
+  "decidedAt": "2026-10-05T02:09:20.104Z"
+}
