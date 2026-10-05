@@ -4,11 +4,11 @@ currentMission: null
 lastRelease: forge-site-r000003
 lastPropagated:
   dev:
-    releaseId: forge-site-r000001
-    at: 2026-10-01T13:33:47.454Z
+    releaseId: forge-site-r000003
+    at: 2026-10-05T03:32:06.304Z
     healthy: true
     state: succeeded
-    operationId: op-mupkrv3c-aykyryjl
+    operationId: op-muup1hvw-fwq4y4ud
     leaseExpiresAt: null
   alt:
     releaseId: forge-site-r000001
