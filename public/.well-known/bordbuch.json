@@ -1,25 +1,25 @@
 {
   "site": "forge-site",
   "generatedAt": null,
-  "ledgerHash": "sha256:c2d61a014ec5d0919aa283e4aec4521bb1f520728e205a55286ad1a81c9a70d1",
-  "eventCount": 58,
+  "ledgerHash": "sha256:e2b344eb0c04815e5b2d18512b54774ad199faad87d582f4065c38c193c84280",
+  "eventCount": 66,
   "latestEvent": {
     "schemaVersion": "1.0.0",
-    "id": "event-000058",
+    "id": "event-000066",
     "systemId": "forge-site",
-    "occurredAt": "2026-10-02T20:10:25.387Z",
+    "occurredAt": "2026-10-05T01:37:56.774Z",
     "kind": "mission-open",
     "status": "done",
-    "missionId": "forge-site-m000013",
+    "missionId": "forge-site-m000014",
     "releaseId": null,
     "actor": "unknown",
-    "summary": "RFC-1185 shared-context migration validation",
+    "summary": "Publish to alt channel + enable referral.attribution entitlement (RFC-1191 dogfood)",
     "metadata": {
-      "brief": "RFC-1185 shared-context migration validation",
-      "pinAtOpen": "6.320.34"
+      "brief": "Publish to alt channel + enable referral.attribution entitlement (RFC-1191 dogfood)",
+      "pinAtOpen": "6.322.0"
     },
-    "previousHash": "sha256:2e840d2943542fc233edb104214bb9005ab8313ad41515f3c534ae1992fbe78f",
-    "hash": "sha256:c2d61a014ec5d0919aa283e4aec4521bb1f520728e205a55286ad1a81c9a70d1"
+    "previousHash": "sha256:4fd94be8866c2966d4079b60c1912df950541964ad209573a1bf7ab7c419cc82",
+    "hash": "sha256:e2b344eb0c04815e5b2d18512b54774ad199faad87d582f4065c38c193c84280"
   },
   "pseo": {
     "modules": [],

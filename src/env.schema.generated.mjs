@@ -10,6 +10,11 @@
 import { envField } from "astro/config";
 
 export const envSchema = {
+  STRIPE_SECRET_KEY: envField.string({
+    context: "server",
+    access: "secret",
+    optional: true,
+  }),
   UPSTASH_QSTASH_TOKEN: envField.string({
     context: "server",
     access: "secret",

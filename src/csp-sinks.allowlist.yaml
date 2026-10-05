@@ -1,10 +1,2 @@
 version: 1
-entries:
-  - filePattern: "_astro/plyr.*.js"
-    package: plyr
-    disposition: accepted-debt
-    note: "Plyr writes its own static control markup via innerHTML/insertAdjacentHTML; third-party, revisit on upgrade."
-  - filePattern: "_astro/dist.*.js"
-    package: lottie-web
-    disposition: accepted-debt
-    note: "lottie-web bundled dependency writes innerHTML for renderer internals; third-party, revisit on upgrade."
+entries: []
