@@ -16,7 +16,9 @@
 :root {
   /* Forge color palette (ADR-0080) */
   --ds-forge-primary: #1a1a2e;
-  --ds-forge-accent: #e94560;
+  --ds-forge-accent: #ff6b82;
+  --ds-forge-accent-strong: #c22a48;
+  --ds-forge-accent-strong-hover: #b81f3a;
   --ds-forge-surface: #16213e;
   --ds-forge-text: #f0f0f0;
   --ds-forge-muted: #a0a0b0;
@@ -57,8 +59,8 @@
   --ds-color-warning-strong: var(--ds-forge-warning);
   --ds-color-danger: var(--ds-forge-error);
   --ds-color-info: var(--ds-forge-code);
-  --ds-color-cta: var(--ds-forge-accent);
-  --ds-color-cta-hover: #ff5a75;
+  --ds-color-cta: var(--ds-forge-accent-strong);
+  --ds-color-cta-hover: var(--ds-forge-accent-strong-hover);
   --ds-color-cta-text: var(--ds-forge-text);
   --ds-color-card-bg: var(--ds-forge-surface);
   --ds-color-card-border: var(--ds-forge-code);
@@ -69,7 +71,7 @@
   --ds-color-section-alt-text: var(--ds-forge-text);
   --ds-color-section-alt-text-soft: var(--ds-forge-muted);
   --ds-color-section-alt-link: var(--ds-forge-accent);
-  --ds-color-section-alt-link-hover: #ff5a75;
+  --ds-color-section-alt-link-hover: #ff8fa0;
   --ds-color-section-alt-accent: var(--ds-forge-accent);
   --ds-color-text-soft-on-dark: rgba(240, 240, 240, 0.94);
   --ds-color-text-inverse-84: rgba(240, 240, 240, 0.84);
@@ -115,4 +117,23 @@ html pre.shiki.github-light code {
 /* Collapsed FAQ details should not show empty padding below the summary */
 .markdown-section__content details:not([open]) {
   padding-bottom: 0;
+}
+
+/* AA contrast: the foreground accent (#ff6b82) is too light to sit under
+   inverse text; button fills use the stronger accent (4.96:1). Unlayered
+   rules here outrank @layer components in global.css. */
+.btn--primary {
+  background-color: var(--ds-forge-accent-strong);
+}
+
+.btn--primary:hover {
+  background-color: var(--ds-forge-accent-strong-hover);
+}
+
+.btn--secondary:hover {
+  background-color: var(--ds-forge-accent-strong);
+}
+
+.markdown-section .markdown-section__content th {
+  background: var(--ds-forge-accent-strong);
 }
