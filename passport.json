@@ -7,13 +7,13 @@
       "publicKey": "0d8011ea0ae0fb95687e8cd444db793e3ff7469c9022d427d67e4f384a96b5be"
     },
     "platform": {
-      "version": "6.320.34",
-      "semanticHash": "sha256:d85eedb82c895f142a7cb186e64ac77e1e5f55ee6a955c19a28ab91cb7f57b79"
+      "version": "6.322.0",
+      "semanticHash": "sha256:5ef3cc93f94c1f09f6b48c462d0808b2cdfe77f08dac43abf16d16fd434f091f"
     },
     "provenance": {
       "createdAt": "2026-09-25T20:36:52.277Z",
       "generatedAt": "2026-09-25T21:53:32.283Z",
-      "bordbuchHead": "sha256:3a51600e33b29d0ba742d0eb2e7564495a666789bb496a24046f273354600bb3",
+      "bordbuchHead": "sha256:1b073e514e5a4f5dfd323a310c9560d6c124a0ad4de0506383f3fe2db5259b37",
       "missionCounter": 0
     },
     "resources": {
@@ -45,6 +45,7 @@
         "LAGEBILD_TENANT_ID",
         "PUBLIC_IMAGE_PROVIDER",
         "SEARCH_REINDEX_TOKEN",
+        "STRIPE_SECRET_KEY",
         "UPSTASH_QSTASH_CURRENT_SIGNING_KEY",
         "UPSTASH_QSTASH_NEXT_SIGNING_KEY",
         "UPSTASH_QSTASH_TOKEN",
@@ -68,6 +69,6 @@
       }
     ]
   },
-  "passportHash": "sha256:c9740a7b10bf0cfb79449214dc95c7210b54fdf3da00cfdd351b9d608cb35ed3",
-  "signature": "5eb5e24d8ead5a16729c7dbdb1bf9f2b43d82a4b5c2b0921f53dae48de29d40063be45c7af98e06ca81ebfb8c27be386658f0682e5fe3e4a9a72abc7ca26dc05"
+  "passportHash": "sha256:ff8fda64199cd69787dfe1069b8653f769d08c3a92a62da322c2bb5bd3b744a7",
+  "signature": "26b415b920f6a7c9bd836ff79d45d2c8fb4c9fb6061bbb4724281474bfc6f916885a964d34d01073f44f70ced0f8d8515732f34735841d59c1e0724a58182008"
 }
