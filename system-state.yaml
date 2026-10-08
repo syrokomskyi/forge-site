@@ -21,4 +21,11 @@ accessPin: null
 passportRequired: true
 ownershipRequired: false
 externalEditBaselineSha: 6625ae8eea0f899a61120c753767522d10820735
+lagebild:
+  connected: true
+  apiUrl: https://lagebild-api.syrokomskyi.workers.dev
+  tenantId: ten_warpgogol000001
+  sourceSystemId: site_forge-site_main
+  connectedAt: 2026-10-08T11:33:07.130Z
+  channel: main
 
