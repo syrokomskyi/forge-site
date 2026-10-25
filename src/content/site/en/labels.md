@@ -62,6 +62,7 @@ materialCredits:
     customer-supplied: "Customer-supplied"
     public-domain: "Public domain"
     screenshot: "Screenshot"
+    placeholder: "Placeholder"
   usageBasisLabels:
     internal-commissioned: "Internal production"
     express-permission: "Express permission"
