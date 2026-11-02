@@ -27,5 +27,4 @@ lagebild:
   tenantId: ten_warpgogol000001
   sourceSystemId: site_forge-site_main
   connectedAt: 2026-10-08T11:33:07.130Z
-  channel: main
-
+  channel: prod

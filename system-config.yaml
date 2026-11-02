@@ -20,9 +20,8 @@ deployment:
     alt:
       workerName: syrokomskyi/forge-site
       url: https://syrokomskyi.github.io/forge-site
-    main:
+    prod:
       workerName: syrokomskyi/forge-site
       url: https://syrokomskyi.github.io/forge-site
 owner: did:web:warpgogol.com#operator-v1
 notes: ""
-
