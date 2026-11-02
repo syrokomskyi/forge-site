@@ -1,0 +1,3 @@
+schema: forge/generated@1
+generator: werkstatt
+source: sternsystem:forge-site
