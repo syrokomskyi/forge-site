@@ -12,8 +12,8 @@
     },
     "provenance": {
       "createdAt": "2026-09-25T20:36:52.277Z",
-      "generatedAt": "2026-09-25T21:53:32.283Z",
-      "bordbuchHead": "sha256:dddfea62ba1253792697e99b2eab462ca8630f0257a2786b76420f65e0b88569",
+      "generatedAt": "2026-11-02T21:01:10.920Z",
+      "bordbuchHead": "sha256:e269f6b3ba8d7d61ee710638fe3f4dd9de7b0a5ee7c6aa158ce3b2188f07ba73",
       "missionCounter": 0
     },
     "resources": {
@@ -26,7 +26,7 @@
           "workerName": "syrokomskyi/forge-site",
           "url": "https://syrokomskyi.github.io/forge-site"
         },
-        "main": {
+        "prod": {
           "workerName": "syrokomskyi/forge-site",
           "url": "https://syrokomskyi.github.io/forge-site"
         }
@@ -69,6 +69,6 @@
       }
     ]
   },
-  "passportHash": "sha256:77048fc5f43f855c52becf5ff6d724712fe3de89f9946d625497db5922524bf5",
-  "signature": "cb914f6909506b099fd0cf5f62141d2c520f0b3dd0eb9f68d2c6aa51c7f53e856c553b39ed7ce808b75cbecfc17a281d9ac7af95a628b7fca46c80383b7d7d08"
+  "passportHash": "sha256:705975a1d94def6161eedfe4f4e5eb9847ad28948bbf892ab21311ab29627939",
+  "signature": "facf468643cc9f5016a499709b32526789185d4e502aea4defa44a7cd0e83ae8528fe158881447acc2c4519eed3eed9a514172171c9997ee5c48593e0641f70a"
 }
